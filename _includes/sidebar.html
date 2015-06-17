@@ -1,0 +1,11 @@
+<h3>Документация</h3>
+<ul>
+	{% for item in site.documentation %}
+		{% if item.header %}
+			<h4 class="documentation">{{item.header}}</h4>
+		{% endif %}
+	<li>
+		<a href="{{ item.url }}">{{ item.title }}</a>
+	</li>
+	{% endfor %}
+</ul>

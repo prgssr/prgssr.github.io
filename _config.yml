@@ -1,0 +1,20 @@
+# Site settings
+title: "Документация Jekyll"
+email: 
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://prgssr.ru" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  
+
+# Build settings
+kramdown:
+  input: GFM
+
+#collections
+collections: 
+   documentation: 
+     output: true
+     layout: post
+   
+
