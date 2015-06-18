@@ -2,6 +2,7 @@
 layout: doc
 title: "Шаблоны"
 header: "Кастомизация"
+prism: yes
 ---
 # Шаблоны
 
