@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Ресурсы"
+prism: yes
 ---
 # Ресурсы
 
