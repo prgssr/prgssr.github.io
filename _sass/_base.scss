@@ -152,10 +152,30 @@ pre {
  * Tables
  */
 table {
-padding: 6px 13px;
-border: 1px solid #DDD;
+display: block;
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0px;
+overflow: auto;
+word-break: keep-all;
+padding:6px 13px;
+	border:1px solid #ddd
+}
+table tr{
+	background-color:#fff;
+	border-top:1px solid #ccc
 }
 
+table tr:nth-child(2n){
+	background-color:#f8f8f8
+}
+table th, table td{
+	padding:6px 13px;
+	border:1px solid #ddd
+}
+table th{
+	font-weight:bold
+}
 /**
  * Wrapper
  */
