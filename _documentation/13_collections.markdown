@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Коллекции"
+prism: yes
 ---
 
 # Коллекции
