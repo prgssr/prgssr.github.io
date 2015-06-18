@@ -1,0 +1,8 @@
+[Dolphin]
+Timestamp=2015,6,17,17,20,2
+Version=3
+ViewMode=1
+VisibleRoles=Details_text,Details_size,Details_date,Details_type,CustomizedDetails
+
+[Settings]
+HiddenFilesShown=true
