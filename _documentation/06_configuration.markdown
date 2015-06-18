@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Конфигурация"
+prism: yes
 ---
 # Конфигурация
 

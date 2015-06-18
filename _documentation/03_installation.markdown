@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Установка"
+prism: yes
 ---
 
 # Установка

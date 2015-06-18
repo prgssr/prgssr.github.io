@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Быстрый старт"
+prism: yes
 ---
 
 # Быстрый старт

@@ -2,6 +2,7 @@
 layout: doc
 title: "Вводные"
 header: "Ваш контент"
+prism: yes
 ---
 # Вводные
 
