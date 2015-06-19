@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Плагины"
+prism: yes
 ---
 # Плагины
 
