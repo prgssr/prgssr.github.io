@@ -17,4 +17,6 @@ collections:
      output: true
      layout: post
    
-
+#gems
+gems:
+  - jekyll-sitemap
