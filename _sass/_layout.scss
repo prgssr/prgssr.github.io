@@ -201,7 +201,7 @@
     width:80%;
     float:left;
 }
- @include media-query($on-palm) {
+ @include media-query($on-laptop) {
      .post, .home  {
         width: 100%;
 }
@@ -257,7 +257,7 @@
     border-bottom: 1px solid black;
 }
 
- @include media-query($on-palm) {
+ @include media-query($on-laptop) {
      .sidebar {
         width:100%;
 }
