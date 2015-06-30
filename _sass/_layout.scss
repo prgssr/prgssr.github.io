@@ -201,6 +201,11 @@
     width:80%;
     float:left;
 }
+ @include media-query($on-palm) {
+     .post, .home  {
+        width: 100%;
+}
+ }
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
@@ -243,6 +248,7 @@
  * Sidebar
  */
 .sidebar {
+    display:block;
     width:20%;
     float:left;
 }
@@ -250,6 +256,13 @@
     margin-top: $spacing-unit / 2;
     border-bottom: 1px solid black;
 }
+
+ @include media-query($on-palm) {
+     .sidebar {
+        width:100%;
+}
+ }
+
 
 /**
  * Collection navigation
