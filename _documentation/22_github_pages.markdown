@@ -2,6 +2,7 @@
 layout: doc
 title: "Развертывание на  GitHub"
 header: "Развертывание"
+prism: yes
 ---
 
 # Развертывание на  GitHub
