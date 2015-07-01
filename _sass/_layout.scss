@@ -200,12 +200,12 @@
 .post, .home {
     width:80%;
     float:left;
+    @include media-query($on-laptop) {
+         width: 100%;
 }
- @include media-query($on-laptop) {
-     .post, .home  {
-        width: 100%;
 }
- }
+ 
+
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
@@ -251,17 +251,18 @@
     display:block;
     width:20%;
     float:left;
+    @include media-query($on-laptop) {
+     
+        width:100%;
+
+ }
 }
 .documentation {
     margin-top: $spacing-unit / 2;
     border-bottom: 1px solid black;
 }
 
- @include media-query($on-laptop) {
-     .sidebar {
-        width:100%;
-}
- }
+
 
 
 /**
