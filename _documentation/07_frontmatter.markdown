@@ -49,7 +49,7 @@ title: Blogging Like a Hacker
     <title>{{ page.title }}</title>
   </head>
   <body>
-    ...
+  
 ```
 
 ### Предопределенные переменные для постов
