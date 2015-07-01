@@ -2,6 +2,7 @@
 layout: doc
 title: "Проблемы"
 header: "Разное"
+prism: yes
 ---
 # Проблемы
 
