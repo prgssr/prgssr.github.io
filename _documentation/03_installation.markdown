@@ -31,7 +31,7 @@ prism: yes
 $ gem install jekyll
 ```
 
-Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения на странице [troubleshooting](http://jekyllrb.com/docs/troubleshooting/) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это помощет сообществу улучшить  Jekyll.
+Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения на странице [troubleshooting](http://jekyllrb.com/docs/troubleshooting/) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это поможет сообществу улучшить  Jekyll.
 
 ##### Установка инструментов командной строки  Xcode
 
