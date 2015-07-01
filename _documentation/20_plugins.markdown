@@ -285,10 +285,10 @@ end
 
 * [ArchiveGenerator by Ilkka Laukkanen](https://gist.github.com/707909): Использует [эту архивную страницу](https://gist.github.com/707020) для генерации архивов.
 * [LESS.js Generator by Andy Fowler](https://gist.github.com/642739): Рендерит файлы LESS.js при сборке.
-* [Version Reporter by Blake Smith](https://gist.github.com/449491): Создает файл\a version.html с указанием версии Jekyll.
+* [Version Reporter by Blake Smith](https://gist.github.com/449491): Создает файл version.html с указанием версии Jekyll.
 * [Sitemap.xml Generator by Michael Levin](https://github.com/kinnetica/jekyll-plugins): Генерирует файл sitemap.xml, проходя через все доступные страницы и посты.
 * [Full-text search by Pascal Widdershoven](https://github.com/PascalW/jekyll_indextank): Добавляет полнотекстовый поиск на ваш сайт Jekyll с помощью плагина и небольшого количества  JavaScript.
-* [AliasGenerator by Thomas Mango](https://github.com/tsmango/jekyll_alias_generator): Генерирует страниуы редиректа для постов, в которых псевдоним указан во ввводной YAML.
+* [AliasGenerator by Thomas Mango](https://github.com/tsmango/jekyll_alias_generator): Генерирует страницы редиректа для постов, в которых псевдоним указан во ввводной YAML.
 * [Pageless Redirect Generator by Nick Quinlan](https://github.com/nquinlan/jekyll-pageless-redirects): Генерирует редиректы на основе файлов в корневом каталоге Jekyll, поддерживает редирект в стиле htaccess.
 * [RssGenerator by Assaf Gelber](https://github.com/agelber/jekyll-rss): Автоматически создает фид RSS 2.0 из ваших постов.
 * [Monthly archive generator by Shigeya Suzuki](https://github.com/shigeya/jekyll-monthly-archive-plugin): Генератор и шаблон, создающий архивы месяцев в стиле MovableType, основан на работе Ilkka Laukkanen.
@@ -301,7 +301,7 @@ end
 * [Jekyll::AutolinkEmail by Ivan Tse](https://github.com/ivantsepp/jekyll-autolink_email): Автоматические ссылки для email.
 * [Jekyll::GitMetadata by Ivan Tse](https://github.com/ivantsepp/jekyll-git_metadata): Открывает метаданные Git для ваших шаблонов.
 * [Jekyll Http Basic Auth Plugin](https://gist.github.com/snrbrnjna/422a4b7e017192c284b3): Плагин для управления базовой http аутентификацией для сгенерированных jekyll страниц и каталогов
-* [Jekyll Auto Image by Merlos](https://github.com/merlos/jekyll-auto-image): Делает первое изображение в посте доступным для шаблонов в качестве переменной. UПолезно для создания списка постов с изображениями или для добавления twitter-карт на ваш сайт.
+* [Jekyll Auto Image by Merlos](https://github.com/merlos/jekyll-auto-image): Делает первое изображение в посте доступным для шаблонов в качестве переменной. Полезно для создания списка постов с изображениями или для добавления twitter-карт на ваш сайт.
 
 
 #### Конвертеры
@@ -340,7 +340,7 @@ end
 * [Read in X Minutes](https://gist.github.com/zachleat/5792681) от[zachleat](https://github.com/zachleat): Выводит ожидаемое время чтения (для содержимого поста).
 * [Jekyll-timeago](https://github.com/markets/jekyll-timeago): Конвертирует время из цифр в текст.
 * [pluralize](https://github.com/bdesham/pluralize): Совмещает числа и слова с учетом множественного или единственного числа, например, “1 minute” или “2 minutes”.
-* [reading_time](https://github.com/bdesham/reading_time): Полсчитывает слова и ожидаемое время чтения, игнорируя HTML-элементы не содержащие текст.
+* [reading_time](https://github.com/bdesham/reading_time): Подсчитывает слова и ожидаемое время чтения, игнорируя HTML-элементы не содержащие текст.
 * [Table of Content Generator](https://github.com/dafi/jekyll-toc-generator): Генерирует HTML-код, содержащий оглавление, кастомизируется - можно указать страницы-исключения.
 * [jekyll-humanize](https://github.com/23maverick23/jekyll-humanize): Это портированное приложение Django  `humanize`, с разнообразными методами для изменения вида дат и цифровых данных в "человекопонятном виде". Каждый метод это фильтр, который можно использовать в шаблонах Jekyll. Некоторые оригинальные методы не портированы (например, naturaltime).
 * [Jekyll-Ordinal](https://github.com/PatrickC8t/Jekyll-Ordinal): Jekyll фильтр для конвертации количественных числительных в порядковые -  “st”, “nd”, “rd”, or “th”.
