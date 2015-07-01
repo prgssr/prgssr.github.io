@@ -43,13 +43,10 @@ title: Blogging Like a Hacker
 
 ```html
 
-<!DOCTYPE HTML>
-<html>
   <head>
     <title>{{ page.title }}</title>
   </head>
-  <body>
-  
+
 ```
 
 ### Предопределенные переменные для постов
