@@ -13,6 +13,7 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
