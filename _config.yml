@@ -21,4 +21,5 @@ collections:
 gems:
   - jekyll-sitemap
 
-
+#comments
+disqus: prgssr
