@@ -4,14 +4,14 @@ title:  "10 способов минимизировать перекомпоно
 date:   2015-07-09 16:17:00
 categories: development
 tags: sitepoint translation performance
+original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
+original_author: "Крэйг Баклер"
 prism: yes
 ---
 
 # 10 способов минимизировать перекомпоновку страницы и повысить производительность
 
-##### [Оригинал статьи](http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
-
-##### Автор - Крэйг Баклер
+{% include translate.html %}
 
 Несмотря на прошедшее время, [дискуссия о двухмегабайтных страницах](http://www.sitepoint.com/2mb-web-pages-whos-blame/) остается актуальной. Чем быстрее ваше приложение, тем лучше впечатления пользователей и выше показатель конверсии.
 
