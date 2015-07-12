@@ -8,8 +8,6 @@ original: "http://www.sitepoint.com/optimizing-critical-rendering-path/"
 original_author: "Штефан Макс"
 ---
 
-# Оптимизация критического пути рендеринга
-
 {% include translate.html %}
 
 Последние годы мы видим в вебе два тренда:
