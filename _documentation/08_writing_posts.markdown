@@ -52,9 +52,9 @@ YEAR-MONTH-DAY-title.MARKUP
 
 Ссылка на PDF:
 
-```markdown
+{% raw %}
 … you can [get the PDF]({{ site.url }}/assets/mydoc.pdf) directly.
-```
+{% endraw %}
 
 ###### Совет: ссылайтесь, используя URL корня сайта
 ***Вы можете пропустить переменную {% raw %} {{ site.url }} {% endraw %}, если уверены, что ваш сайт будет просматриваться только через коренной URL. В таком случае вы можете ссылаться на активы непосредственно с `/path/file.jpg`.***
