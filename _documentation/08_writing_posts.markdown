@@ -46,14 +46,18 @@ YEAR-MONTH-DAY-title.MARKUP
 Подключение изображения в посте:
 
 {% raw %}
+```
 … which is shown in the screenshot below:
 ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+```
 {% endraw %}
 
 Ссылка на PDF:
 
 {% raw %}
+```
 … you can [get the PDF]({{ site.url }}/assets/mydoc.pdf) directly.
+```
 {% endraw %}
 
 ###### Совет: ссылайтесь, используя URL корня сайта
