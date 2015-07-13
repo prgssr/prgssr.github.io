@@ -46,7 +46,7 @@ YEAR-MONTH-DAY-title.MARKUP
 Подключение изображения в посте:
 
 {% raw %}
-```
+```markdown
 … which is shown in the screenshot below:
 ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
 ```
@@ -55,7 +55,7 @@ YEAR-MONTH-DAY-title.MARKUP
 Ссылка на PDF:
 
 {% raw %}
-```
+```markdown
 … you can [get the PDF]({{ site.url }}/assets/mydoc.pdf) directly.
 ```
 {% endraw %}
