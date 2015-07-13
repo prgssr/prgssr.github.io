@@ -45,10 +45,10 @@ YEAR-MONTH-DAY-title.MARKUP
 
 Подключение изображения в посте:
 
-{% raw markdown%}
+{% highlight markdown%}
 … which is shown in the screenshot below:
 ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
-{% endraw %}
+{% endhighlight %}
 
 Ссылка на PDF:
 
