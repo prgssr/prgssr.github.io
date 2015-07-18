@@ -10,7 +10,7 @@ github_username:
 # Build settings
 kramdown:
   input: GFM
-
+permalink: :categories/:title.html
 #collections
 collections: 
    documentation: 
@@ -20,6 +20,10 @@ collections:
 #gems
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 #comments
 disqus: prgssr
+
+#analytics
+google: "UA-64674967-1"
