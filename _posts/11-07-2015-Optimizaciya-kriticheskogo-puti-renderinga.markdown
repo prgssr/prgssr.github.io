@@ -193,9 +193,10 @@ JS в примере запрашивает цвет элемента, а это
 Как я упоминал, это все компромиссные меры. Иногда это может помочь, а иногда излишне увеличит размер критически важного CSS, вставленного в разные файлы.
 
 Есть несколько автоматических инстурментов для оптимизации CSS:
-<a href="http://jonassebastianohlsson.com/criticalpathcssgenerator/">Critical Path CSS Generator</a>, which can also be used <a href="https://github.com/pocketjoso/penthouse">as a Node module or Grunt task</a>
-<a href="https://github.com/addyosmani/critical">critical</a>
-<a href="https://github.com/filamentgroup/criticalCSS">CriticalCSS</a>
+
+* [Critical Path CSS Generator](http://jonassebastianohlsson.com/criticalpathcssgenerator/), который также можно использовать [как модуль Node или задачу Grunt](https://github.com/pocketjoso/penthouse).
+* [critical](https://github.com/addyosmani/critical).
+* [CriticalCSS](https://github.com/filamentgroup/criticalCSS).
 
 ### 3. Минимизируйте блокирующий рендеринг JavaScript
 Точно так же как и CSS,  JavaScript можно включать напрямую в разметку, чтобы сэкономить на сетевых запросах.
