@@ -2,6 +2,7 @@
 layout: doc
 title: "Развертывание на  GitHub"
 header: "Развертывание"
+description: "Развертывание Jekyll на  GitHub. Gem github-pages."
 prism: yes
 ---
 

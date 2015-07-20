@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Экстра"
+description: "Дополнительные возможности Jekyll."
 ---
 # Экстра
 

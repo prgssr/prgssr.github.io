@@ -1,15 +1,24 @@
 ---
 layout: doc
 title: "Плагины"
+description: "Плагины в Jekyll. Плагины, совместимые с GitHub. Виды плагинов - генераторы, конвертеры, команды и теги. Список доступных плагинов Jekyll."
 prism: yes
 ---
 # Плагины
 
 В Jekyll реализована система плагинов с хуками, позволяющая вам генерировать кастомный контент на вашем сайте. Вы можете запустить собственный код на своем сайте без модификации Jekyll как такового.
 
-###### Плагины на GitHub
+### Плагины на GitHub
 ***[GitHub Pages](http://pages.github.com/) работают на  Jekyll. Но так как по причинам безопасности все сайты на GitHub собираются с опцией `--safe`, а значит все кастомные плагины не будут работать***
 ***Вы по прежнему можете использовать GitHub Pages для публикации вашего сайта, но только путем локальной сборки и отправки в репозиторий готовых статических файлов***
+
+На данный момент GitHub Pages [работает с 4 плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
+
+* [Jemoji](https://help.github.com/articles/emoji-on-github-pages) - поддержка emoji в постах и страницах Jekyll.
+* [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) - дает поддержку  @mentions в постах и страницах Jekyll.
+* [Jekyll-redirect-from](https://help.github.com/articles/redirects-on-github-pages) - добавляет возможность редиректов при смене URL поста или страницы.
+* [Jekyll-sitemap](https://help.github.com/articles/sitemaps-for-github-pages) - автоматически добавляет на сайт валидный файл sitemap.xml. Плагин необходим для нормальной работы поисковых систем.
+
 
 ### Установка плагина
 
@@ -336,16 +345,16 @@ end
 * [Domain Name Filter отLawrence Woodman](https://github.com/LawrenceWoodman/domain_name-liquid_filter): Фильтрует URL, оставляя доменное имя.
 * [Summarize Filter отMathieu Arnold](https://gist.github.com/731597): Удаляет разметку после тега `<div id="extended"> `.
 * [i18n_filter](https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb): Фильтр Liquid для использования локализации I18n.
-* [Smilify](https://github.com/SaswatPadhi/jekyll_smilify) от[SaswatPadhi](https://github.com/SaswatPadhi): Заменяет текстовые смайлики в вашем контенте картинками.
-* [Read in X Minutes](https://gist.github.com/zachleat/5792681) от[zachleat](https://github.com/zachleat): Выводит ожидаемое время чтения (для содержимого поста).
+* [Smilify](https://github.com/SaswatPadhi/jekyll_smilify) от [SaswatPadhi](https://github.com/SaswatPadhi): Заменяет текстовые смайлики в вашем контенте картинками.
+* [Read in X Minutes](https://gist.github.com/zachleat/5792681) от [zachleat](https://github.com/zachleat): Выводит ожидаемое время чтения (для содержимого поста).
 * [Jekyll-timeago](https://github.com/markets/jekyll-timeago): Конвертирует время из цифр в текст.
 * [pluralize](https://github.com/bdesham/pluralize): Совмещает числа и слова с учетом множественного или единственного числа, например, “1 minute” или “2 minutes”.
 * [reading_time](https://github.com/bdesham/reading_time): Подсчитывает слова и ожидаемое время чтения, игнорируя HTML-элементы не содержащие текст.
 * [Table of Content Generator](https://github.com/dafi/jekyll-toc-generator): Генерирует HTML-код, содержащий оглавление, кастомизируется - можно указать страницы-исключения.
 * [jekyll-humanize](https://github.com/23maverick23/jekyll-humanize): Это портированное приложение Django  `humanize`, с разнообразными методами для изменения вида дат и цифровых данных в "человекопонятном виде". Каждый метод это фильтр, который можно использовать в шаблонах Jekyll. Некоторые оригинальные методы не портированы (например, naturaltime).
 * [Jekyll-Ordinal](https://github.com/PatrickC8t/Jekyll-Ordinal): Jekyll фильтр для конвертации количественных числительных в порядковые -  “st”, “nd”, “rd”, or “th”.
-* [Deprecated articles keeper](https://github.com/kzykbys/JekyllPlugins) от[Kazuya Kobayashi](http://blog.kazuya.co/): Простой фильтр Jekyll для определения "старых статей".
-* [Jekyll-jalali](https://github.com/mehdisadeghi/jekyll-jalali) от[Mehdi Sadeghi](http://mehdix.ir/): Простой конвертер из грегорианского в иранский календарь.
+* [Deprecated articles keeper](https://github.com/kzykbys/JekyllPlugins) от [Kazuya Kobayashi](http://blog.kazuya.co/): Простой фильтр Jekyll для определения "старых статей".
+* [Jekyll-jalali](https://github.com/mehdisadeghi/jekyll-jalali) от [Mehdi Sadeghi](http://mehdix.ir/): Простой конвертер из грегорианского в иранский календарь.
 * [Jekyll Thumbnail Filter](https://github.com/matallo/jekyll-thumbnail-filter): Филтр для миниатюр связанных постов.
 * [Jekyll-Smartify](https://github.com/pathawks/jekyll-smartify): Фильтр SmartyPants. Делает кавычки фигурными.
 

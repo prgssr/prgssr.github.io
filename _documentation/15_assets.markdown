@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Ресурсы"
+description: "Использование Sass и CoffeeScript в Jekyll."
 prism: yes
 ---
 # Ресурсы

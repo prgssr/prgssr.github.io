@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Статические файлы"
+description: "Статические файлы в Jekyll и переменная site.static_files для работы с ними."
 ---
 
 ## Статические файлы

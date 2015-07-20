@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Обновление"
+description: "Обновление сайта на Jekyll."
 prism: yes
 ---
 # Обновление

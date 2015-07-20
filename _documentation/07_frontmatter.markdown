@@ -2,6 +2,7 @@
 layout: doc
 title: "Вводные"
 header: "Ваш контент"
+description: "Вводные (frontmatter) Jekyll. Формат YAML. Предопределенные глобальные переменные и переменные для постов."
 prism: yes
 ---
 # Вводные

@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Установка"
+description: "Установка Jekyll. Системные требования, Ruby и RubyGems. Установка в Windows и Mac OS. Установка пре-релизов."
 prism: yes
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Сайты на Jekyll"
+description: "Образцы сайтов на Jekyll."
 ---
 # Сайты на Jekyll
 

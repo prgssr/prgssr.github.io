@@ -3,6 +3,7 @@ layout: post
 title:  "Правка mp3-тегов в Linux с помощью EasyTAG"
 date:   2015-07-14 16:17:00
 categories: articles
+description: "Правка mp3 тегов в Linux и Ubuntu. Заполнение тегов с помощью масок в EasyTag, переименование файлов и обработка полей. Импорт данных из CDDB и Discogs."
 tags: linux audio
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Миграция блога"
+description: "Миграция блога в Jekyll."
 ---
 # Миграция блога
 

@@ -2,6 +2,7 @@
 layout: doc
 title: "Шаблоны"
 header: "Кастомизация"
+description: "Шаблоны в Jekyll. Шаблонизатор Liquid, встроенные фильтры и теги. Подсветка кода с highlight."
 prism: yes
 ---
 # Шаблоны

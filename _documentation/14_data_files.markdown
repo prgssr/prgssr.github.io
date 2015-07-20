@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: "Файлы с данными"
+description: "Файлы с данными в Jekyll. Каталог _data. Использование данных через переменные."
 prism: yes
 ---
 

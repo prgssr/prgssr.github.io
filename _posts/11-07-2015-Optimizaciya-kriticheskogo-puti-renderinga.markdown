@@ -3,6 +3,7 @@ layout: post
 title:  "Оптимизация критического пути рендеринга"
 date:   2015-07-11 21:44:00
 categories: development
+description: "Оптимизация критического пути рендеринга. Факторы, влияющие на скорость отображения страницы. DOM и CSSOM. Перевод статьи с Sitepoint."
 tags: sitepoint translation performance
 original: "http://www.sitepoint.com/optimizing-critical-rendering-path/"
 original_author: "Штефан Макс"
