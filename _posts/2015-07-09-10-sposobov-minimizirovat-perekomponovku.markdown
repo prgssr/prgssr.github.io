@@ -4,6 +4,7 @@ title:  "10 способов минимизировать перекомпоно
 date:   2015-07-09 16:17:00
 categories: development
 description: "Как ускорить загрузку страницы. Особенности перерисовки и перекомпоновки элементов. 10 советов по оптимизации CSS и JavaScript. Перевод статьи с Sitepoint."
+thumb: "/images/development/Y6fh1wD.png"
 tags: sitepoint translation performance
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
 original_author: "Крэйг Баклер"
@@ -142,13 +143,13 @@ document.body.appendChild(frag);
 ## 10. Анализируйте проблемы перерисовки с инструментами браузера
 
 Все основные браузеры предоставляют средства разработки, позволяющие выявлять, как перекомпоновка влияет на производительность. В браузерах  на движках Blink/Webkit (Chrome, Safari и Opera) есть панель Timeline:
-![minimize-reflow](http://i.imgur.com/Y6fh1wD.png)
+![minimize-reflow](/images/development/Y6fh1wD.png)
 
 И аналогичная панель в Firefox:
-![minimize-reflow-2](http://i.imgur.com/L5idYpg.png)
+![minimize-reflow-2](/images/development/L5idYpg.png)
 
 В IE аналог называется UI Responsiveness:
-![minimize-reflow-3](http://i.imgur.com/syUVXZs.png)
+![minimize-reflow-3](/images/development/syUVXZs.png)
 
 Все браузеры отображают перекомпоновку и перерисовку зеленым цветом. Тесты выше были с самыми простыми примерами без сложных анимаций, где влияние могут оказывать и другие факторы, например, скрипты. Уменьшайте перекомпоновку и вы получите выигрыш в производительности.
 
