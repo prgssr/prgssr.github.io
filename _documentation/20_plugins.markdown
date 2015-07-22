@@ -31,7 +31,6 @@ prism: yes
  gems: [jekyll-test-plugin, jekyll-jsonify, jekyll-assets]
  # This will require each of these gems automatically.
 ```
-
  3. Добавьте нужные плагины в группу Bundler в `Gemfile`:
 
 ```yaml
