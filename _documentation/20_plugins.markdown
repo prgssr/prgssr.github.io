@@ -26,7 +26,7 @@ prism: yes
 
  1. Создайте в корневом каталоге папку `_plugins` и поместите в нее плагины. Любой файл с расширением `*.rb` из этого каталога будет загружен до генерации сайта.
  2. В файле `_config.yml` создайте новый массив с ключом `gems` и названиями gem устананавливаемых плагинов, например:
-```yaml
+```
  gems: [jekyll-test-plugin, jekyll-jsonify, jekyll-assets]
  # This will require each of these gems automatically.
 ```
