@@ -32,7 +32,7 @@ prism: yes
  # This will require each of these gems automatically.
 ```
 
-3. Добавьте нужные плагины в `Gemfile`:
+3. Добавьте нужные плагины в группу Bundler в `Gemfile`:
 
 ```yaml
  group :jekyll_plugins do
