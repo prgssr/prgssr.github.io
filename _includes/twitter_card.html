@@ -1,0 +1,14 @@
+{% if page.is_post %}
+{% assign category = page.categories[0] %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="{{ site.title }}">
+<meta name="twitter:creator" content="{{ site.twitter_username }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:description" content="{{ page.description }}">
+{% if page.thumbnail %}
+  <meta name="twitter:image:src" content="{{ page.thumbnail | prepend: site.url }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.data.thumb.[category] | prepend: site.url }}">
+{% endif %}
+{% endif %}

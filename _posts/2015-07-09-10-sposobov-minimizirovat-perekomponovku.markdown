@@ -9,6 +9,7 @@ tags: sitepoint translation performance
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
 original_author: "Крэйг Баклер"
 prism: yes
+thumbnail: "/images/development/L5idYpg.png"
 ---
 
 {% include translate.html %}
@@ -143,12 +144,15 @@ document.body.appendChild(frag);
 ## 10. Анализируйте проблемы перерисовки с инструментами браузера
 
 Все основные браузеры предоставляют средства разработки, позволяющие выявлять, как перекомпоновка влияет на производительность. В браузерах  на движках Blink/Webkit (Chrome, Safari и Opera) есть панель Timeline:
+
 ![minimize-reflow](/images/development/Y6fh1wD.png)
 
 И аналогичная панель в Firefox:
+
 ![minimize-reflow-2](/images/development/L5idYpg.png)
 
 В IE аналог называется UI Responsiveness:
+
 ![minimize-reflow-3](/images/development/syUVXZs.png)
 
 Все браузеры отображают перекомпоновку и перерисовку зеленым цветом. Тесты выше были с самыми простыми примерами без сложных анимаций, где влияние могут оказывать и другие факторы, например, скрипты. Уменьшайте перекомпоновку и вы получите выигрыш в производительности.

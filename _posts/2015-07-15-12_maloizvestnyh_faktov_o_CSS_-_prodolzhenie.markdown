@@ -9,6 +9,7 @@ original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
 original_author: "Louis Lazaris"
 scripts: codepen
 redirect_from: /development/2015/07/15/12_maloizvestnyh_faktov_o_CSS_-_prodolzhenie.html
+thumbnail: "/images/development/1436312214border-radius-slash.png"
 ---
 
 {% include translate.html %}

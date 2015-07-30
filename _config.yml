@@ -4,13 +4,14 @@ email:
 description: "Блог прогрессора"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://prgssr.ru" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: "@prgssr"
 github_username:  
 
 # Build settings
 kramdown:
   input: GFM
 permalink: :categories/:title.html
+
 #collections
 collections: 
    documentation: 

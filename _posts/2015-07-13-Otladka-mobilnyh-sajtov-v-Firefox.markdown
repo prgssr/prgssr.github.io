@@ -7,6 +7,7 @@ description: "Отладка мобильных сайтов в Firefox. Уст�
 tags: sitepoint translation mobile
 original: "http://www.sitepoint.com/debugging-mobile-websites-firefox/"
 original_author: "Jérémy Heleine"
+thumbnail: "/images/development/1426786117responsive-mode-1024x736.png"
 ---
 {% include translate.html %}
 
