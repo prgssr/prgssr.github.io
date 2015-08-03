@@ -206,7 +206,7 @@
          width: 100%;
 }
 }
- 
+
 
 .post-title {
     font-size: 42px;
@@ -254,7 +254,7 @@
     width:20%;
     float:left;
     @include media-query($on-laptop) {
-     
+
         width:100%;
 
  }
@@ -271,8 +271,24 @@
  * Collection navigation
  */
  .arrow_navigation {
-    margin:auto;
-    width:180px;
+    margin: auto;
+    width: 180px;
+    padding-left: 0 20px;
  }
- .prev {}
- .nxt {}
+
+  .arrow-svg {
+    fill: gray;
+  }
+ .arrow-svg:hover {
+   fill: #333333;
+   transition: .6s;
+ }
+ .prev:hover, .nxt:hover {
+   text-decoration: none;
+ }
+.prev {
+
+}
+.nxt {
+
+}
