@@ -339,7 +339,7 @@ end
 #### Фильтры
 
 
-[Truncate HTML](https://github.com/MattHall/truncatehtml) от [Matt Hall](http://codebeef.com/): Фильтр  Jekyll, обрезающий HTML сохраняя структуру разметки.
+* [Truncate HTML](https://github.com/MattHall/truncatehtml) от [Matt Hall](http://codebeef.com/): Фильтр  Jekyll, обрезающий HTML сохраняя структуру разметки.
 * [Domain Name Filter отLawrence Woodman](https://github.com/LawrenceWoodman/domain_name-liquid_filter): Фильтрует URL, оставляя доменное имя.
 * [Summarize Filter отMathieu Arnold](https://gist.github.com/731597): Удаляет разметку после тега `<div id="extended"> `.
 * [i18n_filter](https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb): Фильтр Liquid для использования локализации I18n.
