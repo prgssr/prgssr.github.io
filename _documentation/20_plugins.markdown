@@ -25,7 +25,7 @@ prism: yes
 Существует 3 способа установки плагинов в Jekyll:
 
  1. Создайте в корневом каталоге папку `_plugins` и поместите в нее плагины. Любой файл с расширением `*.rb` из этого каталога будет загружен до генерации сайта.
- 2. В файле `_config.yml` создайте новый массив с ключом `gems` и названиями gem устананавливаемых плагинов, например:
+ 2. В файле `_config.yml` создайте новый массив с ключом `gems` и названиями gem устанавливаемых плагинов, например:
 ```
  gems: [jekyll-test-plugin, jekyll-jsonify, jekyll-assets]
  # This will require each of these gems automatically.
@@ -52,7 +52,7 @@ prism: yes
 
 ### [Генераторы](#generators)
 
-Для создания дополнительного контента в Jekyll  вы можете создать плагир-генератор.
+Для создания дополнительного контента в Jekyll  вы можете создать плагин-генератор.
 
 Генератор это подкласс `Jekyll::Generator`, определяющий метод `generate`, который получает экземпляр [ Jekyll::Site](https://github.com/jekyll/jekyll/blob/master/lib/jekyll/site.rb). Возвращаемое значение `generate` игнорируется.
 
@@ -121,7 +121,7 @@ end
 
 ### [Конвертеры](#converters)
 
-Если у вас есть новый язык разметки, который вы хотите использовать на сайте, вы можете подключить его, создав свой плагин-конверетер. Markdown и Textile подключены именно таким образом.
+Если у вас есть новый язык разметки, который вы хотите использовать на сайте, вы можете подключить его, создав свой плагин-конвертер. Markdown и Textile подключены именно таким образом.
 
 ###### Не забывайте о вводной  YAML 
 ***Jekyll  обрабатывает только файлы с вводной, даже с использованием кастомных конвертеров***
@@ -157,7 +157,7 @@ end
 `output_ext` |Определяет расширение итогового файла (с точкой), обычно это ".html".
 `convert` | Метод реализующий саму конверсию. Принимает один аргумент: сырой контент (без вводной YAML). Возвращает строку. 
 
-В нашем примере `UpcaseConverter#matches` ищет файл с расширением `.upcase` и рендерит его с использованием конвертера, если он существует. Для обработки используется метод `UpcaseConverter#convert`. В нашем простом конвертере мы просто делаем все символы заглавными и сохраняем файл с раширением `.html`.
+В нашем примере `UpcaseConverter#matches` ищет файл с расширением `.upcase` и рендерит его с использованием конвертера, если он существует. Для обработки используется метод `UpcaseConverter#convert`. В нашем простом конвертере мы просто делаем все символы заглавными и сохраняем файл с расширением `.html`.
 
 ### [Команды](#comands)
 
@@ -260,7 +260,7 @@ Liquid::Template.register_filter(Jekyll::AssetFilter)
 
 
 ###### Совет: доступ к объекту сайта через Liquid
-***Jekyll  дает вам доступ к объекту `site` через объект Liquid `context.registers` - `context.registers[:site]`. Например, вы можете получить доступ к конфигураци `_config.yml` через `context.registers[:site].config`***
+***Jekyll  дает вам доступ к объекту `site` через объект Liquid `context.registers` - `context.registers[:site]`. Например, вы можете получить доступ к конфигурации `_config.yml` через `context.registers[:site].config`***
 
 #### Флаги
 
@@ -353,7 +353,7 @@ end
 * [Jekyll-Ordinal](https://github.com/PatrickC8t/Jekyll-Ordinal): Jekyll фильтр для конвертации количественных числительных в порядковые -  “st”, “nd”, “rd”, or “th”.
 * [Deprecated articles keeper](https://github.com/kzykbys/JekyllPlugins) от [Kazuya Kobayashi](http://blog.kazuya.co/): Простой фильтр Jekyll для определения "старых статей".
 * [Jekyll-jalali](https://github.com/mehdisadeghi/jekyll-jalali) от [Mehdi Sadeghi](http://mehdix.ir/): Простой конвертер из грегорианского в иранский календарь.
-* [Jekyll Thumbnail Filter](https://github.com/matallo/jekyll-thumbnail-filter): Филтр для миниатюр связанных постов.
+* [Jekyll Thumbnail Filter](https://github.com/matallo/jekyll-thumbnail-filter): Фильтр для миниатюр связанных постов.
 * [Jekyll-Smartify](https://github.com/pathawks/jekyll-smartify): Фильтр SmartyPants. Делает кавычки фигурными.
 
 #### Теги
@@ -371,7 +371,7 @@ end
 * [Logarithmic Tag Cloud](https://gist.github.com/2290195): Гибкое облако тегов, с логарифмическим представлением и документацией.
 * [oEmbed Tag от Tammo van Lessen](https://gist.github.com/1455726): Обеспечивает легкое подключение мультимедиа (например, с YouTube, Flickr, Slideshare) через oEmbed.
 * [FlickrSetTag от Thomas Mango](https://github.com/tsmango/jekyll_flickr_set_tag): Генерирует галереи изображений из наборов Flickr.
-* [Tweet Tag от Scott W. Bradley](https://github.com/scottwb/jekyll-tweet-tag): Тег Liquid для поключения твитов, используя  Twitter’s shortcodes.
+* [Tweet Tag от Scott W. Bradley](https://github.com/scottwb/jekyll-tweet-tag): Тег Liquid для подключения твитов, используя  Twitter’s shortcodes.
 * [Jekyll Twitter Plugin](https://github.com/rob-murray/jekyll-twitter-plugin): Тег Liquid, рендерящий твиты с  Twitter API. Поддерживает  oEmbed API.
 * [Jekyll-contentblocks](https://github.com/rustygeldmacher/jekyll-contentblocks): Позволяет использовать в ваших шаблонах теги для контента в стиле  Rails, пропуская контент из постов в макеты.
 * [Generate YouTube Embed ](https://gist.github.com/1805814) от [joelverhagen](https://github.com/joelverhagen): Плагин Jekyll позволяющий вставлять сидео с YouTube на вашу страницу указывая  YouTube ID. Опционально указываются размеры видео, плагин похож на “oEmbed Tag” , но работет только с YouTube.
@@ -388,21 +388,21 @@ end
 * [Jekyll-swfobject](https://github.com/sectore/jekyll-swfobject): Плагин Liquid для подключения файлов Adobe Flash  (.swf) с помощью SWFObject.
 * [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag): Отзывчивые изображения для Jekyll. Основан на элементе `<picture>` element, использует [полифилл](https://github.com/scottjehl/picturefill)  Scott Jehl.
 * [Jekyll Image Tag](https://github.com/robwierzbowski/jekyll-image-tag): Улучшение изображений для Jekyll. Сохраняет настройки изображений, изменяет размер, добавляет классы, описание и прочие атрибуты.
-* [Ditaa Tag](https://github.com/matze/jekyll-ditaa) от [matze](https://github.com/matze): Редерит  ASCII-арт в изображения PNG и вставляет тег figure.
+* [Ditaa Tag](https://github.com/matze/jekyll-ditaa) от [matze](https://github.com/matze): Рендерит  ASCII-арт в изображения PNG и вставляет тег figure.
 * [Jekyll Suggested Tweet](https://github.com/davidensinger/jekyll-suggested-tweet) от [David Ensinger](https://github.com/davidensinger/): Тег Liquid для Jekyll, позволяющий вставлять твиты с помощью Intents API.
 * [Jekyll Date Chart](https://github.com/GSI/jekyll_date_chart) от [GSI](https://github.com/GSI): Блок, рендерящий график с данными на основе таблиц в формате textile.
 * [Jekyll Image Encode](https://github.com/GSI/jekyll_image_encode) от [GSI](https://github.com/GSI): Тег, извлекающий изображение из интернета и кодирующий его в base64.
-* [Jekyll Quick Man](https://github.com/GSI/jekyll_quick_man) от [GSI](https://github.com/GSI): Тег, упрощающий генерацию ссылок на стараницы документации.
+* [Jekyll Quick Man](https://github.com/GSI/jekyll_quick_man) от [GSI](https://github.com/GSI): Тег, упрощающий генерацию ссылок на страницы документации.
 * [jekyll-font-awesome](https://gist.github.com/23maverick23/8532525): Быстро и легко добавляет иконки Font Awesome в ваши посты.
 * [Lychee Gallery Tag](https://gist.github.com/tobru/9171700) от [tobru](https://github.com/tobru): Подключает в пост [альбомы Lychee](http://lychee.electerious.com/). Для введения в вопрос - статья [Jekyll meets Lychee - A Liquid Tag plugin](https://tobrunet.ch/articles/jekyll-meets-lychee-a-liquid-tag-plugin/).
 * [Image Set/Gallery Tag ](https://github.com/callmeed/jekyll-image-set)от [callmeed](https://github.com/callmeed): Рендерит  HTML для галереи изображений из каталога вашего сайта Jekyll. Просто передайте имя каталога и опции классов-тегов.
 * [jekyll_figure](https://github.com/lmullen/jekyll_figure): Генерирует теги  `figure`  и заголовки к ним со ссылкой на фигуру в различных форматах.
 * [Jekyll Github Sample Tag](https://github.com/bwillis/jekyll-github-sample): Тег liquid  для подключения образца репозитория github на ваш сайт Jekyll.
-* [Jekyll Project Version Tag](https://github.com/rob-murray/jekyll-version-plugin): Плагин  Liquidрендерящий идентификатор версии вашего сайта Jekyll на основе кода из вашего репозитория git.
-* [Piwigo Gallery](https://github.com/AlessandroLorenzi/piwigo_gallery) от [Alessandro Lorenzi](http://www.alorenzi.eu/): Плагин Jekyll для генерации миниатюр галерии Piwigo и отображения их тегом Liquid tag
+* [Jekyll Project Version Tag](https://github.com/rob-murray/jekyll-version-plugin): Плагин  Liquid рендерящий идентификатор версии вашего сайта Jekyll на основе кода из вашего репозитория git.
+* [Piwigo Gallery](https://github.com/AlessandroLorenzi/piwigo_gallery) от [Alessandro Lorenzi](http://www.alorenzi.eu/): Плагин Jekyll для генерации миниатюр галереи Piwigo и отображения их тегом Liquid tag
 * [mathml.rb](https://github.com/tmthrgd/jekyll-plugins) от Tom Thorogood: Плагин для конвертирования математики TeX в MathML.
 * [webmention_io.rb](https://github.com/aarongustafson/jekyll-webmention_io) от [Aaron Gustafson](http://aaron-gustafson.com/): Плагин для интеграции [упоминаний](http://indiewebcamp.com/webmention), использующий [Webmention.io](http://webmention.io/). Включает опциональный JavaScript для автоматического обновления  между публикациями или в реальном времени через WebSockets.
-* [Jekyll 500px Embed](https://github.com/lkorth/jekyll-500px-embed)  от Luke Korth. Тег  Liquid для подключени яфото с 500px.
+* [Jekyll 500px Embed](https://github.com/lkorth/jekyll-500px-embed)  от Luke Korth. Тег  Liquid для подключения фото с 500px.
 * [inline_highlight](https://github.com/bdesham/inline_highlight): Тег для строчной подсветки синтаксиса.
 * [jekyll-mermaid](https://github.com/jasonbellamy/jekyll-mermaid): Упрощает создание блок-схем в ваших постах и страницах.
 * [twa](https://github.com/Ezmyrelda/twa): Twemoji плагин для Jekyll. Тег Liquid позволяющий использовать twitter emoji на ваших страницах.
@@ -423,18 +423,18 @@ end
 * [Draft/Publish Plugin by Michael Ivey](https://gist.github.com/49630): Сохранение постов как черновиков.
 * [Growl Notification Generator by Tate Johnson](https://gist.github.com/490101): Пересылает уведомления Jekyll в Growl.
 * [Growl Notification Hook by Tate Johnson](https://gist.github.com/525267): Улучшенная альтернатива предыдущему плагину, реализующая хуки.
-* [Related Posts by Lawrence Woodman](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin): Переисывает `site.related_posts` для использования категорий при определении связанных постов.
+* [Related Posts by Lawrence Woodman](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin): Переписывает `site.related_posts` для использования категорий при определении связанных постов.
 * [Tiered Archives by Eli Naeher](https://gist.github.com/88cda643aa7e3b0ca1e5): Создает многоуровневую переменную шаблона, позволяющую группировать архивы по годам и месяцам.
 * [Jekyll-localization](https://github.com/blackwinter/jekyll-localization): Плагин Jekyll добавляющий к движку рендеринга возможности локализации.
 * [Jekyll-rendering](https://github.com/blackwinter/jekyll-rendering): Плагин Jekyll предоставляющий альтернативные движки рендеринга.
 * [Jekyll-pagination](https://github.com/blackwinter/jekyll-pagination): Плагин, расширяющий генерацию разбивки страниц.
 * [Jekyll-tagging](https://github.com/pattex/jekyll-tagging): Плагин, автоматически генерирующий облако тегов и страницы тегов.
 * [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar): Расширения Jekyll для учебных блогов.
-* [Jekyll-asset_bundler](https://github.com/moshen/jekyll-asset_bundler): Упавковывает и минифицирует JavaScript and CSS.
+* [Jekyll-asset_bundler](https://github.com/moshen/jekyll-asset_bundler): Упаковывает и минифицирует JavaScript and CSS.
 * [Jekyll-assets](http://ixti.net/jekyll-assets/) by [ixti](https://github.com/ixti): Подключение ресурсов в стиле Rail ( CoffeeScript, Sass, LESS и т.д.; можно указывать зависимости простыми комментариями для  их автоматичского разрешения; минифицирует и сжимает; использует шаблоны JST; улушение кэширования и многое другое).
 * [JAPR](https://github.com/kitsched/japr): Jekyll Asset Pipeline Reborn - Мощная система подключения ресурсов в Jekyll,  собирающая, конвертирующая и сжимающая  JavaScript и CSS ресурсы.
 * [File compressor](https://gist.github.com/2758691) by [mytharcher](https://github.com/mytharcher): Сжатие HTML и JavaScript при сборке сайта.
-* [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle): Подключение ресурсов и улучшение кэшировния с использованием внешних элементов минификации на ваш выбор. Не требует сторонних gem.
+* [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle): Подключение ресурсов и улучшение кэширования с использованием внешних элементов минификации на ваш выбор. Не требует сторонних gem.
 * [Singlepage-jekyll](https://github.com/JCB-K/singlepage-jekyll) от [JCB-K](https://github.com/JCB-K): Трансформирует  Jekyll в динамический одностраничный сайт.
 * [generator-jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb): Генератор  Jekyll для Yeoman, инструмента для сборки веб-проектов.
 * [grunt-jekyll](https://github.com/dannygarcia/grunt-jekyll): Плагин Grunt для Jekyll.
