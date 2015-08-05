@@ -332,7 +332,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
 end
 ```
 
-После содания собственного класса и его правильной настройки в каталоге `_plugins ` или как gem, укажите его в `_config.yml`:
+После создания собственного класса и его правильной настройки в каталоге `_plugins ` или как gem, укажите его в `_config.yml`:
 
 ```yaml
 markdown: MyCustomProcessor
