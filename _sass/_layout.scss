@@ -258,13 +258,18 @@
         width:100%;
 
  }
+.documentation-header {
+  text-align: center;
 }
-.documentation {
+}
+.documentation h4{
     margin-top: $spacing-unit / 2;
     border-bottom: 1px solid black;
 }
 
-
+.documentation-item {
+    list-style-type: none;
+}
 
 
 /**
@@ -281,7 +286,7 @@
   }
  .arrow-svg:hover {
    fill: #333333;
-   
+
  }
  .prev:hover, .nxt:hover {
    text-decoration: none;
