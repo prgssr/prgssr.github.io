@@ -4,9 +4,6 @@ title: "Файлы с данными"
 description: "Файлы с данными в Jekyll. Каталог _data. Использование данных через переменные."
 prism: yes
 ---
-
-# Файлы с данными
-
 В дополнение к [встроенным переменным](/documentation/12_variables.html), вы можете задавать свои собственные данные, доступные с помощью [шаблонизатора Liquid](https://wiki.github.com/shopify/liquid/liquid-for-designers).
 
 Jekyll поддерживает загрузку данных в форматах [ YAML](http://yaml.org/), [JSON](http://www.json.org/) и [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) из файлов, расположенных в каталоге `_data`. Отметьте, чтов файлах CSV должен быть заголовок.

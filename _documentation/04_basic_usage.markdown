@@ -4,8 +4,6 @@ title: "Базовое использование"
 description: "Основы использования Jekyll. Сборка сайта, каталог для сборки. Запуск локального сервера Jekyll."
 prism: yes
 ---
-# Базовое использование
-
 Jekyll gem  позволяет работать с `jekyll` через терминал:
 
 ```bash
@@ -44,7 +42,8 @@ $ jekyll serve --detach
 ##### Особенности поведения сервера по умолчанию
 
 С версии 2.4 команда `serve` будет отслеживать изменения автоматически. Для отключения этого используйте команду `jekyll serve --no-watch`:
-```
+
+```bash
 $ jekyll serve --no-watch
 # => Same as `jekyll serve` but will not watch for changes.
 ```

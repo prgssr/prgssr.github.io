@@ -3,8 +3,6 @@ layout: doc
 title: "Сайты на Jekyll"
 description: "Образцы сайтов на Jekyll."
 ---
-# Сайты на Jekyll
-
 Возможности дизайна и функционала Jekyll проще рассмотреть на примерах. Вот некоторые из блогов на Jekyll, исходники которых подойдут для учебных целей:
 
 * [Tom Preston-Werner](http://tom.preston-werner.com/) ([source](https://github.com/mojombo/mojombo.github.io))

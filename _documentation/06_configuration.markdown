@@ -4,8 +4,6 @@ title: "Конфигурация"
 description: "Конфигурация Jekyll. Файл _config.yml. Опции при сборке в командной строке. Опции команд для сервера. Значения вводных по умолчанию. Дефолтные настройки."
 prism: yes
 ---
-# Конфигурация
-
 Jekyll позволяет вам свободно создавать сайты в соответствии с вашими идеями и все это благодаря конфигурационным опциям. Эти опции можно задать в файле `_config.yml`, расположенном в корне сайта или путем установки нужных флагов при выполнении команд `jekyll` в терминале.
 
 ### Настройки конфигурации
@@ -172,7 +170,7 @@ Jekyll по умолчанию запускается со следующими 
 
 ###### Две опции kramdown не поддерживаются
 ***На данный момент опции `remove_block_html_tags ` и `remove_span_html_tags` не поддерживаются, так как не включены в конвертер kramdown ->HTML ***
- 
+
 ```yaml
 # Расположение
 source:      .
@@ -182,7 +180,7 @@ layouts:     ./_layouts
 data_source: ./_data
 collections: null
 ```
-  
+
 ```yaml
 # Обработка текста
 safe:         false
@@ -192,7 +190,7 @@ keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 ```
- 
+
 ```yaml
 # Фильтрация контента
 show_drafts: null
@@ -200,7 +198,7 @@ limit_posts: 0
 future:      true
 unpublished: false
 ```
- 
+
 ```yaml
 # Плагины
 whitelist: []
@@ -213,8 +211,8 @@ markdown:    kramdown
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
-``` 
- 
+```
+
 ```yaml
 # Сервер
 detach:  false
@@ -222,12 +220,12 @@ port:    4000
 host:    127.0.0.1
 baseurl: "" # does not include hostname
 ```
- 
+
 ```yaml
 # Обратная совместимость
 relative_permalinks: false
 ```
- 
+
 ```yaml
 # Вывод
 permalink:     date
@@ -237,9 +235,9 @@ timezone:      null
 quiet:    false
 defaults: []
 ```
- 
+
 ```yaml
-# Процессоры Markdown 
+# Процессоры Markdown
 maruku:
   use_tex:    false
   use_divs:   false
@@ -270,7 +268,7 @@ kramdown:
     coderay_bold_every:        10
     coderay_css:               style
 ```
- 
+
 ### [Опции Markdown ](#markdown-options)
 
 Jekyll  поддерживает различные движки рендеринга Markdown, некоторые опции в них можно изменить.

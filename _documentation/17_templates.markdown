@@ -5,8 +5,6 @@ header: "Кастомизация"
 description: "Шаблоны в Jekyll. Шаблонизатор Liquid, встроенные фильтры и теги. Подсветка кода с highlight."
 prism: yes
 ---
-# Шаблоны
-
 Jekyll использует шаблонизатор [Liquid](https://github.com/Shopify/liquid/wiki) для обработки шаблонов. Поддерживаются все стандартные [теги](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#tags)  и [фильтры](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters) Liquid. Jekyll также добавляет несколько удобных фильтров и тегов для упрощения решения распространенных задач.
 
 ### Фильтры
