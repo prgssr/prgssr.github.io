@@ -5,7 +5,8 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    font-family: $header-font-family;
+    text-transform: uppercase;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -244,6 +245,14 @@
             font-size: 18px;
         }
     }
+      h5 {
+        font-size: 1.125em;
+        font-weight: bold;
+}
+    h6 {
+        font-size: 1em;
+        font-weight: bold;
+}
 }
 
 /**
@@ -269,6 +278,7 @@
 
 .documentation-item {
     list-style-type: none;
+    font-family: $header-font-family;
 }
 
 

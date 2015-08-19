@@ -80,7 +80,13 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 400;
+    font-family: $header-font-family;
+}
+
+strong {
+  letter-spacing: .125em;
+
 }
 
 
@@ -131,6 +137,7 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: $code-background;
+    font-family: $code-font-family;
 }
 
 code {
