@@ -2,24 +2,46 @@
 layout: default
 ---
 
+
 <div class="home">
+<!-- Цикл по списку постов, разбитых на страницы-->
+{% for post in paginator.posts %}
+  <span class="post-meta">
+    {% include date-localization-post.html %}
+  </span> 
+  <h2>
+    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+     <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+  </h2>  
+{% endfor %}
 
-  <h1 class="page-heading">Posts</h1>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Назад</a>
+  {% else %}
+    <span>&laquo; Назад</span>
+  {% endif %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% if paginator.next_page %}
+    <a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Вперед &raquo;</a>
+  {% else %}
+    <span>Вперед &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 
 </div>
 {% include disqus-count.html %}
