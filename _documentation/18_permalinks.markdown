@@ -2,6 +2,7 @@
 layout: doc
 title: "Постоянные ссылки"
 description: "Пермалинки в Jekyll. Задание формата ссылок в _config.yml. Образцы стилей постоянных ссылок."
+prism: yes
 ---
 Jekyll позволяет гибко создавать URL на вашем сайте. Вы можете задать  постоянные ссылки в [конфигурации](/documentation/06_configuration.html) или во [вводной ](/documentation/07_frontmatter.html)для каждого поста. вы можете использовать встроенные стили для создания ссылок или создать свой. Стиль по умолчанию - `date`.
 
@@ -70,7 +71,7 @@ Jekyll поддерживает постоянные ссылки, не соде
 
 В сервере Apache имеется развитая поддержка разнообразного контента, ссылки без расширений настраиваются опцией [multiviews](https://httpd.apache.org/docs/current/content-negotiation.html#multiviews) в `httpd.conf ` или `.htaccess`:
 
-```apacheconf
+```bash
 Options +MultiViews
 ```
 
