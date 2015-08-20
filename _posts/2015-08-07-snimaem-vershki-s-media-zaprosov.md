@@ -8,11 +8,12 @@ published: True
 description: "Условная загрузка стилей в современные браузеры без помощи JavaScript"
 original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"
 original_author: "Энди Кирк"
+prism: yes
 ---
 
 {% include translate.html %}
 
-[Снимать вершки (Cutting the Mustard)](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) это термин Тома Маслена с BBC. Суть его метода состоит в использовании JavaScript для проверки возможностей браузера перед дальнейшей загрузкой CSS и JavaScript, чтобы улучшить ощущения пользователей и загрузить лишь базовые файлы, если возможности браузера невелики. 
+[Снимать вершки (Cutting the Mustard)](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) это термин Тома Маслена с BBC. Суть его метода состоит в использовании JavaScript для проверки возможностей браузера перед дальнейшей загрузкой CSS и JavaScript, чтобы улучшить ощущения пользователей и загрузить лишь базовые файлы, если возможности браузера невелики.
 
 Этот метод вызвал огромный интерес, появились такие статьи как [Migrating to Flexbox by Cutting the Mustard](http://www.sitepoint.com/migrating-flexbox-cutting-mustard/), [Server Side Mustard Cut](https://css-tricks.com/server-side-mustard-cut/) и [Progressive Enhancement](http://www.sitepoint.com/javascript-dependency-backlash-myth-busting-progressive-enhancement/)
 
@@ -22,14 +23,14 @@ original_author: "Энди Кирк"
 
 Конечно, очевидное решение использовать JavaScript для условной загрузки стилей решает задачу, но при этом современные браузеры, в которых JavaScript отключен пользователями, будут получать страницы без стилей. Поэтому я искал возможность условной загрузки CSS без использования скриптов и в итоге нашел [старый пост Крейга Баклера](http://www.sitepoint.com/support-old-browsers-responsive-web-design/). После нескольких экспериментов я пришел к следующему коду:
 
-{% highlight html %}
+```markup
 <!-- in the <head> -->
 <link rel="stylesheet" href="css/your-stylesheet.css"
       media="only screen and (min-resolution: 0.1dpcm)">
 <link rel="stylesheet" href="css/your-stylesheet.css"
-      media="only screen and (-webkit-min-device-pixel-ratio:0) 
+      media="only screen and (-webkit-min-device-pixel-ratio:0)
       and (min-color-index:0)">
-{% endhighlight %}
+```
 
 Давайте проверим,  к чему это приведет.
 
@@ -65,12 +66,12 @@ original_author: "Энди Кирк"
 
 Можно скомбинировать медиа-запросы в один элемент `<link>`, разделив их с помощью запятой, вот так:
 
-{% highlight html %}
+```markup
 <link rel="stylesheet" href="css/your-stylesheet.css"
       media="only screen and (min-resolution: 0.1dpcm),
       only screen and (-webkit-min-device-pixel-ratio:0)
       and (min-color-index:0)">
-{% endhighlight %}
+```
 
 Однако, я предпочитаю разделять их, чтобы было проще понимать, что происходит.
 
@@ -80,18 +81,18 @@ original_author: "Энди Кирк"
 
 Конечно, список поддерживаемых вами браузером может меняться и в этом еще одно преимущество этой техники - вы можете расширять список браузеров. Например, вам надо добавить поддержку ИЕ8 - вы просто добавляете условный комментарий, загружающий стили в браузер:
 
-{% highlight html %}
+```markup
 <!--[if IE 8]>
 <link rel="stylesheet" href="css/your-stylesheet.css">
 <![endif]-->
-{% endhighlight %}
+```
 
 А если вам надо поддерживать старые устройства на основе WebKit с соотношением пикселей больше 1, вы просто добавите еще один элемент `<link>` с целевым меди-запросом:
 
-{% highlight html %}
+```markup
 <link rel="stylesheet" href="css/your-stylesheet.css"
       media="only screen and (-webkit-min-device-pixel-ratio:1.1)">
-{% endhighlight %}
+```
 
 Сам по себе, этот код будет загружать стили только для  Android 2.2+ (у меня не было возможности протестировать более ранние версии), но если он подключен в дополнение к другим элементам `<link> `, он просто добавляет эту группу браузеров.
 
@@ -109,14 +110,14 @@ original_author: "Энди Кирк"
 
 Если вам нужна поддержка этого браузера, вы можете заставить его загрузить стили с помощью JavaScript:
 
-{% highlight javascript %}
+```javascript
 if (navigator.userAgent.indexOf('UCBrowser') > -1) {
   var link  = document.createElement('link');
   link.rel  = 'stylesheet';
   link.href = 'css/your-stylesheet.css';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
-{% endhighlight %}
+```
 
 В качестве бонуса добавлю, что нет никакого способа отключить JavaScript в Android UC Browser, а значит этот код загрузит стили в любом случае, кроме, конечно, сбоев в сети и прочего форс-мажора.
 
@@ -136,15 +137,15 @@ if (navigator.userAgent.indexOf('UCBrowser') > -1) {
 
 Например, свойство `clear` по умолчанию задано как `none`.  Установка его в значение `both` для `body` не вызовет каких-либо видимых последствий (но если это внезапно произойдет, то вы сможете взять иное свойство). В CSS эта декларация будет выглядеть так:
 
-{% highlight css %}
+```css
 body {
   clear: both;
 }
-{% endhighlight %}
+```
 
 А вот и скрипт для проверки:
 
-{% highlight javascript %}
+```javascript
 var is_supported = false
   , val = '';
 if (window.getComputedStyle) {
@@ -152,11 +153,11 @@ if (window.getComputedStyle) {
 } else if (document.body.currentStyle) {
   val = document.body.currentStyle.clear;
 }
- 
+
 if (val == 'both') {
   is_supported = true;
 }
-{% endhighlight %}
+```
 
 ## Итоговый код
 
@@ -164,7 +165,7 @@ if (val == 'both') {
 
 Возможно, что вам не понадобиться все, о чем я написал, но вот на всякий случай полный код:
 
-{% highlight html %}
+```markup
 <head>
   <link rel="stylesheet" href="mq-test.css"
         media="only screen and (min-resolution: 0.1dpcm)">
@@ -173,11 +174,11 @@ if (val == 'both') {
         and (min-color-index:0)">
   <link rel="stylesheet" href="mq-test.css"
         media="only screen and (-webkit-min-device-pixel-ratio:1.1)">
- 
+
   <!--[if IE 8]>
   <link rel="stylesheet" href="mq-test.css">
   <![endif]-->
- 
+
   <script>
     if (navigator.userAgent.indexOf('UCBrowser') > -1) {
       var link  = document.createElement('link');
@@ -197,17 +198,17 @@ if (val == 'both') {
     } else if (document.body.currentStyle) {
       val = document.body.currentStyle.clear;
     }
- 
+
     if (val == 'both') {
       is_supported = true;
     }
- 
+
     if (is_supported) {
       // Load or run JavaScript for supported browsers here.
     }
   </script>
 </body>
-{% endhighlight %}
+```
 
 Я также сделал [еще один тест со всеми расширениями](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/08/1438671259support-extra.html).
 

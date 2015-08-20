@@ -104,7 +104,7 @@ http://localhost:4000/blog
 
 {% raw %}
 
-```handlebars
+```liquid
 '{{' was not properly terminated with regexp: /\}\}/  (Liquid::SyntaxError)
 ```
 

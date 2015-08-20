@@ -46,7 +46,7 @@ Liu Fengyun,liufengyun
 
 Теперь вы можете вывести список членов в шаблоне:
 
-```handlebars
+```liquid
 {% raw %}
 <ul>
 {% for member in site.data.members %}
@@ -89,7 +89,7 @@ members:
 
 Данные организаций доступны через `site.data.orgs` через название соответствующего файла:
 
-```handlebars
+```liquid
 {% raw %}
 <ul>
 {% for org_hash in site.data.orgs %}

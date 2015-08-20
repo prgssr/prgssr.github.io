@@ -44,7 +44,7 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 Если у вас есть небольшие фрагменты, которые вы хотите использовать на многих страницах вашего сайта, вы можете использовать тег `include `.
 
 {% raw %}
-```handlebars
+```liquid
 {% include footer.html %}
 ```
 {% endraw %}
@@ -57,14 +57,14 @@ Jekyll ищет все подключаемые файлы в подкатало
 Вы также можете передавать параметры подключаемому фрагменту:
 
 {% raw %}
-```handlebars
+```liquid
 {% include footer.html param="value" %}
 ```
 {% endraw %}
 Эти параметры доступны в фрагменте с помощью тега Liquid:
 
 {% raw %}
-```handlebars
+```liquid
 {{ include.param }}
 ```
 {% endraw %}
@@ -74,7 +74,7 @@ Jekyll ищет все подключаемые файлы в подкатало
 Вы также можете подключить фрагмент к файлу, указав относительный путь от места подключения:
 
 {% raw %}
-```handlebars
+```liquid
 {% include_relative somedir/footer.html %}
 ```
 {% endraw %}
@@ -91,7 +91,7 @@ Jekyll ищет все подключаемые файлы в подкатало
 
 Для рендеринга фрагмента кода с подсветкой синтаксиса оберните его тегами как на примере:
 {% raw %}
-```handlebars
+```liquid
 {% highlight ruby %}
 def foo
   puts 'foo'
@@ -106,7 +106,7 @@ end
 Это второй аргумент для `highlight` - `linenos`, он опционален. Включение `linenos` задает нумерацию строк в подсвечиваемом фрагменте. Например, в следующем блоке кода каждая строка будет пронумерована:
 
 {% raw %}
-```handlebars
+```liquid
 {% highlight ruby linenos %}
 def foo
   puts 'foo'
@@ -124,7 +124,7 @@ end
 Если вы хотите подключить ссылку на пост, тег `post_url` сгенерирует правильную постоянную ссылку на нужный вам пост:
 
 {% raw %}
-```handlebars
+```liquid
 {% post_url 2010-07-21-name-of-post %}
 ```
 {% endraw %}
@@ -132,7 +132,7 @@ end
 Если вы группирует посты по подкаталогам, вам надо включить в путь подкаталог:
 
 {% raw %}
-```handlebars
+```liquid
 {% post_url /subdir/2010-07-21-name-of-post %}
 ```
 {% endraw %}
@@ -142,7 +142,7 @@ end
 Вы также можете использовать этот тег для создания ссылок в разметке Markdown:
 
 {% raw %}
-```handlebars
+```liquid
 [Name of Link]({% post_url 2010-07-21-name-of-post %})
 ```
 {% endraw %}
@@ -152,7 +152,7 @@ end
 Вы можете использовать тег `gist` для подключения гистов с GitHub, он работает с публичными и секретными гистами:
 
 {% raw %}
-```handlebars
+```liquid
 {% gist parkr/931c1c8d465a04042403 %}
 ```
 {% endraw %}
@@ -160,7 +160,7 @@ end
 Вы можете опционально указать для отображения название гиста:
 
 {% raw %}
-```handlebars
+```liquid
 {% gist parkr/931c1c8d465a04042403 jekyll-private-gist.markdown %}
 ```
 {% endraw %}

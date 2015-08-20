@@ -230,13 +230,13 @@ Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTag)
 
 В примере выше, мы можем поместить наш тег на любой странице:
 {% raw %}
-```haml
+```liquid
 <p>{% render_time page rendered at: %}</p>
 ```
 {% endraw %}
 В результате мы получим следующий вывод:
 
-```haml
+```liquid
 <p>page rendered at: Tue June 22 23:38:47 –0500 2010</p>
 ```
 

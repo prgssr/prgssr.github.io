@@ -7,6 +7,7 @@ tags: [sitepoint translation javascript]
 description: "Обязательно ли сохранять всю логику в файлах JS или же допустимо вставлять отдельные ее части в HTML - JsAction, Object.observe() и другие подходы"
 original: "http://www.sitepoint.com/emerging-patterns-javascript-event-handling/"
 original_author: "Марселло Ла Рокка"
+prism: yes
 ---
 
 {% include translate.html %}
@@ -29,11 +30,9 @@ JsAction это библиотека Google для делегирования с
 
 Вот как выглядело изменение фонового цвета страницы по нажатию мышки в те времена:
 
-{% highlight html %}
-
+```markup
 <button onclick="document.bgColor='lightblue'">Feel Blue</button>
-
-{% endhighlight %}
+```
 
 Прошло немного времени до того как ограничения и опасности использования JS в атрибутах HTML-тегов были выявлены. В ноябре 2000 года в стандарт  ECMAScript 3 был включен новый способ привязывания обработчиков к событиям браузера. К этому моменту компания Microsoft уже реализовала в своем браузере метод `attachEvent()`, но прошло время, прежде чем эти методы начали использоваться. Только спустя 4 года после первого упоминания (разработчиками Netscape Navigator) концепция ненавязчивого JS начала распространяться.
 
@@ -49,7 +48,7 @@ JsAction это библиотека Google для делегирования с
 
 - Масштабируемость: инкапсуляция обработчика событий внутри функции соответствует принципу DRY, так как позволяет работать на уровне прототипа объекта и использовать одинаковую логику для множественных обработчиков; а с помощью механизма селекторов JQuery CSS дает легкий и эффективный способ привязывания обработчиков к набору узлов:
 
-{% highlight javascript %}
+```javascript
 
 $(document).ready(function () {
   $('.clickable').click(function () {
@@ -57,7 +56,7 @@ $(document).ready(function () {
     return false;
   });
 });
-{% endhighlight %}
+```
 
 - Отладка: с использованием таких инструментов как Firebug и Chrome Developer Tools отладка JS становится меньшим кошмаром, по сравнению с отладкой инлайнового кода.
 
@@ -107,7 +106,7 @@ $(document).ready(function () {
 
 Все эти фрэймворки поддерживают двухстороннее связывание, удобный способ для достижения согласованности между состоянием DOM элементов и логики приложения. Например, если вам нужно вывести на экран список чего-либо. В традиционной императивной парадигме вам нужен примерно такой код:
 
-{% highlight html %}
+```markup
 
 <!doctype html>
 <html>
@@ -118,14 +117,14 @@ $(document).ready(function () {
   </body>
 </html>
 
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 
 function createItemHTML (val) {
   return '<span class="">' + val + '</span>';
 }
- 
+
 function displayList (container, items) {
   container.empty();
   $.each(items, function (index, val) {
@@ -135,7 +134,7 @@ function displayList (container, items) {
     container.append(element);
   });
 }
- 
+
 function editItem (container, itemId, itemValue) {
   var element = container.find('#' + itemId);
   if (element) {
@@ -147,13 +146,13 @@ displayList($('#container'), items);
 //...
 editItem(container, id, newVal);
 
-{% endhighlight %}
+```
 
 Этот код неплох, он позволяет обойтись без лишних повторений, но мы по прежнему смешиваем логику и представление, хотя и другим способом.
 
 А вот как выглядит решение той же задачи средствами Ractive:
 
-{% highlight html %}
+```markup
 
 <!doctype html>
 <html>
@@ -172,9 +171,9 @@ editItem(container, id, newVal);
   </body>
 </html>
 
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 
 var ractive = new Ractive({
   el: 'container',
@@ -183,19 +182,19 @@ var ractive = new Ractive({
     'items': items
   }
 });
- 
+
 ractive.on({
     'itemClick': function (e) {
       //access e.node and e.context for both the DOM element
       //  and the Ractive state associated with it
     }
 });
- 
+
 //...
 
 //Now update items with a new list
 ractive.set('items', newItemsList);
-{% endhighlight %}
+```
 
 Все! Нет необходимости писать код для обновления страницы. Ractive сделает это за вас. Она яснее, поддерживаемее, лучше спроектирована и более производительна. Мы также можем добавлять обработчики событий на лету.
 
@@ -215,13 +214,13 @@ ractive.set('items', newItemsList);
 
 Новый метод позволяет наблюдать за объектом, изменять его свойства и получать отчет об этом. Применение его может выглядеть так:
 
-{% highlight javascript %}
+```javascript
 // A model can be an object literal
 var plainObject = {
   name: 'Counter',
   total: 0
 };
- 
+
 // Define an observer method
 function observer(changes){
   changes.forEach(function(change, i){
@@ -231,17 +230,17 @@ function observer(changes){
     console.log(change); // all changes
   });
 }
- 
+
 // Start watching the object
 Object.observe(plainObject, observer);
-{% endhighlight %}
+```
 
 Прекращение наблюдения за объектом делается в одну строчку кода.
 
-{% highlight javascript %}
+```javascript
 
 Object.unobserve(plainObject, observer);
-{% endhighlight %}
+```
 
 ##  План развития
 
@@ -259,8 +258,7 @@ Object.unobserve(plainObject, observer);
 [Google JavaScript Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Closures#Closures)
 [Javascript Closures](http://jibbering.com/faq/notes/closures/)
 [JsAction Repo on Github](https://github.com/google/jsaction)
-[The difference between Ractive and Angular](http://blog.ractivejs.org/posts/whats-the-difference-between-angular-and-ractive/) 
+[The difference between Ractive and Angular](http://blog.ractivejs.org/posts/whats-the-difference-between-angular-and-ractive/)
 [The difference between Ractive and React](http://blog.ractivejs.org/posts/whats-the-difference-between-react-and-ractive/)
 [Containers &amp; Dependency in Ember.js](http://www.slideshare.net/mixonic/containers-di)
 [Data-binding Revolutions with Object.observe(), by Addy Osmani](http://www.html5rocks.com/en/tutorials/es7/observe/)
-
