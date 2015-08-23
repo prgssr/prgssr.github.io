@@ -307,3 +307,21 @@
 .nxt {
 
 }
+
+/**
+ * translate.html
+ */
+
+ .original, .original_author {
+   font-size: 1.125em;
+   font-weight: bold;
+   font-family: $header-font-family;
+ }
+
+/**
+  * table of contents
+  */
+
+#markdown-toc, #markdown-toc ul {
+  list-style-type: none;
+}

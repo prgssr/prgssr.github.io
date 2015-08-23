@@ -12,8 +12,9 @@ redirect_from: /development/2015/07/15/12_maloizvestnyh_faktov_o_CSS_-_prodolzhe
 thumbnail: "/images/development/1436312214border-radius-slash.png"
 prism: yes
 ---
-
 {% include translate.html %}
+
+{% include toc.md %}
 
 Год назад я опубликовал статью [12 малоизвестных фактов о CSS](http://www.sitepoint.com/12-little-known-css-facts/) и она стала одно из самых популярных на сайте. За прошедшее с тех пор время я собрал еще некоторое количество советов и интересностей о CSS для нового поста. Мы же все знаем, что у каждого успешного фильма должно быть продолжение, не так ли?
 

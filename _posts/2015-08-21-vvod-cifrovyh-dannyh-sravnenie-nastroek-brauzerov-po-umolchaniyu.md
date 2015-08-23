@@ -5,12 +5,14 @@ categories: [development]
 date: 2015-08-21 16:33:00
 tags: [css, translation, css-tricks]
 published: True
-description: "Стили по умолчанию для полей ввода чисел в современных браузерах и возможности по их настройке." 
+description: "Стили по умолчанию для полей ввода чисел в современных браузерах и возможности по их настройке."
 original: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
 original_author: "Джефф Грэхем"
 prism: yes
 ---
 {% include translate.html %}
+
+{% include toc.md %}
 
 Спецификации целенаправленно умалчивают о том, как браузерам обращаться  с пользовательским интерфейсом. В этой статье мы отдельно  рассмотрим `<input type="number">`, вы будете удивлены, но спецификация [говорит](http://www.w3.org/html/wg/drafts/html/master/semantics.html#number-state-(type=number)):
 
@@ -39,7 +41,7 @@ Internet Explorer дает самое простое отображение по
 
 ![numeric-input-firefox](/images/development/numericInput-firefox.gif)
 
-В Firefox появляется элемент, отсутствующий в ИЕ: кнопка для пошагового изменения значений или спиннер. В спиннере есть стрелки вниз и вверх, позволяющие соответственно, уменьшать и увеличивать значение. 
+В Firefox появляется элемент, отсутствующий в ИЕ: кнопка для пошагового изменения значений или спиннер. В спиннере есть стрелки вниз и вверх, позволяющие соответственно, уменьшать и увеличивать значение.
 
 Удаляется спиннер путем добавления CSS с использованием свойства [appearance](https://css-tricks.com/almanac/properties/a/appearance/):
 
@@ -63,8 +65,8 @@ Firefox и Safari похожи в обработке числового ввод
 
 ```css
 /* Remove controls from Safari and Chrome */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: None;
   margin: 0; /* Removes leftover margin */
 }
@@ -128,7 +130,7 @@ input[type="number"]:focus {
 
 Хотя Chrome и Safari не настолько похожи между собой, как этого можно было ожидать, оба браузера используют теневой DOM для стилизации и манипуляции полем ввода. Поэтому все манипуляции со стилями поля ввода, которые были упомянуты в разделе о Safari, работают и в Chrome.
 
-## Как это делают Mobile Safari и Android 
+## Как это делают Mobile Safari и Android
 
 ![numeric-input-ios](/images/development/numericInput-ios.gif)
 

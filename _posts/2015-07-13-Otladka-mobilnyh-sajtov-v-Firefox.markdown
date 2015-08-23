@@ -11,6 +11,8 @@ thumbnail: "/images/development/1426786117responsive-mode-1024x736.png"
 ---
 {% include translate.html %}
 
+{% include toc.md %}
+
 Во всех основных браузерах есть инструментарий для отладки сайтов на мобильных устройствах. В этой статье я рассмотрю возможности Firefox и сравню их с аналогичными в Chrome и Internet Explorer.
 
 ## Тестируем в отзывчивом режиме Firefox
@@ -97,7 +99,7 @@ BH90TFM516  device
 Теперь создадим соединение к сокету. Тип команды зависит от версии Firefox на вашем устройстве.
 
 Для стабильной версии Firefox для Android 35+, наберите:
-`adb forward tcp:6000 localfilesystem:/data/data/org.mozilla.firefox/firefox-debugger-socket`. 
+`adb forward tcp:6000 localfilesystem:/data/data/org.mozilla.firefox/firefox-debugger-socket`.
 
 `org.mozilla.firefox` заменяется на `org.mozilla.firefox_beta`, если вы используете бета-версию; на  `org.mozilla.fennec_aurora` при использовании Aurora; и на `org.mozilla.fennec` при использовании ночных сборок.
 
@@ -139,4 +141,3 @@ Chrome позволяет удаленно отлаживать Chrome для An
 Internet Explorer тоже имеет свой набор средств для разработки, в том числе предназначенных для разработки на мобильных. Эти инструменты позволят выявить баги и проблемы со скоростью. Также как и в Firefox вы можете выбирать разрешение; также как и в Chrome симулировать работу сети. А также в Internet Explorer можно симулировать географическое место нахождения.
 
 Специальных средств для отладки в IE нет, но он совместим с [weinre](http://blogs.msdn.com/b/interoperability/archive/2013/05/31/now-on-ie-and-firefox-debug-your-mobile-html5-page-remotely-with-weinre-web-inspector-remote.aspx).
-

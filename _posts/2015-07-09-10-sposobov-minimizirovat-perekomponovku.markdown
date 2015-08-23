@@ -11,8 +11,9 @@ original_author: "Крэйг Баклер"
 prism: yes
 thumbnail: "/images/development/L5idYpg.png"
 ---
-
 {% include translate.html %}
+
+{% include toc.md %}
 
 Несмотря на прошедшее время, [дискуссия о двухмегабайтных страницах](http://www.sitepoint.com/2mb-web-pages-whos-blame/) остается актуальной. Чем быстрее ваше приложение, тем лучше впечатления пользователей и выше показатель конверсии.
 

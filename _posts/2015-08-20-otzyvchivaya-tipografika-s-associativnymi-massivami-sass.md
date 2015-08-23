@@ -10,8 +10,9 @@ original: "http://www.smashingmagazine.com/2015/06/responsive-typography-with-sa
 original_author: "Jonathan Suh"
 prism: yes
 ---
-
 {% include translate.html %}
+
+{% include toc.md %}
 
 Управление последовательным типографским ритмом задача не из простых, и она усложняется, когда требуется обеспечить отзывчивость сайта. К счастью, карты Sass (они же ассоциативные массивы, они же хэши, они же мапы) заметно упрощают работу с отзывчивой типографикой.
 
