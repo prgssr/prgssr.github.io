@@ -222,11 +222,9 @@ JS в примере запрашивает цвет элемента, а это
 
 Большая часть статьи почерпнута из следующих источников:
 
-Документация от Google по <a href="https://developers.google.com/web/fundamentals/https://developers.google.com/web/fundamentals/">основам Web</a> особенно раздел про <a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">критический путь рендеринга</a>.
-
-Курс Udacity по <a href="https://www.udacity.com/course/ud884">оптимизации производительности сайтов</a>.
-
-Бесплатная онлайн-книга Ильи Григорика <a href="http://chimera.labs.oreilly.com/books/1230000000545/">Высокопроизводительная работа браузера</a>
+* Документация от Google по [основам Web](https://developers.google.com/web/fundamentals/) особенно раздел про [критический путь рендеринга](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/).
+* Курс Udacity по [оптимизации производительности сайтов](https://www.udacity.com/course/ud884).
+* Бесплатная онлайн-книга Ильи Григорика ["Высокопроизводительная работа браузера"](http://chimera.labs.oreilly.com/books/1230000000545/)
 
 Основные тезисы:
 
@@ -237,6 +235,6 @@ JS в примере запрашивает цвет элемента, а это
 - JS блокирует парсинг, осторожно используйте его до стадии первоначальной загрузки, отложите выполнение или загружайте асинхронно
 - Не забывайте про размер - минифицируйте, сжимайте, кэшируйте.
 
-Активней пользуйтесь инструментами, такими как <a href="https://developer.chrome.com/devtools" title="Chrome DevTools Overview">Chrome DevTools</a>, <a href="https://developers.google.com/speed/pagespeed/insights/" title="Google's Web Analytics Tool 'PageSpeed Insights'">PageSpeed Insights</a> или <a href="http://www.webpagetest.org/" title="WebPagetest Homepage">WebPagetest</a>, чтобы понять, какие оптимизации возможны и необходимы.
+Активней пользуйтесь инструментами, такими как [Chrome DevTools](https://developer.chrome.com/devtools), [PageSpeed Insights ](https://developers.google.com/speed/pagespeed/insights) или [WebPagetest](http://www.webpagetest.org/), чтобы понять, какие оптимизации возможны и необходимы.
 
 Скорость рендеринга страницы может иметь решающее значение для ваших посетителей, которые обычно не привыкли долго ждать. Учитывайте это при разработке и поддержке сайта, от улучшения его производительности вы тоже выиграете.
