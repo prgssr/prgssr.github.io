@@ -13,7 +13,8 @@ prism: yes
 * [Проблемы конфигурации](/documentation/25_troubleshooting.html#configuration-problems)
 * [Проблемы разметки](/documentation/25_troubleshooting.html#markup-problems)
 
-### [Проблемы инсталляции](#installation-problems)
+### Проблемы инсталляции
+{: #installation-problems}
 
 Если вы сталкиваетесь с ошибками при инсталляции gem'ов, вам может помочь установка заголовочных файлов для компиляции расширений в Ruby 2.0.0. В Ubuntu и Debian это делается следующей командой:
 
@@ -60,11 +61,13 @@ sudo emerge -av dev-ruby/rubygems
 
 Эта ошибка случает в ходе инсталляции `jekyll-coffeescript`, когда у вас нет правильного JavaScript окружения. Чтобы решить ее, установите gem'ы `execjs `и `therubyracer` или ` nodejs`. Больше информации на [GitHub Jekyll](https://github.com/jekyll/jekyll/issues/2327).
 
-### [Проблемы при запуске](#problems-running-jekyll)
+### Проблемы при запуске
+{: #problems-running-jekyll}
 
 На Debian и Ubuntu вам может понадобиться добавить /var/lib/gems/1.8/bin/ к пути, чтобы команды `jekyll` стали исполняемыми в терминале.
 
-### [Проблемы с базовым адресом](#base-url-problems)
+### Проблемы с базовым адресом
+{: #base-url-problems}
 
 Если вы использует опцию базового URL, например:
 
@@ -84,7 +87,8 @@ http://localhost:4000/blog/index.html
 http://localhost:4000/blog
 
 
-### [Проблемы  с конфигурированием](#configuration-problems)
+### Проблемы  с конфигурированием
+{: #configuration-problems}
 
 Порядок иерархии для конфликтующих [настроек конфигурации](/documentation/06_configuration.html) следующий:
 
@@ -94,7 +98,8 @@ http://localhost:4000/blog
 
 Именно: все дефолтные значения перекрываются опциями в `_config.yml`, а флаги командной строки имеют приоритет перед всеми остальными настройками.
 
-### [Проблемы с разметкой](#markup-problems)
+### Проблемы с разметкой
+{: #markup-problems}
 
 В различных языках разметки, поддерживаемых Jekyll бывают свои пролемы. В этом разделе мы собрали самые распространенные из них.
 

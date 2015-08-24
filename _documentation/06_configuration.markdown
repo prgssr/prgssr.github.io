@@ -269,7 +269,8 @@ kramdown:
     coderay_css:               style
 ```
 
-### [Опции Markdown ](#markdown-options)
+### Опции Markdown
+{: #markdown-options}
 
 Jekyll  поддерживает различные движки рендеринга Markdown, некоторые опции в них можно изменить.
 
@@ -309,7 +310,8 @@ kramdown:
   input: GFM
 ```
 
-### [Собственные процессоры Markdown ](#custom-markdown-processors)
+### Собственные процессоры Markdown
+{: #custom-markdown-processors}
 
 Если вы заинтересованы в создании собственного процессора markdown вы можете создать новый класс в пространстве имен `Jekyll::Converters::Markdown`:
 

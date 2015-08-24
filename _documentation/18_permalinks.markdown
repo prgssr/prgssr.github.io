@@ -11,7 +11,8 @@ Jekyll позволяет гибко создавать URL на вашем са
 `/:categories/:year/:month/:day/:title.html`.
 
 
-### [Переменные шаблонов](#template-variables)
+### Переменные шаблонов
+{: #template-variables}
 
 Переменная |Описание
 -----------|--------
@@ -58,7 +59,8 @@ Jekyll позволяет гибко создавать URL на вашем са
 `/blog/:year/:month/:day/:title/` | `/blog/2009/04/29/slap-chop/`
 `/:year/:month/:title`  [Детали](/documentation/18_permalinks.html#extensionless)|`/2009/04/slap-chop`
 
-### [Постоянные ссылки без расширений](#extensionless)
+### Постоянные ссылки без расширений
+{: #extensionless}
 
 ###### Поддержка постоянных ссылок без расширений находится в разработке
 ***Для использования этой возможности [установите последнюю версию для разработчиков.](/documentation/03_installation.html#pre-releases)***
