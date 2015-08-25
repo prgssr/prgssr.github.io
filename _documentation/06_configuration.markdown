@@ -112,7 +112,7 @@ defaults:
       author: "Mr. Hyde"
 ```
 
-С такими настройками все посты будут по умолчанию использовать макет `my-site `. А любые страницы в каталоге `projects/` будут использовать макет `project`. также в этих страницах  [переменной liquid](/documentation/12_variables.html/) `page.author`  будет задано значение `Mr. Hyde`.
+С такими настройками все посты будут по умолчанию использовать макет `my-site `. А любые страницы в каталоге `projects/` будут использовать макет `project`. также в этих страницах  [переменной liquid](/documentation/12_variables.html) `page.author`  будет задано значение `Mr. Hyde`.
 
 ```yaml
 collections:
@@ -128,7 +128,7 @@ defaults:
       layout: "default"
 ```
 
-В этом примере [коллекции](/documentation/13_collections.html/) с названием `my_collection` задан макет `default`.
+В этом примере [коллекции](/documentation/13_collections.html) с названием `my_collection` задан макет `default`.
 
 #### Приоритеты
 
