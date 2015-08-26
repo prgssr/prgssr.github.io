@@ -3,17 +3,19 @@
 ---
 @charset "utf-8";
 
-
+@import "bourbon/bourbon",
+        "base/base",
+        "neat/neat";
 
 // Our variables
 $base-font-family:  Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-$header-font-family: Georgia,serif;
+$heading-font-family: Georgia,serif;
 $code-font-family: monospace;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -23,6 +25,9 @@ $code-background: #e9e9e9;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$header-height: 56px;
+$footer-height: 80px;
 
 // Width of the content area
 $content-width:    1000px;

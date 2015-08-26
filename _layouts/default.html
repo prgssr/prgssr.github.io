@@ -7,21 +7,17 @@ layout: compress
   {% include head.html %}
 
   <body>
-
+    <div class="page-wrap">
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+
         {{ content }}
-        <div class="sidebar">
-          {% if page.layout == "doc" %}
-            {% include documentation-nav.html %}
-          {% endif %}
-       </div>
+
       </div>
 
-    </div>
 
+    </div>
     {% include footer.html %}
     {% include google-name.html %}
 
