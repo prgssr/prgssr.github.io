@@ -33,7 +33,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $base-font-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -109,18 +109,6 @@
     }
 }
 
-/**
- * Page wrap
- */
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -$footer-height;
-  &:after {
-    content: "";
-    display: block;
-    height: $footer-height;  }
-
-}
 /**
  * Page content
  */

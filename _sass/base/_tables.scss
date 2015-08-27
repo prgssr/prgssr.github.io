@@ -1,24 +1,42 @@
 table {
   border-collapse: collapse;
   margin: $small-spacing 0;
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
+  border-top: 2px solid $base-border-color;
+  border-bottom: 2px solid $base-border-color;
+  border-spacing: 0px;
+  overflow: auto;
+  word-break: keep-all;
 }
 
 th {
-  border-bottom: 1px solid darken($base-border-color, 15%);
+  border: 1px solid darken($base-border-color, 15%);
   font-weight: 600;
-  padding: $small-spacing 0;
-  text-align: left;
+  padding: $small-spacing/2 $small-spacing;
+  text-align: middle;
 }
 
 td {
-  border-bottom: $base-border;
-  padding: $small-spacing 0;
+  border: $base-border;
+  padding: $small-spacing/2 $small-spacing;
+  vertical-align: middle;
+
 }
 
-tr,
-td,
-th {
-  vertical-align: middle;
+
+table tr{
+	background-color:#fff;
+	border-top:1px solid #ccc
+}
+
+table tr:nth-child(2n){
+	background-color:#f8f8f8
+}
+table th, table td{
+
+
+}
+table th{
+	font-weight:bold
 }

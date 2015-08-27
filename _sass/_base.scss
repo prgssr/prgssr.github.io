@@ -9,26 +9,29 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-html{
-  height: 100%;
-}
-
 /**
- * Basic styling
+ * Sticky footer and basic styles
  */
+
+html{
+   height: 100%;
+ }
+
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     height: 100%;
 }
 
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -$footer-height;
+  &:after {
+    content: "";
+    display: block;
+    height: $footer-height;  }
 
-
+}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -85,7 +88,6 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    font-family: $heading-font-family;
 }
 
 strong {
@@ -99,15 +101,12 @@ strong {
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
+        &:visited {
         color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: $base-font-color;
         text-decoration: underline;
     }
 }
@@ -160,44 +159,14 @@ pre {
 }
 
 /**
- * Tables
- */
-table {
-display: block;
-width: 100%;
-border-collapse: collapse;
-border-spacing: 0px;
-overflow: auto;
-word-break: keep-all;
-border:1px solid #ddd
-}
-table tr{
-	background-color:#fff;
-	border-top:1px solid #ccc
-}
-
-table tr:nth-child(2n){
-	background-color:#f8f8f8
-}
-table th, table td{
-	padding:6px 13px;
-	border:1px solid #ddd
-}
-table th{
-	font-weight:bold
-}
-/**
  * Wrapper
  */
 .wrapper {
-
     @include outer-container(1000px);
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    @extend %clearfix;
-
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
@@ -205,22 +174,6 @@ table th{
         padding-left: $spacing-unit / 2;
     }
 }
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
 
 /**
  * Icons
