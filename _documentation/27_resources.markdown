@@ -29,4 +29,4 @@ Jekyll используется все шире и появляется боль
 * Способ [расширить Jekyll](https://github.com/rfelix/jekyll_ext) без форков и модификации кодовой базы Jekyll и некоторые портируемые расширения Jekyll.
 * [Использование макетов Rails в Jekyll](http://numbers.brighterplanet.com/2010/08/09/sharing-rails-views-with-jekyll)
 * [Добавление разбивки на страницы с  Ajax в Jekyll](https://eduardoboucas.com/blog/2014/11/10/adding-ajax-pagination-to-jekyll.html)
-* [Использование файлов с данными в Jekyll для создания динамической навигации](http://www.jordanthornquest.com/blog/building-dynamic-navbars-with-jekyll/)
+* [Использование файлов с данными в Jekyll для создания динамической навигации](http://blog.jordanthornquest.com/post/119506660470/building-dynamic-navbars-in-jekyll/)

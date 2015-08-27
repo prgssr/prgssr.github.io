@@ -408,7 +408,7 @@ end
 * [inline_highlight](https://github.com/bdesham/inline_highlight): Тег для строчной подсветки синтаксиса.
 * [jekyll-mermaid](https://github.com/jasonbellamy/jekyll-mermaid): Упрощает создание блок-схем в ваших постах и страницах.
 * [twa](https://github.com/Ezmyrelda/twa): Twemoji плагин для Jekyll. Тег Liquid позволяющий использовать twitter emoji на ваших страницах.
-* [jekyll-files](https://github.com/x43x61x69/jekyll-files) от [Zhi-Wei Cai](http://vox.vg/): Выводит строки с относительными путями и прочей информации относительно указанных подключаемых файлов.
+
 
 #### Коллекции
 

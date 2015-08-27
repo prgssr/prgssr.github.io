@@ -11,4 +11,4 @@ description: "Дополнительные возможности Jekyll."
 
 ### Альтернативные процессоры Markdown
 
-Документация по подключению и настройке альтернативных процессоров есть на [странице конфигурирования](/documentation/06_configuration.html#markdown-markdown-options), также как и советы по созданию [собственных процессоров](/documentation/06_configuration.html#markdown-custom-markdown-processors).
+Документация по подключению и настройке альтернативных процессоров есть на [странице конфигурирования](/documentation/06_configuration.html#markdown-options), также как и советы по созданию [собственных процессоров](/documentation/06_configuration.html#custom-markdown-processors).
