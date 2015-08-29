@@ -253,13 +253,13 @@ Object.unobserve(plainObject, observer);
 
 Мы сделали подробный обзор плюсов и минусов различных подходов к обработке событий, и заглянули в ее ближайшее будущее. Надеюсь, что после прочтения этой статьи вы получили представление об основных подходах и паттернах, помогающих в обработке событий и связывании данных. И в будущем учитывайте, что нет единого лучшего решения для всех проблем.
 
-Литература:
+Дополнительные материалы:
 
-[Crockford on JavaScript – Episode IV: The Metamorphosis of Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M&amp;list=PL7664379246A246CB&amp;index=4)
-[Google JavaScript Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Closures#Closures)
-[Javascript Closures](http://jibbering.com/faq/notes/closures/)
-[JsAction Repo on Github](https://github.com/google/jsaction)
-[The difference between Ractive and Angular](http://blog.ractivejs.org/posts/whats-the-difference-between-angular-and-ractive/)
-[The difference between Ractive and React](http://blog.ractivejs.org/posts/whats-the-difference-between-react-and-ractive/)
-[Containers &amp; Dependency in Ember.js](http://www.slideshare.net/mixonic/containers-di)
-[Data-binding Revolutions with Object.observe(), by Addy Osmani](http://www.html5rocks.com/en/tutorials/es7/observe/)
+* [Crockford on JavaScript – Episode IV: The Metamorphosis of Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M&amp;list=PL7664379246A246CB&amp;index=4)
+* [Google JavaScript Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Closures#Closures)
+* [Javascript Closures](http://jibbering.com/faq/notes/closures/)
+* [JsAction Repo on Github](https://github.com/google/jsaction)
+* [The difference between Ractive and Angular](http://blog.ractivejs.org/posts/whats-the-difference-between-angular-and-ractive/)
+* [The difference between Ractive and React](http://blog.ractivejs.org/posts/whats-the-difference-between-react-and-ractive/)
+* [Containers &amp; Dependency in Ember.js](http://www.slideshare.net/mixonic/containers-di)
+* [Data-binding Revolutions with Object.observe(), by Addy Osmani](http://www.html5rocks.com/en/tutorials/es7/observe/)
