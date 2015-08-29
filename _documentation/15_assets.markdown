@@ -18,7 +18,7 @@ prism: yes
 Jekyll  обрабатывает такие файлы как обычные страницы, помещая их в тот же каталог, где они и находились Например, файл `css/styles.scss` в исходном каталоге после обработки будет помещен в каталоге назначения как  `css/styles.scss`.
 
 ###### Jekyll обрабатывает все теги и фильтры Liquid в файлах с ресурсами
-***Если вы используете [Mustache](http://mustache.github.io/) или иной шаблонизатор JavaScript, конфликтующий с [синтаксисом Liquid](/documentation/17_templates.html), вам надо обернуть свой код тегами `{ % raw % }` и `{ % endraw % }`.***
+***Если вы используете [Mustache](http://mustache.github.io/) или иной шаблонизатор JavaScript, конфликтующий с [синтаксисом Liquid](/documentation/17_templates.html), вам надо обернуть свой код тегами `{_%raw %_}` и `{_%endraw %_}`.***
 
 ### Sass/SCSS
 

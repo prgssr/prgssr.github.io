@@ -1,9 +1,11 @@
 // Typography
 $base-font-family:  Helvetica, Arial, sans-serif;
 $heading-font-family: Georgia,serif;
+$code-font-family: monospace;
 
 // Font Sizes
-$base-font-size: 18px;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
 
 // Line height
 $base-line-height: 1.6;
@@ -20,11 +22,16 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: #fdfdfd;
 $base-font-color: #111;
 $action-color: $blue;
+$brand-color:      #2a7ae2;
+$code-background: #e9e9e9;
 
 // Border
 $base-border-color: $light-gray;

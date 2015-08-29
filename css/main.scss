@@ -8,34 +8,12 @@
         "neat/neat";
 
 // Our variables
-$base-font-family:  Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-$heading-font-family: Georgia,serif;
-$code-font-family: monospace;
-
-$spacing-unit:     20px;
-
-$base-font-color: #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-$code-background: #e9e9e9;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
 $header-height: 56px;
 $footer-height: 80px;
 
 // Width of the content area
-$content-width:    1000px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -54,7 +32,5 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "layout";
 ;

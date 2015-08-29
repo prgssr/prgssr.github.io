@@ -1,0 +1,44 @@
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: $small-font-size;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: $code-background;
+    font-family: $code-font-family;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $gutter / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+blockquote, pre {
+  margin-bottom: $small-spacing;
+}

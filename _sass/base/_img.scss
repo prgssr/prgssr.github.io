@@ -1,0 +1,21 @@
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
