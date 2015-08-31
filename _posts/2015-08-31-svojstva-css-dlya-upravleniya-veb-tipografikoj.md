@@ -90,7 +90,7 @@ h2 {
 }
 ```
 
-![заглавный регистр шрифта](/images/development/uppercase.png)
+![заглавный регистр текста](/images/development/uppercase.png)
 
 
 ### Значение `lowercase`
@@ -110,7 +110,7 @@ h2 {
 }
 ```
 
-![строчный регистр шрифта](/images/development/lowercase.png)
+![строчный регистр текста](/images/development/lowercase.png)
 
 ### Значение `full-width`
 
@@ -132,7 +132,7 @@ h2 {
 ```
 Это свойство на данный момент поддерживается только в Firefox.
 
-![полная ширина шрифта](/images/development/full-width.png)
+![полная ширина текста](/images/development/full-width.png)
 
 ### Дополнительная информация
 
@@ -216,7 +216,7 @@ element {
 
 Однако, если вы уменьшите ширину браузера, вы заметите, что все строки ограничены шириной контейнера.
 
-![](/images/development/1440460949white-space-prewrap-shrunk.jpg)
+![white-space-pre-wrap-shrunk](/images/development/1440460949white-space-prewrap-shrunk.jpg)
 
 ### Значение `pre-line`
 
@@ -224,7 +224,7 @@ element {
 
 ```css
 element {
-  white-space: pre-line;   
+  white-space: pre-line;
 }
 ```
 
@@ -440,7 +440,7 @@ element {
 
 [Демо с современными свойствами для выравнивания текста на Codepen](http://codepen.io/SitePoint/pen/bdXoRr)
 
-## Отступы в тексте - `text-indent` 
+## Отступы в тексте - `text-indent`
 
 Отступы в тексте обычно делаются в первой строке параграфа, хотя и не являются распространенной практикой на веб-сайтах. Вместо этого обычно помещается пустая строка, разделяющая параграфы.
 
@@ -472,4 +472,3 @@ element {
 Два последних значения: `each-line` и `hanging` являются экспериментальными и не реализованы на данный момент ни в одном из браузеров.
 
 [Демонстрация отступов текста на Codepen](http://codepen.io/SitePoint/pen/OVKxjp)
-
