@@ -1,5 +1,5 @@
 body {
-  @include font-feature-settings("kern", "liga", "pnum");
+  @include font-feature-settings("kern", "liga", "pnum", "smcp", "onum");
   -webkit-font-smoothing: antialiased;
   color: $base-font-color;
   font-family: $base-font-family;
@@ -16,17 +16,34 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-  font-family: $heading-font-family;
-  font-size: $base-font-size;
-  line-height: $heading-line-height;
+h5
+ {
   font-weight: 400;
-  margin: 0 0 $small-spacing;
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+  margin: $small-spacing/2 0 $small-spacing;
 }
 
-p {
-  margin: 0 0 $small-spacing;
+h6 {
+  font-weight: 700;
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+  margin: $small-spacing/2 0 $small-spacing;
+}
+
+$headings: (
+   h1: 5,
+   h2: 4,
+   h3: 3,
+   h4: 2,
+   h5: 1,
+   h6: 0
+);
+
+@each $heading, $scale in $headings {
+   #{$heading} {
+      font-size: modular-scale($scale);
+   }
 }
 
 a {
@@ -51,7 +68,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: $base-spacing 0;
+  margin: $small-spacing 0;
 }
 
 strong {

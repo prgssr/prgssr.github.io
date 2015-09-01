@@ -8,6 +8,7 @@ tags: sitepoint translation mobile
 original: "http://www.sitepoint.com/debugging-mobile-websites-firefox/"
 original_author: "Jérémy Heleine"
 thumbnail: "/images/development/1426786117responsive-mode-1024x736.png"
+prism: yes
 ---
 {% include translate.html %}
 
@@ -80,14 +81,19 @@ Firefox использует ADB для установки соединения 
 
 Сначала подсоедините свой девайс через USB к компьютеру. Откройте командную строку и запустите ADB-сервер, если он еще не запущен.
 
-`adb start-server`
+```bash
+adb start-server
+```
 
 Теперь вам надо убедиться, что ваш девайс правильно распознан:
 
-`adb devices`
+```bash
+adb devices
+```
 
 Будет выведен список подключенных устройств, примерно такой:
-```
+
+```bash
 List of devices attached
 BH90TFM516  device
 ```
@@ -99,12 +105,18 @@ BH90TFM516  device
 Теперь создадим соединение к сокету. Тип команды зависит от версии Firefox на вашем устройстве.
 
 Для стабильной версии Firefox для Android 35+, наберите:
-`adb forward tcp:6000 localfilesystem:/data/data/org.mozilla.firefox/firefox-debugger-socket`.
+
+```bash
+adb forward tcp:6000 localfilesystem:/data/data/org.mozilla.firefox/firefox-debugger-socket`
+```
 
 `org.mozilla.firefox` заменяется на `org.mozilla.firefox_beta`, если вы используете бета-версию; на  `org.mozilla.fennec_aurora` при использовании Aurora; и на `org.mozilla.fennec` при использовании ночных сборок.
 
 Если же у вас  Firefox для Android 34-, то команда будет проще:
-`adb forward tcp:6000 tcp:6000`
+
+```bash
+adb forward tcp:6000 tcp:6000
+```
 
 #### Соединяем Firefox
 

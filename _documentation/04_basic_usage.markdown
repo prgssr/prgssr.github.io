@@ -39,7 +39,7 @@ $ jekyll serve --detach
 #    If you cannot find the PID, then do, `ps aux | grep jekyll` and kill the instance. [Read more](http://unixhelp.ed.ac.uk/shell/jobz5.html).
 ```
 
-##### Особенности поведения сервера по умолчанию
+###### Особенности поведения сервера по умолчанию
 
 С версии 2.4 команда `serve` будет отслеживать изменения автоматически. Для отключения этого используйте команду `jekyll serve --no-watch`:
 

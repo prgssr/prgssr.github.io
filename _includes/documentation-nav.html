@@ -1,8 +1,8 @@
-<h3 class="documentation-header">Оглавление</h3>
+<h4 class="documentation-header">Оглавление</h4>
 <ul class="documentation">
 	{% for item in site.documentation %}
 		{% if item.header %}
-			<h4>{{item.header}}</h4>
+			<h5 class="documentation-subheader">{{item.header}}</h5>
 		{% endif %}
 	<li class="documentation-item">
 		<a href="{{ item.url }}">{{ item.title }}</a>

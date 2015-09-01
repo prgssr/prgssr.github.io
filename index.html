@@ -6,13 +6,14 @@ layout: default
 <div class="home">
 <!-- Цикл по списку постов, разбитых на страницы-->
 {% for post in paginator.posts %}
-  <span class="post-meta">
-    {% include date-localization-post.html %}
-  </span>
   <h2>
     <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-     <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
   </h2>
+    <span class="post-meta">
+      {% include date-localization-post.html %}
+    </span>
+     <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+     <hr>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}

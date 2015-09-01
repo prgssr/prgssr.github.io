@@ -29,12 +29,15 @@ body {
     @include outer-container(1024px);
     margin-right: auto;
     margin-left: auto;
-    @include pad(0 $gutter/2 );
+    @include pad(0 $gutter/3 );
     @include media($on-laptop) {
-        @include pad(0 $gutter/3);
+        @include pad(0 $gutter/2);
     }
 }
 
+.home h2{
+  margin: 0;
+}
 /**
  * Icons
  */
@@ -85,6 +88,7 @@ body {
 }
 
 .site-nav {
+
     float: right;
     line-height: $header-height;
 
@@ -102,7 +106,7 @@ body {
         }
     }
 
-    @include media-query($on-palm) {
+    @include media(max-width $on-palm) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -117,7 +121,7 @@ body {
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
+            padding: 5px 0;
             text-align: center;
 
             > svg {
@@ -164,6 +168,7 @@ body {
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    padding-left: 0;
     li {
       display: inline-block;
     }
@@ -178,9 +183,6 @@ body {
 
 }
 
-.page-heading {
-    font-size: 20px;
-}
 
 .post-list {
     margin-left: 0;
@@ -202,7 +204,8 @@ body {
 }
 
 .comments-link {
-    font-size: 12px;
+    font-size: $small-font-size;
+    margin-left: $gutter;
 }
 
 /**
@@ -224,49 +227,12 @@ body {
 }
 
 .post-title {
-    font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }
 
 .post-content {
     margin-bottom: $base-spacing;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-      h5 {
-        font-size: 1.125em;
-        font-weight: bold;
-}
-    h6 {
-        font-size: 1em;
-        font-weight: bold;
-}
 }
 
 /**
@@ -282,7 +248,7 @@ body {
   text-align: center;
 }
 
-.documentation h4{
+.documentation-subheader{
     margin-top: $small-spacing;
     border-bottom: 1px solid black;
 }

@@ -16,7 +16,7 @@ prism: yes
 * [NodeJS](http://nodejs.org/) или иное  JavaScript окружение для запуска CoffeeScript
 
 
-##### Запуск  Jekyll на Windows
+###### Запуск  Jekyll на Windows
 
 Несмотря на отсутствие официальной поддержки Windows, Jekyll можно запустить на этой операционной системе. Инструкции можно прочитать [здесь](http://jekyllrb.com/docs/windows/#installation).
 
@@ -31,7 +31,7 @@ $ gem install jekyll
 
 Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения на странице [troubleshooting](http://jekyllrb.com/docs/troubleshooting/) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это поможет сообществу улучшить  Jekyll.
 
-##### Установка инструментов командной строки  Xcode
+###### Установка инструментов командной строки  Xcode
 
 Если вы работаете на Mac OS X и столкнулись с проблемами при установке зависимостей Jekyll, вам надо установить Xcode  и его инструменты командной строки. Скачать их можно через `Preferences → Downloads → Components`.
 
