@@ -45,7 +45,9 @@ $headings: (
       font-size: modular-scale($scale);
    }
 }
-
+p {
+  margin-bottom: $small-spacing;
+}
 a {
   color: $action-color;
   text-decoration: none;

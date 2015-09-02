@@ -206,6 +206,7 @@ body {
 .comments-link {
     font-size: $small-font-size;
     margin-left: $gutter;
+    font-style: italic;
 }
 
 /**
@@ -214,10 +215,12 @@ body {
 .post-header {
     margin-bottom: $base-spacing;
 }
+
 .post, .home {
   float: left;
   width: 100%;
 }
+
 .article {
     @include span-columns(12);
     @include media($on-palm) {
