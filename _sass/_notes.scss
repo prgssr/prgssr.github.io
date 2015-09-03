@@ -1,0 +1,19 @@
+h6.unreleased, h6.warning, h6.protip, h6.info {
+  margin-bottom: 0;
+}
+.unreleased, .protip, .warning, .info{
+  font-family: $heading-font-family;
+  padding-left: $gutter / 2;
+}
+.warning {
+  border-left: 4px solid tint(red, 40%);
+}
+.protip {
+  border-left: 4px solid tint(blue, 50%);
+}
+.info {
+  border-left: 4px solid tint(#74643E, 30%);
+}
+.unreleased{
+  border-left: 4px solid tint(green, 30%);
+}

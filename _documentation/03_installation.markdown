@@ -17,9 +17,9 @@ prism: yes
 
 
 ###### Запуск  Jekyll на Windows
-
+{: .info}
 Несмотря на отсутствие официальной поддержки Windows, Jekyll можно запустить на этой операционной системе. Инструкции можно прочитать [здесь](http://jekyllrb.com/docs/windows/#installation).
-
+{: .info}
 
 ### Установка с помощью RubyGems
 
@@ -32,9 +32,9 @@ $ gem install jekyll
 Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения на странице [troubleshooting](http://jekyllrb.com/docs/troubleshooting/) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это поможет сообществу улучшить  Jekyll.
 
 ###### Установка инструментов командной строки  Xcode
-
+{: .info}
 Если вы работаете на Mac OS X и столкнулись с проблемами при установке зависимостей Jekyll, вам надо установить Xcode  и его инструменты командной строки. Скачать их можно через `Preferences → Downloads → Components`.
-
+{: .info}
 
 #### Пре-релизы
 {: #pre-releases}
@@ -67,5 +67,6 @@ $ ls pkg/*.gem | head -n 1 | xargs gem install -l
 Существует много дополнительных возможностей Jekyll, которые вы можете установить, в зависимости от ваших планов. В их число входит поддержка  LaTeX  и альтернативных движков рендеринга. Подробности можно узнать на странице [Extras](/documentation/21_extra.html).
 
 ###### Совет: активация подсветки синтаксиса
-
+{: .protip}
 ***Если вы хотите подсвечивать синтаксис с помощью [Pygments](http://pygments.org/) или [Rouge](https://github.com/jayferd/rouge), ознакомьтесь с [документацией](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) прежде чем приступать к работе.***
+{: .protip}

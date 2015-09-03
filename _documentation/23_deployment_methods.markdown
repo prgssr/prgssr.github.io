@@ -99,4 +99,6 @@ laptops$ git push deploy master
 Для развертывания на Opensift есть [готовый картридж](https://github.com/openshift-cartridges/openshift-jekyll-cartridge).
 
 ###### Совет: используйте GitHub Pages для беспроблемного хостинга Jekyll
+{: .protip}
 ***GitHub Pages работают на Jekyll, поэтому являются идеальным решением для удобного и [бесплатного хостинга](http://jekyllrb.com/docs/github-pages/).***
+{: .protip}
