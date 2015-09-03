@@ -260,7 +260,10 @@ body {
     list-style-type: none;
     font-family: $heading-font-family;
 }
-
+.documentation-list {
+  padding-left: 0;
+  margin-left: 0;
+}
 
 /**
  * Collection navigation
