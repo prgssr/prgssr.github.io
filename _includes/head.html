@@ -9,6 +9,9 @@
   {% include twitter_card.html %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=0.1">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% if page.is_post or page.disqus %}
+      <link rel="dns-prefetch" href="//disqus.com">
+  {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   {% include google-analytics.html %}
   {% if page.prism %}

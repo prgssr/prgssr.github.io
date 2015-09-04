@@ -11,8 +11,8 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 
 Описание| Фильтр и его результат
 --------|-----------------------
-`Date to XML Schema` Конвертирует дату в  формат XML Schema (ISO 8601).| {% raw %}`{{ site.time | date_to_xmlschema }}` , 2008-11-07T13:07:54-08:00{% endraw %}
-`Date to RFC-822 Format` Конвертирует дату в  формат RFC-822 для RSS фидов. | {% raw %} `{{ site.time | date_to_rfc822 }}`, Mon, 07 Nov 2008 13:07:54 -0800 {% endraw %}
+`Date to XML Schema` Конвертирует дату в  формат XML Schema (ISO 8601).| {% raw %}`{{site.time | date_to_xmlschema}}` {% endraw %},  2008-11-07T13:07:54-08:00
+`Date to RFC-822 Format` Конвертирует дату в  формат RFC-822 для RSS фидов. | {% raw %} `{{ site.time | date_to_rfc822 }}` {% endraw %}, Mon, 07 Nov 2008 13:07:54 -0800 
 `Date to String` Конвертирует дату в  короткий формат. | {% raw %}`{{ site.time | date_to_string }}`, 07 Nov 2008 {% endraw %}
 `Date to Long String` Конвертирует дату в длинный формат. | {% raw %}`{{ site.time | date_to_long_string }}` , 07 November 2008 {% endraw %}
 `Where` Выбирает все объекты в массиве по указанному значению ключа | {% raw %}`{{ site.members | where:"graduation_year","2014" }}` {% endraw %}
@@ -23,7 +23,7 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 `Number of Words` Возвращает количество слов в тексте. | {% raw %}`{{ page.content | number_of_words }}` , 1337 {% endraw %}
 `Array to Sentence` Конвертирует массив в предложение. Полезно для тегов списков. | {% raw %}`{{ page.tags | array_to_sentence_string }}` ,foo, bar, and baz {% endraw %}
 `Markdownify` Конвертирует строку Markdown в HTML. | {% raw %}`{{ page.excerpt | markdownify }}` {% endraw %}
-`Converting Sass/SCSS`  Конвертирует строку Sass или SCSS в CSS. | {% raw %}`{{ some_scss | scssify }} {{ some_sass | sassify }}` {% endraw %}
+`Converting Sass/SCSS`  Конвертирует строку Sass или SCSS в CSS. | {% raw %}`{{ some_scss | scssify }}` `{{ some_sass | sassify }}` {% endraw %}
 `Slugify` Конвертирует строку в строчный URL "slug". Ниже показаны опции. | {% raw %}`{{ "The _config.yml file" | slugify }}` ,the-config-yml-file `{{ "The _config.yml file" | slugify: 'pretty' }}` , the-_config.yml-file {% endraw %}
 `Data To JSON` Конвертирует хэш или массив в JSON.| {% raw %}`{{ site.data.projects | jsonify }}` {% endraw %}
 `Sort` Сортирует массив. Опциональные элементы для хэшей: 1. Имя свойства 2. Место nil  (в начале или в конце). | {% raw %}`{{ page.tags | sort }}` , `{{ site.posts | sort: 'author' }}` , `{{ site.pages | sort: 'title', 'last' }} ` {% endraw %}
