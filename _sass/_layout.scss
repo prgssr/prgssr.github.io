@@ -205,8 +205,9 @@ body {
 
 .comments-link {
     font-size: $small-font-size;
-    margin-left: $gutter;
-    font-style: italic;
+    color: $grey-color;
+    white-space: nowrap;
+    float: right;
 }
 
 /**
