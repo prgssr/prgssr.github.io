@@ -9,6 +9,7 @@ description: "Условная загрузка стилей в современ
 original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"
 original_author: "Энди Кирк"
 prism: yes
+noimage: truth
 ---
 {% include translate.html %}
 

@@ -9,7 +9,6 @@ tags: sitepoint translation performance
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
 original_author: "Крэйг Баклер"
 prism: yes
-thumbnail: "/images/development/L5idYpg.png"
 ---
 {% include translate.html %}
 
@@ -146,7 +145,7 @@ document.body.appendChild(frag);
 
 Все основные браузеры предоставляют средства разработки, позволяющие выявлять, как перекомпоновка влияет на производительность. В браузерах  на движках Blink/Webkit (Chrome, Safari и Opera) есть панель Timeline:
 
-![minimize-reflow](/images/development/Y6fh1wD.png)
+![minimize-reflow](/images/development/Y6fh1wD.png){: itemprop="image"}
 
 И аналогичная панель в Firefox:
 

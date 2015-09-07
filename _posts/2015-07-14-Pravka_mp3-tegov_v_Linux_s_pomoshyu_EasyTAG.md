@@ -5,7 +5,6 @@ date:   2015-07-14 16:17:00
 categories: articles
 description: "Правка mp3 тегов в Linux и Ubuntu. Заполнение тегов с помощью масок в EasyTag, переименование файлов и обработка полей. Импорт данных из CDDB и Discogs."
 tags: linux audio
-thumbnail: "/images/articles/easy-mask3.png"
 ---
 {% include toc.md %}
 
@@ -18,7 +17,7 @@ thumbnail: "/images/articles/easy-mask3.png"
 Итак, у нас есть каталог с файлами, как правило, это альбом, в котором не прописаны теги. Проще всего их прописать, если альбом имеется в базе данных CDDB, для этого обычно хватает нескольких кликов. Этот вариант сработает с  большинством альбомов, изданных на компакт-диске.
 
 1. Выбираем нужный каталог:
-![easyTag-cddb](/images/articles/easy-cddb.png)
+![easyTag-cddb](/images/articles/easy-cddb.png){: itemprop="image"}
 
 2. Выделяем файлы и нажимаем кнопку CDDB:
 ![easyTag-cddb](/images/articles/easy-cddb1.png)

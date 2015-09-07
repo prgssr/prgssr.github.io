@@ -8,7 +8,6 @@ tags: sitepoint translation
 original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
 original_author: "Louis Lazaris"
 scripts: codepen
-thumbnail: "/images/development/1436312214border-radius-slash.png"
 prism: yes
 ---
 {% include translate.html %}
@@ -37,7 +36,7 @@ prism: yes
 
 В спецификации это поясняется следующим изображением:
 
-![border-radius](/images/development/1436312214border-radius-slash.png)
+![border-radius](/images/development/1436312214border-radius-slash.png){: itemprop="image"}
 
 Два значения `border-top-left-radius: 55pt 25pt` задают кривизну угла.
 

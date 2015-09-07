@@ -7,6 +7,7 @@ published: True
 description: "Аудит кода CSS - методы и инструменты: type-o-matic, Dust-Me Selectors и CSS Lint"
 original: "http://alistapart.com/article/css-audits-taking-stock-of-your-code"
 original_author: "Сюзан Робертсон"
+noimage: truth
 ---
 {% include translate.html %}
 

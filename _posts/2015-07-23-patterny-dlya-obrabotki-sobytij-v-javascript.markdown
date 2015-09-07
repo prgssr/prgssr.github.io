@@ -8,6 +8,7 @@ description: "Обязательно ли сохранять всю логику
 original: "http://www.sitepoint.com/emerging-patterns-javascript-event-handling/"
 original_author: "Марселло Ла Рокка"
 prism: yes
+noimage: truth
 ---
 {% include translate.html %}
 

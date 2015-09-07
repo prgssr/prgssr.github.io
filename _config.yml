@@ -10,7 +10,7 @@ github_username:
 # Build settings
 kramdown:
   input: GFM
-  auto_id_prefix: "header-"
+  auto_id_prefix: "heading-"
 permalink: :categories/:title.html
 exclude: [vendor]
 

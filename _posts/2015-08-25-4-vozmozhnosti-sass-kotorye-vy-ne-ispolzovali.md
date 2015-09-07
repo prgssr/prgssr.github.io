@@ -5,10 +5,11 @@ date: 2015-08-25 19:43:00
 categories: [development]
 tags: [sass, translation, sitepoint]
 published: True
-description: "Комментарии Sass, локальные и глобальные переменные, плейсхолдеры и использование амперсанда." 
+description: "Комментарии Sass, локальные и глобальные переменные, плейсхолдеры и использование амперсанда."
 original: "http://www.sitepoint.com/sass-features-may-never-tried/"
 original_author: "Дэвид Грин"
 prism: yes
+noimage: truth
 ---
 {% include translate.html %}
 
@@ -38,7 +39,7 @@ a {
 a {
   color: #ccc;
 }
- 
+
 a.halloween {
   /* This is for seasonal links */
   color: #ff8c00;
@@ -64,7 +65,7 @@ a {
 a {
   color: #ccc;
 }
- 
+
 a.halloween {
   /* This is for seasonal links */
   color: #ff8c00;
@@ -72,15 +73,15 @@ a.halloween {
 ```
 
 ## 2. Локальные и глобальные переменные
- 
-Управление пространством имен это один из самых сложных аспектов любого языка, SASS здесь не исключение. SASS позволяет создавать глобальные и локальные переменные и переопределять их при необходимости. 
+
+Управление пространством имен это один из самых сложных аспектов любого языка, SASS здесь не исключение. SASS позволяет создавать глобальные и локальные переменные и переопределять их при необходимости.
 
 Глобальные переменные в SASS обычно используются для семантических названий  цветов. Например, вверху основного файла SASS можно определить `$color_success` как цвет для текста сообщений об успешном выполнении чего-либо, который может наследовать и модифицироваться многими селекторами.
 
 ```scss
 //defining a global success color
 $color_success: #090;
- 
+
 .state_success {
   color: lighten($color_success, 50%);
   background-color: $color_success;
@@ -120,7 +121,7 @@ state_success_particular {
 ```scss
 //Overriding earlier globals globally (a bad idea)
 $color_success: #900;
- 
+
 .state_success_particular {
   color: lighten($color_success, 50%);
   background-color: $color_success;
@@ -140,12 +141,12 @@ $color_success: #900;
   font-style: bold;
   font-size: 1.5rem;
 }
- 
+
 .important {
   color: #900;
   @extend .prominent;
 }
- 
+
 .notice {
   color: #090;
   @extend .prominent;
@@ -159,11 +160,11 @@ $color_success: #900;
   font-style: bold;
   font-size: 1.5rem;
 }
- 
+
 .important {
   color: #900;
 }
- 
+
 .notice {
   color: #090;
 }
@@ -175,17 +176,17 @@ $color_success: #900;
   font-style: bold;
   font-size: 1.5rem;
 }
- 
+
 %subtle {
   font-style: regular;
   font-size: 0.75rem;
 }
- 
+
 .important {
   color: #900;
   @extend %prominent;
 }
- 
+
 .notice {
   color: #090;
   @extend %prominent;
@@ -199,11 +200,11 @@ $color_success: #900;
   font-style: bold;
   font-size: 1.5rem;
 }
- 
+
 .important {
   color: #900;
 }
- 
+
 .notice {
   color: #090;
 }
@@ -215,17 +216,17 @@ $color_success: #900;
 
 ```scss
 $color_highlight: #090;
- 
+
 %prominent {
   color: $color_highlight;
   font-style: bold;
   font-size: 1.5rem;
 }
- 
+
 .important {
   @extend %prominent;
 }
- 
+
 .notice {
   $color_highlight: #900;
   @extend %prominent;
@@ -261,7 +262,7 @@ $color_highlight: #090;
 .hoverable {
   color: #fff;
 }
- 
+
 .hoverable:hover {
   color: #ff0;
 }
@@ -305,11 +306,11 @@ $color_highlight: #090;
 .hoverable {
   color: #fff;
 }
- 
+
 .hoverable:hover {
   color: #ff0;
 }
- 
+
 .special .hoverable {
   border: 1px solid #f00;
 }
@@ -318,4 +319,3 @@ $color_highlight: #090;
 Вы видите, что сделала всего одна строчка с амперсандом? Sass заменил амперсанд родительским селектором, задав таким образом стили для `.hoverable` внутри `.special`.
 
 Подумайте о том, как некоторые из этих идей могут вам помочь при разработке следующего проекта с Sass. Так как все это является частью ядра Sass, вы можете начать использовать это уже сейчас, получив возможность для более эффективной разработки.
-

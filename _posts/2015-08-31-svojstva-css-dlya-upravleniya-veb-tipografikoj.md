@@ -178,7 +178,7 @@ element {
 }
 ```
 
-![white-space-pre](/images/development/1440569470white-space-pre.jpg)
+![white-space-pre](/images/development/1440569470white-space-pre.jpg){: itemprop="image"}
 
 ![white-space-pre-code](/images/development/1440569514white-space-pre-code.jpg)
 

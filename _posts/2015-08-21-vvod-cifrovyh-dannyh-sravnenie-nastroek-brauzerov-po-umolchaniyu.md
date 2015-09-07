@@ -9,6 +9,7 @@ description: "Стили по умолчанию для полей ввода ч
 original: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
 original_author: "Джефф Грэхем"
 prism: yes
+noimage: truth
 ---
 {% include translate.html %}
 

@@ -22,7 +22,7 @@ prism: yes
 
 Если вы когда-либо прогоняли один из своих сайтов через  PageSpeed Insights, то вы уже могли столкнуться с подобным отчетом:
 
-![PageSpeed Insights](/images/development/01-blocking-CSS-opt-small.jpg)
+![PageSpeed Insights](/images/development/01-blocking-CSS-opt-small.jpg){: itemprop="image"}
 
 *CSS и JavaScript блокируют рендеринг страницы. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/01-blocking-CSS-opt.jpg))*
 

@@ -9,6 +9,7 @@ description: "Отзывчивая типографика с Sass. Автома�
 original: "http://www.smashingmagazine.com/2015/06/responsive-typography-with-sass-maps/"
 original_author: "Jonathan Suh"
 prism: yes
+noimage: truth
 ---
 {% include translate.html %}
 

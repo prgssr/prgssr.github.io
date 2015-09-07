@@ -8,7 +8,6 @@ thumb: "/images/development/kqW6her.png"
 tags: sitepoint translation performance
 original: "http://www.sitepoint.com/optimizing-critical-rendering-path/"
 original_author: "Штефан Макс"
-thumbnail: "/images/development/kqW6her.png"
 prism: yes
 ---
 {% include translate.html %}
@@ -70,7 +69,7 @@ p span { display: none; }
 
 Этот небольшой фрагмент CSS парсится в объектную модель CSS или CSSOM.
 
-![CSSOM](/images/development/QJqXxft.png)
+![CSSOM](/images/development/QJqXxft.png){: itemprop="image"}
 
 К сожалению, CSSOM не может строится постепенно, как DOM. Представьте, что в нашей таблице стилей, приведенной выше есть третья строка, например `p { font-weight: normal; }`, переписывающая первую декларацию. И именно по причине каскадирования и переписывания, мы должны дождаться полной загрузки CSS, перед тем как перейти к рендерингу. Пока CSS  не загружен - рендеринг блокирован.
 
