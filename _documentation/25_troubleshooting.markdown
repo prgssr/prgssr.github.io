@@ -59,7 +59,7 @@ sudo emerge -av dev-ruby/rubygems
 
 #### Не найдено окружение JavaScript (ExecJS::RuntimeUnavailable)
 
-Эта ошибка случает в ходе инсталляции `jekyll-coffeescript`, когда у вас нет правильного JavaScript окружения. Чтобы решить ее, установите gem'ы `execjs `и `therubyracer` или ` nodejs`. Больше информации на [GitHub Jekyll](https://github.com/jekyll/jekyll/issues/2327).
+Эта ошибка случает в ходе инсталляции `jekyll-coffeescript`, когда у вас нет правильного JavaScript окружения. Чтобы решить ее, установите gem'ы `execjs `и `therubyracer` или `nodejs`. Больше информации на [GitHub Jekyll](https://github.com/jekyll/jekyll/issues/2327).
 
 ### Проблемы при запуске
 {: #problems-running-jekyll}
@@ -78,13 +78,13 @@ jekyll serve --baseurl '/blog'
 То проверяйте доступность сайта по следующему адресу:
 
 
-http://localhost:4000/blog/index.html
+`http://localhost:4000/blog/index.html`
 
 
 Он не будет работать по простому адресу:
 
 
-http://localhost:4000/blog
+`http://localhost:4000/blog`
 
 
 ### Проблемы  с конфигурированием
