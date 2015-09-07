@@ -233,6 +233,7 @@ body {
 .post-title {
     letter-spacing: -1px;
     line-height: 1;
+    margin-top:0;
 }
 
 .post-content {
@@ -245,7 +246,7 @@ body {
 .sidebar {
     @include span-columns(12);
     @include media($on-palm) {
-      @include span-columns(3);
+      @include span-columns(3);      
       }
  }
 .documentation-header {

@@ -21,9 +21,8 @@ h5
   font-weight: 400;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
-  margin: $small-spacing/2 0 $small-spacing;
+  margin: $small-spacing 0 $small-spacing/2;
 }
-
 h6 {
   font-weight: 700;
   font-family: $heading-font-family;
@@ -46,7 +45,7 @@ $headings: (
    }
 }
 p {
-  margin-bottom: $small-spacing;
+  margin-bottom: $small-spacing/2;
 }
 a {
   color: $action-color;
