@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% if page.is_post or page.disqus %}
       <link rel="dns-prefetch" href="//disqus.com">
-      <link rel="dns-prefetch" hef="//a.disquscdn.com/">
+      <link rel="dns-prefetch" href="//a.disquscdn.com/">
   {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   {% include google-analytics.html %}
