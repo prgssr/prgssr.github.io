@@ -4,7 +4,7 @@ title:  "12 малоизвестных фактов о CSS - продолжен�
 date:   2015-07-15 17:20:00
 categories: development
 description: "12 фактов о малоизвестных свойствах и особенностях свойств CSS - outline-offset, table-layout, border-radius, font-weight и т.д. Перевод статьи Sitepoint."
-tags: sitepoint translation
+tags: css translation sitepoint 
 original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
 original_author: "Louis Lazaris"
 scripts: codepen

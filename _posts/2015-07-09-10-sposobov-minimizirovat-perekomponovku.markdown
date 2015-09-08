@@ -5,7 +5,7 @@ date:   2015-07-09 16:17:00
 categories: development
 description: "Как ускорить загрузку страницы. Особенности перерисовки и перекомпоновки элементов. 10 советов по оптимизации CSS и JavaScript. Перевод статьи с Sitepoint."
 thumb: "/images/development/Y6fh1wD.png"
-tags: sitepoint translation performance
+tags: performance translation sitepoint
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
 original_author: "Крэйг Баклер"
 prism: yes

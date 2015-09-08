@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="wrapper">
 <div itemscope itemtype="http://schema.org/BlogPosting" class="post">
-  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+  {% include tags-keywords-convert.html %}
   <meta itemprop="description"
         content="{{ page.description }}" />
   {% assign category = page.categories[0] %}

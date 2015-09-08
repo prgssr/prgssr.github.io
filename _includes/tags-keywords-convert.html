@@ -1,0 +1,2 @@
+{% capture keywords %}{% for tag in page.tags %},{{ site.data.keywords.[tag]}}{% endfor %}{% endcapture %}
+<meta itemprop="keywords" content="{{ keywords | remove_first: ',' }}" />

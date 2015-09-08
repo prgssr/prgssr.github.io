@@ -3,7 +3,7 @@ layout: post
 title: "Свойства CSS для управления веб-типографикой"
 categories: [development]
 date: 2015-08-31 18:00:00
-tags: [translation, sitepoint, css]
+tags: [css, translation, sitepoint]
 description: "Управление веб-типографикос с text-transform, white-space, overflow-wrap, hyphens, word-spacing, text-indent и т.д."
 original: "http://www.sitepoint.com/css-properties-to-control-web-typography/"
 original_author: Maria Antonietta Perna

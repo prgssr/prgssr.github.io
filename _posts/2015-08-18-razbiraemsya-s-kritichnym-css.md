@@ -3,7 +3,7 @@ layout: post
 title: "Разбираемся с критичным CSS"
 date: 2015-08-18 22:00:00
 categories: [development]
-tags: [sitepoint, css, translation]
+tags: [css, translation, sitepoint]
 published: True
 description: "Инлайнирование критичного CSS с помощью Grunt и Critical"
 original: "http://www.smashingmagazine.com/2015/08/understanding-critical-css/"

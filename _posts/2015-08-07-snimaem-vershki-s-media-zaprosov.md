@@ -3,7 +3,7 @@ layout: post
 title: Снимаем вершки с медиа-запросов
 date:   2015-08-07 11:36:00
 categories: [development]
-tags: [translation sitepoint CSS]
+tags: [translation, sitepoint, css]
 published: True
 description: "Условная загрузка стилей в современные браузеры без помощи JavaScript"
 original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"

@@ -4,7 +4,7 @@ title:  "Отладка мобильных сайтов в Firefox"
 date:   2015-07-13 18:44:00
 categories: development
 description: "Отладка мобильных сайтов в Firefox. Установка adb. Активация отзывчивого режима и удаленного отлаживания в Firefox. Перевод статьи с Sitepoint"
-tags: sitepoint translation mobile
+tags: mobile translation sitepoint  
 original: "http://www.sitepoint.com/debugging-mobile-websites-firefox/"
 original_author: "Jérémy Heleine"
 prism: yes
