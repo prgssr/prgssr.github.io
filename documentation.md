@@ -2,7 +2,7 @@
 layout: doc
 title: "Документация Jekyll"
 permalink: /documentation/
-description: "Перевод документации Jekyll"
+description: "Перевод документации по генератору статических сайтов Jekyll"
 documentation: true
 ---
 
