@@ -209,7 +209,9 @@ body {
     white-space: nowrap;
     float: right;
 }
-
+.comments-link:visited {
+  color: inherit;
+}
 /**
  * Posts
  */
@@ -246,7 +248,7 @@ body {
 .sidebar {
     @include span-columns(12);
     @include media($on-palm) {
-      @include span-columns(3);      
+      @include span-columns(3);
       }
  }
 .documentation-header {
