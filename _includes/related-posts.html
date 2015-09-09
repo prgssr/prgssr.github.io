@@ -1,0 +1,5 @@
+<ul class="related-list">
+  {% for post in site.related_posts %}
+  <li class="related-item"><a href="{{post.url | prepend: site.url }}">{{ post.title}}</a></li>
+  {% endfor %}
+</ul>
