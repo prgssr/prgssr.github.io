@@ -1,11 +1,11 @@
 # Site settings
 title: "Прогрессор"
-email: 
+email:
 description: "Блог прогрессора"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://prgssr.ru" # the base hostname & protocol for your site
 twitter_username: "@prgssr"
-github_username:  
+github_username:
 
 # Build settings
 kramdown:
@@ -15,10 +15,12 @@ permalink: :categories/:title.html
 exclude: [vendor]
 
 #collections
-collections: 
-   documentation: 
+collections:
+   documentation:
      output: true
-     layout: doc     
+     layout: doc
+     date: "2015-07-28"
+     image: "/images/jekyll.png"
 
 #gems
 gems:
