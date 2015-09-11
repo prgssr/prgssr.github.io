@@ -9,6 +9,7 @@ date: 2015-09-09 19:21:41
 prism: yes
 original: "https://css-tricks.com/prefetching-preloading-prebrowsing/"
 original_author: "Робин Рендл"
+noimage: truth
 ---
 {% include translate.html %}
 
