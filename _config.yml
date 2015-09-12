@@ -11,6 +11,7 @@ github_username:
 kramdown:
   input: GFM
   auto_id_prefix: "heading-"
+  enable_coderay: false
 permalink: :categories/:title.html
 exclude: [vendor]
 
