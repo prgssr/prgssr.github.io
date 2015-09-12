@@ -14,6 +14,7 @@ kramdown:
   enable_coderay: false
 permalink: :categories/:title.html
 exclude: [vendor]
+lsi: truth
 
 #collections
 collections:
