@@ -8,6 +8,7 @@ description: "Краткое сравнение 4-х основных парсе
 prism: yes
 original: "http://www.sitepoint.com/markdown-processing-ruby/"
 original_author: "Jesse Herrick"
+thumbnail: "/images/development/markdown-test.png"
 ---
 {% include translate.html %}
 
@@ -135,7 +136,7 @@ Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(markdown)
 Kramdown |	Да |	Нет |	Да |	Да 	|Да
 Maruku |	Да |	Нет |	Да |	Да |	Да
 Redcarpet |	Да |	Да 	|Да 	|Да |	Да
-RDiscount |	Да |	Да |	Да |	Нет |	Да 
+RDiscount |	Да |	Да |	Да |	Нет |	Да
 
 ## Производительность
 
