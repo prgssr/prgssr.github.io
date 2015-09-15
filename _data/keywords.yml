@@ -8,5 +8,8 @@ audio: "Аудиоданные"
 javascript: "Статья о javascript"
 css: "Статья о CSS"
 sass: "Статья о SASS"
+jekyll: "Статья о Jekyll"
+markdown: "Статья о markdown"
 translation: "Перевод"
 alistapart: "A List Apart"
+

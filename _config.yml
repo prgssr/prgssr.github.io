@@ -14,7 +14,7 @@ kramdown:
   enable_coderay: false
 permalink: :categories/:title.html
 exclude: [vendor]
-
+keep_files: ["sonar-project.properties"]
 #collections
 collections:
    documentation:
