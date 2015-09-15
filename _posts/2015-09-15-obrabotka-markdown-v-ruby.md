@@ -46,7 +46,7 @@ require 'redcarpet'
 Redcarpet::Markdown.new(Redcarpet::Render::HTML.new).render(markdown)
 ```
 
-Отлично! Мы видим, что в каждом фреймворке (за исключением Redcarpet) есть простое API для обработки Markdown.
+Отлично! Мы видим, что в каждом фреймворке (за исключением Redcarpet) есть простой API для обработки Markdown.
 
 ## Функционал
 
