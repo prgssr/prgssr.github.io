@@ -16,7 +16,7 @@ prism: yes
 
 #### Шаг 1: Сообщите Jekyll о вашей коллекции
 
-Для этого добавьте в `_config.yml` следующий код, заменив ` my_collection` именем своей коллекции:
+Для этого добавьте в `_config.yml` следующий код, заменив `my_collection` именем своей коллекции:
 
 ```yaml
 collections:
@@ -50,9 +50,9 @@ collections:
     output: true
 ```
 
-Это создаст файл для каждого документа в коллекции. Например, если у вас есть файл `_my_collection/some_subdir/some_doc.md`, он будет обработан Liquid и конвертером Markdown в статический HTML-файл - `<dest>/my_collection/some_subdir/some_doc.html`.
+Это создаст файл для каждого документа в коллекции. Например, если у вас есть файл `_my_collection/some_subdir/some_doc.md`, он будет обработан Liquid и конвертером Markdown в статический HTML-файл --- `<dest>/my_collection/some_subdir/some_doc.html`.
 
-Также как и посты, URL документов можно настроить с помощью метаданных `permalink ` в коллекции:
+Также как и посты, URL документов можно настроить с помощью метаданных `permalink` в коллекции:
 
 ```yaml
 collections:

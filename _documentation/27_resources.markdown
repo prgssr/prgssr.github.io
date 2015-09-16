@@ -7,10 +7,10 @@ Jekyll используется все шире и появляется боль
 
 ### Советы и трюки Jekyll  с примерами
 
-* [Советы по работе при интеграции с  GitHub Pages](https://gist.github.com/2890453) - примеры кода  и всегда свежая документация
+* [Советы по работе при интеграции с  GitHub Pages](https://gist.github.com/2890453) --- примеры кода  и всегда свежая документация
 * [Использование FormKeep для бэкенда Jekyll](https://formkeep.com/)
 * [Использование Simple Form для создания формы контактов](http://getsimpleform.com/)
-* [JekyllBootstrap.com](http://jekyllbootstrap.com/) - детальные описания и примеры для упрощения начала работы с Jekyll.
+* [JekyllBootstrap.com](http://jekyllbootstrap.com/) --- детальные описания и примеры для упрощения начала работы с Jekyll.
 
 ### Учебные курсы
 

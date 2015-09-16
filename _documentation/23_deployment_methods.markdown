@@ -58,7 +58,7 @@ exit
 laptops$ git remote add deploy deployer@example.com:~/myrepo.git
 ```
 
-Теперь все просто - надо указать серверу (nginx или Apache) мониторить `/var/www/myrepo ` и запускать следующую команду:
+Теперь все просто --- надо указать серверу (nginx или Apache) мониторить `/var/www/myrepo ` и запускать следующую команду:
 
 ```bash
 laptops$ git push deploy master

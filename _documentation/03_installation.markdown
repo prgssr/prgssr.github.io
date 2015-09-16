@@ -12,7 +12,7 @@ prism: yes
 
 * [Ruby ](http://www.ruby-lang.org/en/downloads/) (с пакетами для разработчиков)
 * [RubyGems](http://rubygems.org/pages/download)
-* Операционная система - Linux, Unix или Mac OS X
+* Операционная система --- Linux, Unix или Mac OS X
 * [NodeJS](http://nodejs.org/) или иное  JavaScript окружение для запуска CoffeeScript
 
 

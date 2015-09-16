@@ -15,10 +15,10 @@ prism: yes
 
 На данный момент GitHub Pages [работает с 4 плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
 
-* [Jemoji](https://help.github.com/articles/emoji-on-github-pages) - поддержка emoji в постах и страницах Jekyll.
-* [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) - дает поддержку  @mentions в постах и страницах Jekyll.
-* [Jekyll-redirect-from](https://help.github.com/articles/redirects-on-github-pages) - добавляет возможность редиректов при смене URL поста или страницы.
-* [Jekyll-sitemap](https://help.github.com/articles/sitemaps-for-github-pages) - автоматически добавляет на сайт валидный файл sitemap.xml. Плагин необходим для нормальной работы поисковых систем.
+* [Jemoji](https://help.github.com/articles/emoji-on-github-pages) --- поддержка emoji в постах и страницах Jekyll.
+* [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) --- дает поддержку  @mentions в постах и страницах Jekyll.
+* [Jekyll-redirect-from](https://help.github.com/articles/redirects-on-github-pages) --- добавляет возможность редиректов при смене URL поста или страницы.
+* [Jekyll-sitemap](https://help.github.com/articles/sitemaps-for-github-pages) --- автоматически добавляет на сайт валидный файл sitemap.xml. Плагин необходим для нормальной работы поисковых систем.
 
 
 ### Установка плагина
@@ -252,7 +252,7 @@ Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTag)
 
 #### Фильтры Liquid
 
- Вы можете добавлять свои фильтры в систему шаблонов Liquid точно также как и теги. Фильтры это простые модули, экспортирующие свои методы в Liquid. Все методы принимают как минимум один параметр - входные данные для фильтра. Вовзращает фильтр обработанные данные.
+ Вы можете добавлять свои фильтры в систему шаблонов Liquid точно также как и теги. Фильтры это простые модули, экспортирующие свои методы в Liquid. Все методы принимают как минимум один параметр --- входные данные для фильтра. Вовзращает фильтр обработанные данные.
 
 ```ruby
  module Jekyll
@@ -269,7 +269,7 @@ Liquid::Template.register_filter(Jekyll::AssetFilter)
 
 ###### Совет: доступ к объекту сайта через Liquid
 {: .protip}
-***Jekyll  дает вам доступ к объекту `site` через объект Liquid `context.registers` - `context.registers[:site]`. Например, вы можете получить доступ к конфигурации `_config.yml` через `context.registers[:site].config`***
+***Jekyll  дает вам доступ к объекту `site` через объект Liquid `context.registers` --- `context.registers[:site]`. Например, вы можете получить доступ к конфигурации `_config.yml` через `context.registers[:site].config`***
 {: .protip}
 
 #### Флаги
@@ -279,7 +279,7 @@ Liquid::Template.register_filter(Jekyll::AssetFilter)
 Флаг| Описание
 ----|---------
 `safe`| Логический флаг, сообщающий Jekyll, может ли этот плагин безопасно запускаться в среде, где запрещено выполнение произвольного кода.  Это используется на GitHub Pages для определения, какие базовые плагины будут использоваться, а какие запускать небезопасно . Если ваш плагин не допускает исполнение произвольного кода, задайте этот флаг как `true`. GitHub Pages по прежнему не будут загружать ваш плагин, но если вы захотите, чтобы этот плагин был включен в ядро, это поле должно быть заполнено правильно!
-`priority` | Флаг определяет порядок загрузки плагина. Валидные значения: `:lowest`, `:low`, `:normal`, `:high` и`:highest`. Сначала загружаются плагины с высшим приоритетом, в конце - с низшим.
+`priority` | Флаг определяет порядок загрузки плагина. Валидные значения: `:lowest`, `:low`, `:normal`, `:high` и`:highest`. Сначала загружаются плагины с высшим приоритетом, в конце --- с низшим.
 
 Чтобы проиллюстрировать работу флагов, мы подготовили пример их использования:
 
@@ -358,9 +358,9 @@ end
 * [Jekyll-timeago](https://github.com/markets/jekyll-timeago): Конвертирует время из цифр в текст.
 * [pluralize](https://github.com/bdesham/pluralize): Совмещает числа и слова с учетом множественного или единственного числа, например, “1 minute” или “2 minutes”.
 * [reading_time](https://github.com/bdesham/reading_time): Подсчитывает слова и ожидаемое время чтения, игнорируя HTML-элементы не содержащие текст.
-* [Table of Content Generator](https://github.com/dafi/jekyll-toc-generator): Генерирует HTML-код, содержащий оглавление, кастомизируется - можно указать страницы-исключения.
+* [Table of Content Generator](https://github.com/dafi/jekyll-toc-generator): Генерирует HTML-код, содержащий оглавление, кастомизируется --- можно указать страницы-исключения.
 * [jekyll-humanize](https://github.com/23maverick23/jekyll-humanize): Это портированное приложение Django  `humanize`, с разнообразными методами для изменения вида дат и цифровых данных в "человекопонятном виде". Каждый метод это фильтр, который можно использовать в шаблонах Jekyll. Некоторые оригинальные методы не портированы (например, naturaltime).
-* [Jekyll-Ordinal](https://github.com/PatrickC8t/Jekyll-Ordinal): Jekyll фильтр для конвертации количественных числительных в порядковые -  “st”, “nd”, “rd”, or “th”.
+* [Jekyll-Ordinal](https://github.com/PatrickC8t/Jekyll-Ordinal): Jekyll фильтр для конвертации количественных числительных в порядковые ---  “st”, “nd”, “rd”, or “th”.
 * [Deprecated articles keeper](https://github.com/kzykbys/JekyllPlugins) от [Kazuya Kobayashi](http://blog.kazuya.co/): Простой фильтр Jekyll для определения "старых статей".
 * [Jekyll-jalali](https://github.com/mehdisadeghi/jekyll-jalali) от [Mehdi Sadeghi](http://mehdix.ir/): Простой конвертер из грегорианского в иранский календарь.
 * [Jekyll Thumbnail Filter](https://github.com/matallo/jekyll-thumbnail-filter): Фильтр для миниатюр связанных постов.
@@ -404,7 +404,7 @@ end
 * [Jekyll Image Encode](https://github.com/GSI/jekyll_image_encode) от [GSI](https://github.com/GSI): Тег, извлекающий изображение из интернета и кодирующий его в base64.
 * [Jekyll Quick Man](https://github.com/GSI/jekyll_quick_man) от [GSI](https://github.com/GSI): Тег, упрощающий генерацию ссылок на страницы документации.
 * [jekyll-font-awesome](https://gist.github.com/23maverick23/8532525): Быстро и легко добавляет иконки Font Awesome в ваши посты.
-* [Lychee Gallery Tag](https://gist.github.com/tobru/9171700) от [tobru](https://github.com/tobru): Подключает в пост [альбомы Lychee](http://lychee.electerious.com/). Для введения в вопрос - статья [Jekyll meets Lychee - A Liquid Tag plugin](https://tobrunet.ch/articles/jekyll-meets-lychee-a-liquid-tag-plugin/).
+* [Lychee Gallery Tag](https://gist.github.com/tobru/9171700) от [tobru](https://github.com/tobru): Подключает в пост [альбомы Lychee](http://lychee.electerious.com/). Для введения в вопрос --- статья [Jekyll meets Lychee --- A Liquid Tag plugin](https://tobrunet.ch/articles/jekyll-meets-lychee-a-liquid-tag-plugin/).
 * [Image Set/Gallery Tag ](https://github.com/callmeed/jekyll-image-set)от [callmeed](https://github.com/callmeed): Рендерит  HTML для галереи изображений из каталога вашего сайта Jekyll. Просто передайте имя каталога и опции классов-тегов.
 * [jekyll_figure](https://github.com/lmullen/jekyll_figure): Генерирует теги  `figure`  и заголовки к ним со ссылкой на фигуру в различных форматах.
 * [Jekyll Github Sample Tag](https://github.com/bwillis/jekyll-github-sample): Тег liquid  для подключения образца репозитория github на ваш сайт Jekyll.
@@ -442,7 +442,7 @@ end
 * [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar): Расширения Jekyll для учебных блогов.
 * [Jekyll-asset_bundler](https://github.com/moshen/jekyll-asset_bundler): Упаковывает и минифицирует JavaScript and CSS.
 * [Jekyll-assets](http://ixti.net/jekyll-assets/) by [ixti](https://github.com/ixti): Подключение ресурсов в стиле Rail ( CoffeeScript, Sass, LESS и т.д.; можно указывать зависимости простыми комментариями для  их автоматичского разрешения; минифицирует и сжимает; использует шаблоны JST; улушение кэширования и многое другое).
-* [JAPR](https://github.com/kitsched/japr): Jekyll Asset Pipeline Reborn - Мощная система подключения ресурсов в Jekyll,  собирающая, конвертирующая и сжимающая  JavaScript и CSS ресурсы.
+* [JAPR](https://github.com/kitsched/japr): Jekyll Asset Pipeline Reborn --- Мощная система подключения ресурсов в Jekyll,  собирающая, конвертирующая и сжимающая  JavaScript и CSS ресурсы.
 * [File compressor](https://gist.github.com/2758691) by [mytharcher](https://github.com/mytharcher): Сжатие HTML и JavaScript при сборке сайта.
 * [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle): Подключение ресурсов и улучшение кэширования с использованием внешних элементов минификации на ваш выбор. Не требует сторонних gem.
 * [Singlepage-jekyll](https://github.com/JCB-K/singlepage-jekyll) от [JCB-K](https://github.com/JCB-K): Трансформирует  Jekyll в динамический одностраничный сайт.
