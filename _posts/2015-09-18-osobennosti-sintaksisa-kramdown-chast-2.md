@@ -38,9 +38,9 @@ noimage: true
 ```
 
 >Это [ссылка](http://rubyforge.org) на страницу.
-В [ссылке](../test "local URI") можно указать title. 
-Адрес ссылки может содержать [пробелы](link with spaces.html)! 
-{: data-proofer-ignore="truth"} 
+В [ссылке](../test "local URI"){: data-proofer-ignore="truth"} можно указать title. 
+Адрес ссылки может содержать [пробелы](link with spaces.html){: data-proofer-ignore="truth"}! 
+ 
 
 
 ### 3. Реферальные ссылки
