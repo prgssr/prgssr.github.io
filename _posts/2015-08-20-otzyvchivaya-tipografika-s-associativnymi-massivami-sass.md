@@ -334,7 +334,8 @@ p { font-size: 15px; line-height: 1.3; }
 
 [Viewport Units](https://css-tricks.com/viewport-sized-typography/)  (`vh`, `vw`, `vmin` и `vmax`) также можно использовать для создания отзывчивой типографики:
 
- ![изменение размера окна с Viewport Units](/images/development/viewport-units.gif)
+![изменение размера окна с Viewport Units - большой экран](/images/development/vh-header-big.gif "Viewport Units - большой экран")
+![изменение размера окна с Viewport Units - маленький экран](/images/development/vh-header-small.gif "Viewport Units - маленький экран")
 
 *Образец действия Viewport Units. Один Viewport Unit = 1% от ширины области экрана (Viewport). Для 1000 пикселей, `1vw = 10px`; для 500 пикселей, `1vh = 5px`*
 
