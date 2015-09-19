@@ -1,4 +1,3 @@
-
 /**
  * Sticky footer and basic styles
  */
@@ -297,34 +296,28 @@ body {
 /**
  * Collection navigation
  */
- .arrow_navigation {
+.arrow_navigation {
     margin: auto;
-    width: 180px;    
+    width: 180px;
     padding-left: 20px;
  }
 
-  .arrow-svg {
+.arrow-svg {
     fill: gray;
   }
  .arrow-svg:hover {
    fill: #333333;
 
  }
- .prev:hover, .nxt:hover {
+.prev:hover, .nxt:hover {
    text-decoration: none;
  }
-.prev {
-
-}
-.nxt {
-
-}
 
 /**
  * translate.html
  */
 
- .original, .original_author {
+.original, .original_author {
    font-size: 1.125em;
    font-weight: bold;
    font-family: $heading-font-family;
