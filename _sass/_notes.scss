@@ -6,14 +6,14 @@ h6.unreleased, h6.warning, h6.protip, h6.info {
   padding-left: $gutter / 2;
 }
 .warning {
-  border-left: 4px solid tint(red, 40%);
+  border-left: 4px solid $warning-color;
 }
 .protip {
-  border-left: 4px solid tint(blue, 50%);
+  border-left: 4px solid $protip-color;
 }
 .info {
-  border-left: 4px solid tint(#74643E, 30%);
+  border-left: 4px solid $info-color;
 }
 .unreleased{
-  border-left: 4px solid tint(green, 30%);
+  border-left: 4px solid $unreleased-color;
 }

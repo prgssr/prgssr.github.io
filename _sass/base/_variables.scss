@@ -26,6 +26,12 @@ $light-gray: #ddd;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$twitter-color: #4099ff;
+$rss-color: #ee802f;
+$warning-color: tint(red, 40%);
+$info-color: tint(#74643E, 30%);
+$protip-color: tint(blue, 50%);
+$unreleased-color: tint(green, 30%);
 
 // Font Colors
 $base-background-color: #fdfdfd;
