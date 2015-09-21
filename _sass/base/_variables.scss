@@ -1,12 +1,13 @@
 $modular-scale-ratio: $minor-third;
+
 // Typography
 $base-font-family: Helvetica, Arial, sans-serif;
-$heading-font-family: Georgia,serif;
+$heading-font-family: Georgia, serif;
 $code-font-family: monospace;
 
 // Font Sizes
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 18px;
+$small-font-size: $base-font-size * .875;
 
 // Line height
 $base-line-height: 1.6;
@@ -23,13 +24,13 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 $twitter-color: #4099ff;
 $rss-color: #ee802f;
 $warning-color: tint(red, 40%);
-$info-color: tint(#74643E, 30%);
+$info-color: tint(#74643e, 30%);
 $protip-color: tint(blue, 50%);
 $unreleased-color: tint(green, 30%);
 
@@ -37,7 +38,7 @@ $unreleased-color: tint(green, 30%);
 $base-background-color: #fdfdfd;
 $base-font-color: #111;
 $action-color: $blue;
-$brand-color:      #2a7ae2;
+$brand-color: #2a7ae2;
 $code-background: #f5f2f0;
 $selection-color: #ffbb52;
 $table-odd-color: #f8f8f8;
@@ -47,5 +48,5 @@ $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+$form-box-shadow: inset 0 1px 3px rgba(#000, .06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -.3);

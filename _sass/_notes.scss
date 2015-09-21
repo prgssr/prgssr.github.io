@@ -1,19 +1,30 @@
-h6.unreleased, h6.warning, h6.protip, h6.info {
+h6.unreleased,
+h6.warning,
+h6.protip,
+h6.info {
   margin-bottom: 0;
 }
-.unreleased, .protip, .warning, .info{
+
+.unreleased,
+.protip,
+.warning,
+.info {
   font-family: $heading-font-family;
   padding-left: $gutter / 2;
 }
+
 .warning {
   border-left: 4px solid $warning-color;
 }
+
 .protip {
   border-left: 4px solid $protip-color;
 }
+
 .info {
   border-left: 4px solid $info-color;
 }
-.unreleased{
+
+.unreleased {
   border-left: 4px solid $unreleased-color;
 }

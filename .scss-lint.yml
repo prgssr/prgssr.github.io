@@ -1,4 +1,9 @@
 # For SCSS-Lint v0.32.0
+exclude: 
+  - '_site/css/*'
+  - '_sass/bourbon/*'
+  - '_sass/neat/*'
+  - 'css/prism.css'
 
 linters:
 
@@ -137,7 +142,7 @@ linters:
     spaces: 0
 
   StringQuotes:
-    enabled: true
+    enabled: false
     style: single_quotes
 
   TrailingSemicolon:
