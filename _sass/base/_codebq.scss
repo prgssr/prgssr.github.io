@@ -1,44 +1,45 @@
-/**
- * Code formatting
- */
+// Code formatting
+
 pre,
 code {
-    font-size: $small-font-size;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: $code-background;
-    font-family: $code-font-family;
+  background-color: $code-background;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  font-family: $code-font-family;
+  font-size: $small-font-size;
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+  overflow-x: scroll;
+  padding: 8px 12px;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
-/**
- * Blockquotes
- */
+
+// Blockquotes
+
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $gutter / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+  border-left: 4px solid $grey-color-light;
+  color: $grey-color;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: -1px;
+  padding-left: $gutter / 2;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
-blockquote, pre {
+
+blockquote,
+pre {
   margin-bottom: $small-spacing;
 }

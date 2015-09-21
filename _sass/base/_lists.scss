@@ -1,6 +1,7 @@
 ul,
 ol {
   margin-left: $gutter;
+
   &%default-ul {
     list-style-type: disc;
     margin-bottom: $small-spacing;
@@ -13,12 +14,15 @@ ol {
     padding-left: $base-spacing;
   }
 }
+
 ul {
   @extend %default-ul;
 }
+
 ol {
   @extend %default-ol;
 }
+
 dl {
   margin-bottom: $small-spacing;
 
@@ -32,10 +36,9 @@ dl {
   }
 }
 
-
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
 }

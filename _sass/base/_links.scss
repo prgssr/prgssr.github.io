@@ -1,14 +1,14 @@
-/**
- * Links
- */
-a {
-    background-color: transparent;
-        &:visited {
-        color: darken($brand-color, 15%);
-    }
+// Links
 
-    &:hover {
-        color: $base-font-color;
-        text-decoration: underline;
-    }
+a {
+  background-color: transparent;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $base-font-color;
+    text-decoration: underline;
+  }
 }

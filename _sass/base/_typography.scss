@@ -1,56 +1,53 @@
 body {
-  @include font-feature-settings("kern", "liga", "pnum", "smcp", "onum");
-  -webkit-font-smoothing: antialiased;
+  @include font-feature-settings('kern', 'liga', 'pnum', 'smcp', 'onum');
+
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+
   @include selection {
-  background-color: #ffbb52;
-}
+    background-color: $selection-color;
+  }
 }
 
 h1,
 h2,
 h3,
 h4,
-h5
- {
+h5 {
+  font-family: $heading-font-family;
   font-weight: 400;
-  font-family: $heading-font-family;
   line-height: $heading-line-height;
-  margin: $small-spacing 0 $small-spacing/2;
-}
-h6 {
-  font-weight: 700;
-  font-family: $heading-font-family;
-  line-height: $heading-line-height;
-  margin: $small-spacing/2 0 $small-spacing;
+  margin: $small-spacing 0 ($small-spacing / 2);
 }
 
-$headings: (
-   h1: 5,
-   h2: 4,
-   h3: 3,
-   h4: 2,
-   h5: 1,
-   h6: 0
-);
+h6 {
+  font-family: $heading-font-family;
+  font-weight: 700;
+  line-height: $heading-line-height;
+  margin: ($small-spacing / 2) 0 $small-spacing;
+}
+
+$headings: (h1: 5, h2: 4, h3: 3, h4: 2, h5: 1, h6: 0);
 
 @each $heading, $scale in $headings {
-   #{$heading} {
-      font-size: modular-scale($scale);
-   }
+  #{$heading} {
+    font-size: modular-scale($scale);
+  }
 }
+
 p {
-  margin-bottom: $small-spacing/2;
+  margin-bottom: $small-spacing / 2;
 }
+
 a {
   color: $action-color;
   text-decoration: none;
-  transition: color 0.1s linear;
+  transition: color .1s linear;
 
   &:active,
   &:focus,
@@ -66,22 +63,25 @@ a {
 
 hr {
   border-bottom: $base-border;
-  border-left: none;
-  border-right: none;
-  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
   margin: $small-spacing 0;
 }
 
 strong {
-    letter-spacing: .125em;
-    font-weight: normal;
+  font-weight: normal;
+  letter-spacing: .125em;
 }
+
 dfn {
   font-style: italic;
 }
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
+
 small {
   font-size: 80%;
 }
@@ -95,9 +95,9 @@ sup {
 }
 
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }

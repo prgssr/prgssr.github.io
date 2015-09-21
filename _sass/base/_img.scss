@@ -1,21 +1,18 @@
-/**
- * Images
- */
+// Images
+
 img {
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
+// Figures
 
-
-/**
- * Figures
- */
 figure > img {
-    display: block;
+  display: block;
 }
+
 
 figcaption {
-    font-size: $small-font-size;
+  font-size: $small-font-size;
 }

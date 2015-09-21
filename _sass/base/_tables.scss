@@ -1,42 +1,38 @@
 table {
+  border-bottom: 2px solid $base-border-color;
   border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 2px solid $base-border-color;
   margin: $small-spacing 0;
+  overflow: auto;
   table-layout: auto;
   width: 100%;
-  border-top: 2px solid $base-border-color;
-  border-bottom: 2px solid $base-border-color;
-  border-spacing: 0px;
-  overflow: auto;
   word-break: keep-all;
+
+  tr {
+    background-color: $base-background-color;
+    border-top: 1px solid $light-gray;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tr:nth-child(2n) {
+    background-color: $table-odd-color;
+}
 }
 
 th {
   border: 1px solid darken($base-border-color, 15%);
   font-weight: 600;
-  padding: $small-spacing/2 $small-spacing;
+  padding: ($small-spacing / 2) $small-spacing;
   text-align: center;
 }
 
 td {
   border: $base-border;
-  padding: $small-spacing/2 $small-spacing;
+  padding: ($small-spacing / 2) $small-spacing;
   vertical-align: middle;
-
 }
 
-
-table tr{
-	background-color:#fff;
-	border-top:1px solid #ccc
-}
-
-table tr:nth-child(2n){
-	background-color:#f8f8f8
-}
-table th, table td{
-
-
-}
-table th{
-	font-weight:bold
-}
