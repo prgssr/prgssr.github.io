@@ -4,8 +4,8 @@ button {
   -webkit-font-smoothing: antialiased;
   background-color: $action-color;
   border-radius: $base-border-radius;
-  border: none;
-  color: #fff;
+  border: 0;
+  color: $base-background-color;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
@@ -21,7 +21,7 @@ button {
   &:hover,
   &:focus {
     background-color: darken($action-color, 15%);
-    color: #fff;
+    color: $base-background-color;
   }
 
   &:disabled {

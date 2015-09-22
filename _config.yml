@@ -15,6 +15,7 @@ kramdown:
 permalink: :categories/:title.html
 exclude: [vendor]
 keep_files: ["sonar-project.properties"]
+
 #collections
 collections:
    documentation:
@@ -44,4 +45,9 @@ defaults:
       layout: "post"
       is_post: true
 
+#sass
+sass:
+  style: compact
+
+#paginate
 paginate: 10

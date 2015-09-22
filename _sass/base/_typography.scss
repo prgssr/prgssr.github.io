@@ -47,7 +47,7 @@ p {
 a {
   color: $action-color;
   text-decoration: none;
-  transition: color .1s linear;
+  transition: color 0.1s linear;
 
   &:active,
   &:focus,
@@ -71,7 +71,7 @@ hr {
 
 strong {
   font-weight: normal;
-  letter-spacing: .125em;
+  letter-spacing: 0.125em;
 }
 
 dfn {
@@ -95,9 +95,9 @@ sup {
 }
 
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 
 sub {
-  bottom: -.25em;
+  bottom: -0.25em;
 }
