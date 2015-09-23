@@ -1,5 +1,5 @@
 body {
-  @include font-feature-settings('kern', 'liga', 'pnum', 'smcp', 'onum');
+  @include font-feature-settings('kern', 'liga', 'onum');
 
   color: $base-font-color;
   font-family: $base-font-family;
