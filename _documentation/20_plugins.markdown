@@ -13,7 +13,7 @@ prism: yes
 ***Вы по прежнему можете использовать GitHub Pages для публикации вашего сайта, но только путем локальной сборки и отправки в репозиторий готовых статических файлов***
 {: .info}
 
-На данный момент GitHub Pages [работает с 4 плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
+На данный момент GitHub Pages [работает с 5 плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
 
 * [Jemoji](https://help.github.com/articles/emoji-on-github-pages) --- поддержка emoji в постах и страницах Jekyll.
 * [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) --- дает поддержку  @mentions в постах и страницах Jekyll.
