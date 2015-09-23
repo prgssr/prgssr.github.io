@@ -19,6 +19,7 @@ prism: yes
 * [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) --- дает поддержку  @mentions в постах и страницах Jekyll.
 * [Jekyll-redirect-from](https://help.github.com/articles/redirects-on-github-pages) --- добавляет возможность редиректов при смене URL поста или страницы.
 * [Jekyll-sitemap](https://help.github.com/articles/sitemaps-for-github-pages) --- автоматически добавляет на сайт валидный файл sitemap.xml. Плагин необходим для нормальной работы поисковых систем.
+* [Jekyll-feed ](https://help.github.com/articles/atom-rss-feeds-for-github-pages) --- автоматически генерирует трансляцию в формате [atom](https://en.wikipedia.org/wiki/Atom_%28standard%29) для вашего блога.
 
 
 ### Установка плагина
