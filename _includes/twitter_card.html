@@ -8,7 +8,14 @@
 <meta name="twitter:description" content="{{ page.description }}">
 {% if page.thumbnail %}
   <meta name="twitter:image:src" content="{{ page.thumbnail | prepend: site.url }}">
+  <meta name="og:image" content="{{ page.thumbnail | prepend: site.url }}" />
 {% else %}
   <meta name="twitter:image:src" content="{{ site.data.thumb.[category] | prepend: site.url }}">
+   <meta name="og:image" content="{{ site.data.thumb.[category] | prepend: site.url }}" />
 {% endif %}
 {% endif %}
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta property="og:type" content="blog"/>
+<meta name="og:url" content="{{ page.url | prepend: site.url }}" />
+<meta name="og:title" content="{{ page.title }}" />
+<meta name="og:description" content="{{ page.description }}" />
