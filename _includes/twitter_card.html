@@ -1,21 +1,25 @@
-{% if page.is_post %}
-{% assign category = page.categories[0] %}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="{{ site.title }}">
 <meta name="twitter:creator" content="{{ site.twitter_username }}">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:description" content="{{ page.description }}">
-{% if page.thumbnail %}
+{% assign category = page.categories[0] %}
+{% if page.thumbnail%}
   <meta name="twitter:image:src" content="{{ page.thumbnail | prepend: site.url }}">
   <meta name="og:image" content="{{ page.thumbnail | prepend: site.url }}" />
-{% else %}
+{% elsif page.is_post %}
   <meta name="twitter:image:src" content="{{ site.data.thumb.[category] | prepend: site.url }}">
-   <meta name="og:image" content="{{ site.data.thumb.[category] | prepend: site.url }}" />
+  <meta name="og:image" content="{{ site.data.thumb.[category] | prepend: site.url }}" />
+{% elsif page.documentation %}
+    <meta name="twitter:image:src" content="{{ site.collections.documentation.image  | prepend: site.url }}">
+    <meta name="og:image" content="{{ site.collections.documentation.image  | prepend: site.url }}" />  
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.data.thumb.image  | prepend: site.url }}">
+  <meta name="og:image" content="{{ site.data.thumb.image | prepend: site.url }}" />
 {% endif %}
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:type" content="blog"/>
 <meta name="og:url" content="{{ page.url | prepend: site.url }}" />
-<meta name="og:title" content="{{ page.title }}" />
+<meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="og:description" content="{{ page.description }}" />
-{% endif %}

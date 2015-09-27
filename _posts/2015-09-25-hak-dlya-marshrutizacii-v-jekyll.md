@@ -39,7 +39,7 @@ related: 8
 
 Чтобы было проще, мы добавим немного синтаксического сахара --- создадим ссылки в Markdown, впрочем, начнем с начала.
 
-		
+
 ## Создание роутера
 
 Задача маршрутизатора --- преобразовывать имена в URl. Мы можем создать файлы YAML/JSON/CSV в каталоге `_data`  нашего проекта с Jekyll, наш файл будет называться `routes.yml`:
@@ -60,9 +60,9 @@ repository: "https://github.com/user/repository"
 layout: default
 title: "About us"
 ---
- 
+
 <!-- Content about us -->
- 
+
 Go to our [GitHub repository]({{ site.data.routes.repository }}).
 Or read the section dedicated to [Frequently Asked Questions]({{ site.data.routes.faq }}).
 ```
@@ -88,7 +88,7 @@ Or read the section dedicated to [Frequently Asked Questions]({{ site.data.route
 
 ```markdown
 [I am a link][id_reference]
- 
+
 ​[id_reference]: http://link.url
 ```
 
@@ -117,9 +117,9 @@ Or read the section dedicated to [Frequently Asked Questions]({{ site.data.route
 layout: default
 title: "About us"
 ---
- 
+
 <!-- Content about us -->
- 
+
 Go to our [GitHub repository][repository].
 Or read the section dedicated to [Frequently Asked Questions][faq].
 {% raw %}
@@ -151,9 +151,9 @@ layout: default
 title: "About us"
 ---
 {% include routes.html %}
- 
+
 <!-- Content about us -->
- 
+
 Go to our [GitHub repository][repository].
 Or read the section dedicated to [Frequently Asked Questions][faq].
 ```
@@ -161,7 +161,7 @@ Or read the section dedicated to [Frequently Asked Questions][faq].
 
 Примечание: фрагмент можно подключить в любом месте страницы, необязательно наверху.
 
-		
+
 ## Заключение
 
 
