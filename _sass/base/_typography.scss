@@ -22,7 +22,7 @@ h5 {
   font-family: $heading-font-family;
   font-weight: 400;
   line-height: $heading-line-height;
-  margin: $small-spacing 0 ($small-spacing / 2);
+  margin: 1.5 * $small-spacing 0 ($small-spacing / 2);
 }
 
 h6 {
