@@ -11,7 +11,7 @@ table {
 
   tr {
     background-color: $base-background-color;
-    border-top: 1px solid $light-gray;
+    border-top: 1px solid $grey-color-light;
   }
 
   th {
@@ -35,4 +35,3 @@ td {
   padding: ($small-spacing / 2) $small-spacing;
   vertical-align: middle;
 }
-
