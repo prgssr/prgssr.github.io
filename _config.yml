@@ -44,6 +44,14 @@ defaults:
     values:
       layout: "post"
       is_post: true
+  -
+    scope:
+      path: "documentation"
+      type: documentation
+    values:
+      layout: doc
+      thumbnail: "/images/jekyll.png"
+
 
 #sass
 sass:
