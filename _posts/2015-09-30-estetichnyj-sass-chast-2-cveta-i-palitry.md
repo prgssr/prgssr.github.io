@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Эстетичный SASS часть 2: цвета и палитры"
+title: "Эстетичный Sass часть 2: цвета и палитры"
 date: 2015-09-30 18:17:21
 description: "Способы управления цветовыми палитрами в Sass - создание оттенков цветов, контраст и прозрачность"
 categories: [development]
@@ -32,7 +32,7 @@ scripts: codepen
 
 ```scss
 $scotch-colors: (
-  'primary': #8e3329, 
+  'primary': #8e3329,
   'accent': #d98328,
   'secondary': #5a1321,
   'foreground': #191919,
