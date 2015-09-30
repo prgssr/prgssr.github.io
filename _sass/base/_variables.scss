@@ -20,9 +20,6 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
@@ -32,15 +29,16 @@ $warning-color: tint(red, 40%);
 $info-color: tint(#74643e, 30%);
 $protip-color: tint(blue, 50%);
 $unreleased-color: tint(green, 30%);
-
-// Font Colors
-$base-background-color: #fdfdfd;
-$base-font-color: #111;
-$action-color: $blue;
-$brand-color: #2a7ae2;
 $code-background: #f5f2f0;
 $selection-color: #ffbb52;
 $table-odd-color: #f8f8f8;
+$base-background-color: #fdfdfd;
+
+// Font Colors
+
+$base-font-color: #111;
+$action-color: #477dca;
+$brand-color: #2a7ae2;
 
 // Border
 $base-border-color: $grey-color-light;

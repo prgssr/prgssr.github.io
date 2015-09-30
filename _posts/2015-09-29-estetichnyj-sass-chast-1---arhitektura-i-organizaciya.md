@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Эстетичный Sass: часть 1 - архитектура и организация"
+title: "Эстетичный Sass часть 1: архитектура и организация"
 categories: [development]
 tags: [sass, translation, scotch]
 date: 2015-09-29 18:39:25
