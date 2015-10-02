@@ -155,7 +155,7 @@ ruby -rubygems -e 'require "jekyll-import";
 
 Единственный обязательный параметр --- `url`.
 
-### Wordpress
+## Wordpress
 
 Для Wordpress существует [плагин](https://wordpress.org/plugins/jekyll-exporter/) с экспортом содержимого в Jekyll. И это предпочтительный вариант.
 
