@@ -8,12 +8,9 @@ thumb: "/images/development/kqW6her.png"
 tags: performance translation sitepoint
 original: "http://www.sitepoint.com/optimizing-critical-rendering-path/"
 original_author: "Штефан Макс"
+original_name: "Optimizing the Critical Rendering Path"
 prism: yes
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Последние годы мы видим в вебе два тренда:
 1. Веб-страницы значительно выросли, особенно в плане запросов по требуемой полосе пропускания и загружаемым ресурсам (стили, скрипты, изображения, шрифты).
 2. Выросло количество пользователей, просматривающих сайты с мобильных телефонов и планшетов.

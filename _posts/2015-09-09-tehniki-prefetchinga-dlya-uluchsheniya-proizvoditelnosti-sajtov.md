@@ -4,16 +4,13 @@ title: "Техники префетчинга для улучшения прои
 categories: [development]
 tags: [performance, translation, css-tricks]
 description: "Префетчинг DNS и ресурсов в браузерах: prefetch, subresource, preconnect, prerender"
-published: True
 date: 2015-09-09 19:21:41
 prism: yes
 original: "https://css-tricks.com/prefetching-preloading-prebrowsing/"
 original_author: "Робин Рендл"
+original_name: "Prefetching, preloading, prebrowsing"
 noimage: truth
 ---
-{% include translate.html %}
-
-{% include toc.md %}
 
 Когда мы говорим о производительности на фронтенде, мы обычно думаем о таких вещах как конкатенация, минификация, кэширование и сжатие ресурсов на сервере, позволяющих загрузить страницу быстрее и помочь пользователям быстрее достигнуть своих целей.
 

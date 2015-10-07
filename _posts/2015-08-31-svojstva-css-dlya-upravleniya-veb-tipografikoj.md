@@ -4,15 +4,12 @@ title: "Свойства CSS для управления веб-типограф
 categories: [development]
 date: 2015-08-31 18:00:00
 tags: [css, translation, sitepoint]
-description: "Управление веб-типографикос с text-transform, white-space, overflow-wrap, hyphens, word-spacing, text-indent и т.д."
+description: "Управление веб-типографикой с text-transform, white-space, overflow-wrap, hyphens, word-spacing, text-indent и т.д."
 original: "http://www.sitepoint.com/css-properties-to-control-web-typography/"
-original_author: Maria Antonietta Perna
+original_author: "Maria Antonietta Perna"
+original_name: "CSS Properties to Control Web Typography"
 prism: yes
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Преимуществом веб-типографики является то, что она базируется на знаниях, накопленных за столетия развития традиционной печатной типографики. По той же причине веб-типографика должна следовать стандартам лучших практик и передового опыта.
 
 Однако, веб это пространство коммуникации со своими особенностями. Настолько, что плавный переход от печати к веб-типографике становится вызовом. Джейсон Санта Мария в своей книге [о веб-типографике](https://www.sitepoint.com/premium/books/on-web-typography) пишет:

@@ -4,17 +4,13 @@ title: Снимаем вершки с медиа-запросов
 date:   2015-08-07 11:36:00
 categories: [development]
 tags: [translation, sitepoint, css]
-published: True
 description: "Условная загрузка стилей в современные браузеры без помощи JavaScript"
 original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"
 original_author: "Энди Кирк"
+original_name: "Cutting the Mustard with CSS Media Queries"
 prism: yes
 noimage: truth
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 [Снимать вершки (Cutting the Mustard)](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) это термин Тома Маслена с BBC. Суть его метода состоит в использовании JavaScript для проверки возможностей браузера перед дальнейшей загрузкой CSS и JavaScript, чтобы улучшить ощущения пользователей и загрузить лишь базовые файлы, если возможности браузера невелики.
 
 Этот метод вызвал огромный интерес, появились такие статьи как [Migrating to Flexbox by Cutting the Mustard](http://www.sitepoint.com/migrating-flexbox-cutting-mustard/), [Server Side Mustard Cut](https://css-tricks.com/server-side-mustard-cut/) и [Progressive Enhancement](http://www.sitepoint.com/javascript-dependency-backlash-myth-busting-progressive-enhancement/)

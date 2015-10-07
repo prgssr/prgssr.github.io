@@ -8,12 +8,9 @@ description: "Организация архитектуры Sass с пример
 prism: yes
 original: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization"
 original_author: "David Khourshid"
+original_name: "Aesthetic Sass 1: Architecture and Style Organization"
 noimage: true
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Sass  это очень мощное расширение языка CSS, дающее возможность улучшить как организацию стилей, так и сами стили.
 
 Правильная архитектура файлов CSS в  проекте избавит вас и ваших коллег от необходимости поиска нужных стилей и от раздумий, куда добавлять новые.
@@ -77,7 +74,7 @@ Sass  это очень мощное расширение языка CSS, даю
     background-color: transparent;
     border: 1px solid #d9534f;
     transition: all 0.3s ease-in-out;
-    
+
     &:hover {
         background-color: #d9534f;
         color: #fcfcfc;
@@ -150,7 +147,7 @@ $button-color-hover: $color-light;         // from 'base/_colors.scss'
     color: $color;
     border-color: $color;
     background-color: transparent;
-    
+
     &:hover {
         color: $color-text-hover;
         background-color: $color;
@@ -189,7 +186,7 @@ $button-color-hover: $color-light;         // from 'base/_colors.scss'
 .scotch-button {
     @extend %button;
     @include scotch-button-theme($color-primary);
- 
+
     &.secondary {
         @include scotch-button-theme($color-secondary);
     }

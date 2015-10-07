@@ -5,16 +5,13 @@ categories: [development]
 tags: [ jekyll, translation, sitepoint]
 date: 2015-09-25 13:14:44
 description: "Создание маршрутизации в Jekyll без использования плагинов, с помощью файлов с данными и markdown."
-original: http://www.sitepoint.com/hacking-routing-component-jekyll/
-original_author: Hugo Giraudel
+original: "http://www.sitepoint.com/hacking-routing-component-jekyll/"
+original_author: "Хьюго Жирадель"
+original_name: "Hacking a Routing Component in Jekyll"
 prism: true
 noimage: true
 related: 8
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Изначально я хотел написать о маршрутизации в Jekyll на хостинге  GitHub с использованием  Markdown, Liquid и YAML. Для названия это оказалось слишком затянуто, но тем не менее суть не поменялась --- в Jekyll нет роутера и я надеюсь, что нашел неплохую имитацию.
 
 Сразу уточню --- я привык к инфраструктуре [symfony](http://symfony.com/), поэтому роутер для меня это компонент, маршрутизирующий URL в имена, что позволяет безопасно изменять URl без необходимости обновлять все ссылки в коде.

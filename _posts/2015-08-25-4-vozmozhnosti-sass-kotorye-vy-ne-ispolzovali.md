@@ -4,17 +4,13 @@ title: "4 возможности Sass, которые вы не использо
 date: 2015-08-25 19:43:00
 categories: [development]
 tags: [sass, translation, sitepoint]
-published: True
 description: "Комментарии Sass, локальные и глобальные переменные, плейсхолдеры и использование амперсанда."
 original: "http://www.sitepoint.com/sass-features-may-never-tried/"
 original_author: "Дэвид Грин"
+original_name: "4 Sass Features You May Not Have Tried"
 prism: yes
 noimage: truth
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 После того, как вы начинаете менять рабочее окружение для работы с SASS, нелегко расстаться с привычными рабочими стереотипами. Вам могут нравится возможности SASS и вы активно используете некоторые из них, не пытаясь освоить более продвинутые. На самом деле возможности SASS намного больше и применение более продвинутых фич дает вам большие преимущества.
 
 ##  1. CSS и строчные комментарии

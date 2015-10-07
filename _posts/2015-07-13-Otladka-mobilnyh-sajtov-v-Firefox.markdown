@@ -7,12 +7,9 @@ description: "Отладка мобильных сайтов в Firefox. Уст�
 tags: mobile translation sitepoint  
 original: "http://www.sitepoint.com/debugging-mobile-websites-firefox/"
 original_author: "Jérémy Heleine"
+original_name: "Debugging Mobile Websites with Firefox"
 prism: yes
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Во всех основных браузерах есть инструментарий для отладки сайтов на мобильных устройствах. В этой статье я рассмотрю возможности Firefox и сравню их с аналогичными в Chrome и Internet Explorer.
 
 ## Тестируем в отзывчивом режиме Firefox

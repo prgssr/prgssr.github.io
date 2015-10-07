@@ -327,13 +327,18 @@ body {
 
 .original,
 .original-author {
+  font-size: 1.2 * $base-font-size;
   font-family: $heading-font-family;
-  font-size: 1.125em;
-  font-weight: bold;
+  line-height: $heading-line-height;
 }
 
 // table of contents
-#markdown-toc,
-#markdown-toc ul {
+
+.toc-title {
+  font-size: 1.2 * $base-font-size;
+  font-family: $heading-font-family;
+}
+
+.toc-list {
   list-style-type: none;
 }

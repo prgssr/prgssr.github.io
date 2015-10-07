@@ -8,12 +8,9 @@ description: "Краткое сравнение 4-х основных парсе
 prism: yes
 original: "http://www.sitepoint.com/markdown-processing-ruby/"
 original_author: "Jesse Herrick"
+original_name: "Markdown Processing in Ruby"
 thumbnail: "/images/development/markdown-test.png"
 ---
-{% include translate.html %}
-
-{% include toc.md %}
-
 Markdown это фантастический язык разметки, компилируемый  в HTML. Хотя [изначально он написан](http://daringfireball.net/projects/markdown/) на Perl, Markdown портирован на многие языки с различными функциями. В этой статье мы рассмотрим 4 имплементации Markdown на Ruby: [kramdown](http://kramdown.gettalong.org/), [maruku](https://github.com/bhollis/maruku), [rdiscount](https://github.com/davidfstr/rdiscount) и [redcarpet](https://github.com/vmg/redcarpet).
 
 ## Обработка Markdown в Ruby

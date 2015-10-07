@@ -1,0 +1,5 @@
+{% if page.scripts %}
+  {% for script in page.scripts %}
+    {{site.data.scripts[script] | replace: '"', ''}}
+  {% endfor %}
+{% endif %}
