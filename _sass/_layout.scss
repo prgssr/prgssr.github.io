@@ -342,3 +342,9 @@ body {
 .toc-list {
   list-style-type: none;
 }
+
+// selection
+
+.selection strong {
+  background-color: $selection-color;
+}

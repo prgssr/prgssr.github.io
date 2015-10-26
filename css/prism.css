@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+css-extras+git+handlebars+markdown+php+php-extras+python+jsx+ruby+sass+scss+yaml&plugins=show-language */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+coffeescript+ruby+css-extras+git+http+less+markdown+php+php-extras+python+jsx+sass+scss+twig+yaml&plugins=show-language */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -15,6 +15,7 @@ pre[class*="language-"] {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
+	word-wrap: normal;
 	line-height: 1.5;
 
 	-moz-tab-size: 4;
@@ -135,19 +136,32 @@ pre[class*="language-"] {
 	cursor: help;
 }
 
-pre[class*='language-'] {
+div.prism-show-language {
 	position: relative;
 }
-pre[class*='language-'][data-language]::before {
-	content: attr(data-language);
+
+div.prism-show-language > div.prism-show-language-label[data-language] {
 	color: black;
 	background-color: #CFCFCF;
 	display: inline-block;
 	position: absolute;
+	bottom: auto;
+	left: auto;
 	top: 0;
 	right: 0;
-	font-size: 0.9em;
+	width: auto;
+	height: auto;
+	font-size: 0.8em;
 	border-radius: 0 0 0 5px;
 	padding: 0 0.5em;
 	text-shadow: none;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
 }
