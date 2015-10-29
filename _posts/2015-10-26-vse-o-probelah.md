@@ -7,7 +7,7 @@ date: 2015-10-26 22:24:15
 prism: yes
 description: "Все ли вы знаете о пробелах? В Юникоде их много и это разнообразие стоит использовать."
 original: "http://www.smashingmagazine.com/2015/10/space-yourself/"
-original_author: "Marcin Wichary"
+original_author: "Марсин Вичари"
 original_name: "Space Yourself"
 thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 ---
@@ -16,7 +16,7 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 Ниже вы видите два твита. В одном из них Пол Айриш уведомляется о моем ответе, а о другом --- нет. В чем разница между твитами? Читайте!
 
-![твиты с разными пробелами](/images/development/01-tweet-taunt-opt-preview.png) 
+![твиты с разными пробелами](/images/development/01-tweet-taunt-opt-preview.png)
 
 ## Век обычной типографии
 
@@ -66,7 +66,7 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 * Three-per-em**&#8196;**space
 * En**&#8194;**space
 * Ideographic**&#12288;**space
-* Em**&#8195;**space 
+* Em**&#8195;**space
 {: .selection}
 
 Вы можете использовать их также как и обычный пробел. Просто скопируйте из списка. Но зачем?
@@ -103,7 +103,7 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 * Narrow no-break**&#8239;**space
 * No-break**&#160;**space
-* Figure**&#8199;**space 
+* Figure**&#8199;**space
 {: .selection}
 
 Все эти пробелы ведут себя так, как будто их приклеили к соседним символам. Это значит в первую очередь то, что при переносе на новую линию слова, скрепленные такими пробелами останутся вместе. Это полезно, если вы хотите предотвратить разделение слов или символов, которые могут смотреться нелепо оказавшись на разных строках, брошенные и без присмотра (в типографии их называют [сиротами](http://en.wikipedia.org/wiki/Widows_and_orphans)).
@@ -132,7 +132,7 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 Теперь настало время перейти к самой любопытной разновидности пробелов --- к тем, у которых нет размеров совсем.
 
-* Zero-width​&#8203;space 
+* Zero-width​&#8203;space
 
 Да, он где-то здесь. Скопируйте и вставьте фрагмент целиком и удалите символы вокруг него. Вы найдете невидимый пробел, если будете проводить по фрагменту стрелками на клавиатуре --- вы заметите остановку, в месте нахождения невидимого пробела.
 
@@ -175,7 +175,7 @@ Thin**&#8201;**space |`&#8201;` |	\u2009
 Normal**&#32;**space | `&#32;`	|	\u0020
 Four-per-em**&#8197;**space |	`&#8197;` |	\u2005
 Mathematical**&#8287;**space |`&#8287;` |\u205F
-Punctuation**&#8200;**space |	`&#8200;` |\u2008 
+Punctuation**&#8200;**space |	`&#8200;` |\u2008
 Three-per-em**&#8196;**space |`&#8196;` |\u2004
 En**&#8194;**space |	`&#8194;` |	\u2002
 Ideographic**&#12288;**space |	`&#12288;` |	\u3000
