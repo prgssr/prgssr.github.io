@@ -7,7 +7,7 @@ tags: [sass, translation, smashingmagazine]
 description: "Отзывчивая типографика с Sass. Автоматическая генерация медиа-запросов с размером шрифта и высотой строки."
 original: "http://www.smashingmagazine.com/2015/06/responsive-typography-with-sass-maps/"
 original_author: "Jonathan Suh"
-original_name: "Responsive Typography With Sass Maps"
+original_title: "Responsive Typography With Sass Maps"
 prism: yes
 noimage: truth
 ---

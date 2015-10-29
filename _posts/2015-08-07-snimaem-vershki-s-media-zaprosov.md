@@ -7,7 +7,7 @@ tags: [translation, sitepoint, css]
 description: "Условная загрузка стилей в современные браузеры без помощи JavaScript"
 original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"
 original_author: "Энди Кирк"
-original_name: "Cutting the Mustard with CSS Media Queries"
+original_title: "Cutting the Mustard with CSS Media Queries"
 prism: yes
 noimage: truth
 ---

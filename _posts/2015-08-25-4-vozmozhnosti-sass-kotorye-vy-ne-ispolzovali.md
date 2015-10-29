@@ -7,7 +7,7 @@ tags: [sass, translation, sitepoint]
 description: "Комментарии Sass, локальные и глобальные переменные, плейсхолдеры и использование амперсанда."
 original: "http://www.sitepoint.com/sass-features-may-never-tried/"
 original_author: "Дэвид Грин"
-original_name: "4 Sass Features You May Not Have Tried"
+original_title: "4 Sass Features You May Not Have Tried"
 prism: yes
 noimage: truth
 ---

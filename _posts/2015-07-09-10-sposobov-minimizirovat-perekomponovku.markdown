@@ -7,7 +7,7 @@ description: "Как ускорить загрузку страницы. Осо�
 thumbnail: "/images/development/Y6fh1wD.png"
 tags: performance translation sitepoint
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
-original_name: "10 Ways to Minimize Reflows and Improve Performance"
+original_title: "10 Ways to Minimize Reflows and Improve Performance"
 original_author: "Крэйг Баклер"
 prism: yes
 ---

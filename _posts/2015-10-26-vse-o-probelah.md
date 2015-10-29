@@ -8,7 +8,7 @@ prism: yes
 description: "Все ли вы знаете о пробелах? В Юникоде их много и это разнообразие стоит использовать."
 original: "http://www.smashingmagazine.com/2015/10/space-yourself/"
 original_author: "Марсин Вичари"
-original_name: "Space Yourself"
+original_title: "Space Yourself"
 thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 ---
 

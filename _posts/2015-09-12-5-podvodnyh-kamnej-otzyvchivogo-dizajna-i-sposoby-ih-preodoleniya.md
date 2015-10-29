@@ -8,7 +8,7 @@ description: "Способы решения распространенных п�
 prism: yes
 original: "http://www.sitepoint.com/5-responsive-design-pitfalls-and-how-to-avoid-them/"
 original_author: "Yaphi Berhanu"
-original_name: "5 Responsive Design Pitfalls and How to Avoid Them"
+original_title: "5 Responsive Design Pitfalls and How to Avoid Them"
 noimage: truth
 related: 9
 ---

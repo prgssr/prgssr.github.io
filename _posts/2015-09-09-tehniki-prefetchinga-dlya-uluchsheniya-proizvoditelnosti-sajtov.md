@@ -8,7 +8,7 @@ date: 2015-09-09 19:21:41
 prism: yes
 original: "https://css-tricks.com/prefetching-preloading-prebrowsing/"
 original_author: "Робин Рендл"
-original_name: "Prefetching, preloading, prebrowsing"
+original_title: "Prefetching, preloading, prebrowsing"
 noimage: truth
 ---
 

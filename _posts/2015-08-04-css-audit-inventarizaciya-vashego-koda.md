@@ -6,7 +6,7 @@ tags: [css, translations, alistapart]
 description: "Аудит кода CSS - методы и инструменты: type-o-matic, Dust-Me Selectors и CSS Lint"
 original: "http://alistapart.com/article/css-audits-taking-stock-of-your-code"
 original_author: "Сюзан Робертсон"
-original_name: "CSS Audits: Taking Stock of Your Code"
+original_title: "CSS Audits: Taking Stock of Your Code"
 noimage: truth
 ---
 Немногих привлекает перспектива аудита кода, но для меня это один из любимых видов проектов. Это настоящее детективное расследование. Вы начинаете с кода сайта и копаете все глубже: вы смотрите сколько таблиц CSS подключено, как это влияет на производительность и как написаны эти CSS. Ваша цель найти способы улучшения, которые сделают ваш код лучше, а сайт быстрее.

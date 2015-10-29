@@ -8,7 +8,7 @@ tags: [sass, translation, scotch]
 prism: yes
 original: "https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm"
 original_author: "David Khourshid"
-original_name: "Aesthetic Sass 3: Typography and Vertical Rhythm"
+original_title: "Aesthetic Sass 3: Typography and Vertical Rhythm"
 scripts: codepen
 thumbnail: "/images/development/aesthetic-sass-typography-preview-667x500.png"
 ---

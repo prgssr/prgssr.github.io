@@ -8,7 +8,7 @@ description: "Введение в  scss-lint: установка, настрой
 prism: yes
 original: "http://www.sitepoint.com/getting-started-with-scss-lint/"
 original_author: "Хьюго Жирадель"
-original_name: "Getting Started With SCSS-Lint"
+original_title: "Getting Started With SCSS-Lint"
 related: 6
 noimage: truth
 ---

@@ -7,7 +7,7 @@ tags: [css, translation, css-tricks]
 description: "Стили по умолчанию для полей ввода чисел в современных браузерах и возможности по их настройке."
 original: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
 original_author: "Джефф Грэхем"
-original_name: "Numeric Inputs – A Comparison of Browser Defaults"
+original_title: "Numeric Inputs – A Comparison of Browser Defaults"
 prism: yes
 noimage: truth
 ---

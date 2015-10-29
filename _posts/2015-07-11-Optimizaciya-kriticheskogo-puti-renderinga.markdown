@@ -8,7 +8,7 @@ thumb: "/images/development/kqW6her.png"
 tags: performance translation sitepoint
 original: "http://www.sitepoint.com/optimizing-critical-rendering-path/"
 original_author: "Штефан Макс"
-original_name: "Optimizing the Critical Rendering Path"
+original_title: "Optimizing the Critical Rendering Path"
 prism: yes
 ---
 Последние годы мы видим в вебе два тренда:

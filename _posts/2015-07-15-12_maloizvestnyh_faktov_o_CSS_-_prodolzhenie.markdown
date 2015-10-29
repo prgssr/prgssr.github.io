@@ -7,7 +7,7 @@ description: "12 фактов о малоизвестных свойствах �
 tags: css translation sitepoint
 original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
 original_author: "Louis Lazaris"
-original_name: "12 Little-Known CSS Facts (The Sequel)"
+original_title: "12 Little-Known CSS Facts (The Sequel)"
 scripts: codepen
 prism: yes
 ---

@@ -8,7 +8,7 @@ tags: [sass, translation, scotch]
 prism: yes
 original: "https://scotch.io/tutorials/aesthetic-sass-2-colors"
 original_author: "David Khourshid"
-original_name: "Aesthetic Sass 2: Colors and Palettes "
+original_title: "Aesthetic Sass 2: Colors and Palettes "
 thumbnail: "/images/development/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png"
 scripts: codepen
 ---

@@ -7,7 +7,7 @@ tags: [javascript, translation, sitepoint]
 description: "Обязательно ли сохранять всю логику в файлах JS или же допустимо вставлять отдельные ее части в HTML - JsAction, Object.observe() и другие подходы"
 original: "http://www.sitepoint.com/emerging-patterns-javascript-event-handling/"
 original_author: "Марселло Ла Рокка"
-original_name: "Emerging Patterns in JavaScript Event Handling"
+original_title: "Emerging Patterns in JavaScript Event Handling"
 prism: yes
 noimage: truth
 ---

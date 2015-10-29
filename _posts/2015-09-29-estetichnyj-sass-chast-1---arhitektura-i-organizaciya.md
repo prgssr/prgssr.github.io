@@ -8,7 +8,7 @@ description: "Организация архитектуры Sass с пример
 prism: yes
 original: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization"
 original_author: "David Khourshid"
-original_name: "Aesthetic Sass 1: Architecture and Style Organization"
+original_title: "Aesthetic Sass 1: Architecture and Style Organization"
 noimage: true
 ---
 Sass  это очень мощное расширение языка CSS, дающее возможность улучшить как организацию стилей, так и сами стили.

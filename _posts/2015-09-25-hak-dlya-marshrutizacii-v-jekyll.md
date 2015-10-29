@@ -7,7 +7,7 @@ date: 2015-09-25 13:14:44
 description: "Создание маршрутизации в Jekyll без использования плагинов, с помощью файлов с данными и markdown."
 original: "http://www.sitepoint.com/hacking-routing-component-jekyll/"
 original_author: "Хьюго Жирадель"
-original_name: "Hacking a Routing Component in Jekyll"
+original_title: "Hacking a Routing Component in Jekyll"
 prism: true
 noimage: true
 related: 8
