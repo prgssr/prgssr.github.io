@@ -10,6 +10,10 @@ original_author: "Jérémy Heleine"
 original_title: "Debugging Mobile Websites with Firefox"
 prism: yes
 ---
+
+Информация в этой статье частично устарела --- в [последних версиях Firefox режим удаленной отладки намного удобнее](http://prgssr.ru/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html). Но первые пару разделов прочитать стоит, особенно если вы впервые подключаете телефон к компьютеру для отладки. 
+{: .warning}
+
 Во всех основных браузерах есть инструментарий для отладки сайтов на мобильных устройствах. В этой статье я рассмотрю возможности Firefox и сравню их с аналогичными в Chrome и Internet Explorer.
 
 ## Тестируем в отзывчивом режиме Firefox
@@ -67,7 +71,11 @@ Firefox использует ADB для установки соединения 
 Также как и на десктопе, вам надо активировать удаленную отладку в Firefox для Android. Если Firefox 25+, просто выберите  “Remote debugging" в разделе  “Developer tools” меню "Settings".
 ![usb-debugging](/images/development/screenshot_2015-07-13-17-40-18.png)
 
-В Firefox 15--24 наберите в адресной строке “about:config”. Найдите пункт devtools.debugger.remote-enabled и задайте ему значение true, нажав кнопку “Toggle”.
+В Firefox 15--24 наберите в адресной строке “about:config”. Найдите пункт `devtools.debugger.remote-enabled` и задайте ему значение true, нажав кнопку “Toggle”.
+
+Напоминаю, что статья устарела и следующие разделы имеют только историческую ценность. [Актуальная информация об удаленной отладке в новой статье](http://prgssr.ru/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html).
+{: .info}
+
 
 ### Устанавливаем соединение
 
