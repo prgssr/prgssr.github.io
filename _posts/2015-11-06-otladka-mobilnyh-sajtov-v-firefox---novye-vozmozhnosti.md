@@ -58,7 +58,7 @@ chmod a+r /etc/udev/rules.d/51-android.rules
 
 Итак, устройство Android подключено и распознано, режим отладки активирован, а в браузере активирована удаленная отладка по USB --- запускаем Web IDE и [переходим в меню Runtimes](https://developer.mozilla.org/en-US/docs/Tools/WebIDE#Setting_up_runtimes) (расположено справа), вот как это будет выглядеть:
 
-![](/images/development/remote-debugging-android-runtime.png)
+![меню Runtimes в WebIDE](/images/development/remote-debugging-android-runtime.png)
 
 Выбираем устройство, на нем появится модальное окно с вопросом, разрешать ли  отладку:
 
@@ -66,11 +66,11 @@ chmod a+r /etc/udev/rules.d/51-android.rules
 
 В меню Open App (расположено слева) выбираем нужную вкладку --- страницу, которая в текущий момент просматривается на мобильном браузере:
 
-![](/images/development/remote-debugging-android-open-tabs.png)
+![меню Open App в WebIDE](/images/development/remote-debugging-android-open-tabs.png)
 
 И занимаемся непосредственно отладкой:
 
-![](/images/development/remote-debugging-android-attached.png){: itemprop="image"}
+![Отладка в WebIDE](/images/development/remote-debugging-android-attached.png){: itemprop="image"}
 
 ## Отладка по WiFi
 
@@ -88,7 +88,7 @@ Web IDE предложит вам считать QR код:
 
 ![Сканирование QR кода](/images/development/webide-qr-code.png)
 
-На устройстве Android появится сообщение с предложением о подключении --- выберите “Scan” или “Scan and Remember” и сканируйте код с помощью сканнера. После сканирования QR кода это окно исчезнет, а иконка устройства в  WebIDE станет синей (это значит, что устройство подключено).
+На устройстве Android появится сообщение с предложением о подключении --- выберите “Scan” или “Scan and Remember” и сканируйте код с помощью сканнера. После сканирования QR кода это окно исчезнет, а иконка устройства в  WebIDE станет синей (это значит, что устройство подключено). Сканировать QR код надо один раз при первоначальном подключении, в дальнейшем устройство подключается автоматически.
 
 Теперь у вас есть доступ ко всем вкладкам мобильного браузера из  панели  Web IDE и вы можете исследовать их с помощью  инструментов для разработки десктопного Firefox. Не забываем, кстати, что [третья версия Firebug будет не самостоятельным дополнением, а надстройкой над DevTools](https://hacks.mozilla.org/2015/10/firebug-devtools-integration/), то есть в перспективе к нативным инструментам разработки могут добавиться инструменты Firebug.
 
