@@ -22,7 +22,9 @@ layout: default
   {% endif %}
   {% include TOC.html heading='h2' toc-title="Оглавление:" %}
   <article itemprop="articleBody" class="post-content">
-    {% if page.noimage %}
+    {% if page.noimage and page.thumbnail %}
+    <meta itemprop="image" content="{{ page.thumbnail| prepend: site.url }}">
+    {% else if page.noimage %}
     <meta itemprop="image" content="{{ site.data.thumb.[category] | prepend: site.url }}">
     {% endif %}
     {{ content }}
