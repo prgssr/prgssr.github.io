@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Начинаем работу с SASS и Bourbon"
+title: "Начинаем работу с Sass и Bourbon"
 date: 2015-11-13 19:36:50
 categories: [development]
 tags: [sass, bourbon, translation, sitepoint]
