@@ -545,3 +545,8 @@ CSS:
 ## Заключение
 
 Флексбокс сегодня совершенно реален. После долгих лет разработки его спецификация стала стабильной и позволяет решать основные вопросы, связанные с раскладкой. Я также рекомендую [курс из 20 видео по флексбокс на сайте flexbox.io](http://flexbox.io/#/). Первые 13 видео раскрывают основы флексбокса, а в оставшихся 7 строится все от навигации до мобильного приложения, целиком на флексбоксе. Сейчас уже нет смысла спорить о флексбоксе, его надо использовать в работе.
+
+##### Дополнительные материалы
+
+* [Руководство по Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) ([русский перевод от Frontender Magazine](http://frontender.info/a-guide-to-flexbox/)).
+* [Визуальное руководство по свойствам Flexbox из CSS3](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) ([русский перевод от CSS-live](http://css-live.ru/articles/vizualnoe-rukovodstvo-po-svojstvam-flexbox-iz-css3.html)).
