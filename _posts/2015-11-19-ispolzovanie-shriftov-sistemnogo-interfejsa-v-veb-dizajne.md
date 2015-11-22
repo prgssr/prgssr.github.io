@@ -9,7 +9,7 @@ original: "http://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practic
 original_title: "Using System UI Fonts In Web Design: A Quick Practical Guide"
 original_author: "Марсин Вичари"
 prism: yes
-thumbnail: "images/development/typography/04-history-win.png"
+thumbnail: "/images/development/typography/04-history-win.png"
 ---
 
 Сейчас, возможно, впервые со времен самого первого Макинтоша имеет смысл заинтересоваться использованием системных шрифтов для  интерфейса. Они являются интересной и свежей альтернативой веб-типографике --- и они не требуют хостинга ни на вашем сервере, ни на стороннем. Как можно использовать системные шрифты на сайте и какие здесь могут возникнуть проблемы?

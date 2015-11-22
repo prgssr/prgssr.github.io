@@ -10,7 +10,7 @@ original: "http://www.smashingmagazine.com/2015/11/flexbox-interfaces-tracks-cas
 original_title: "Flexbox For Interfaces All The Way: Tracks Case Study"
 original_author: "Dennis Gaebel Jr"
 scripts: codepen
-thumbnail: "images/development/flex/02-tracks-app-opt.png"
+thumbnail: "/images/development/flex/02-tracks-app-opt.png"
 ---
 
 Времена раскладок страниц, основанных на плавающих элементах и манипуляциях с внешними отступами уже практически в прошлом. CSS дает разработчикам новые улучшенные свойства для создания раскладки. Такие традиционные в верстке вещи как вертикальное выравнивание, равномерные расстояния между элементами, изменение расположения элементов без изменения их последовательности в разметке и прочие паттерны типа "приклеенного футера" легко реализуются с помощью [флексбокса](http://caniuse.com/#feat=flexbox).
