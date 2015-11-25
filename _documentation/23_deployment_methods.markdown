@@ -100,5 +100,5 @@ laptops$ git push deploy master
 
 ###### Совет: используйте GitHub Pages для беспроблемного хостинга Jekyll
 {: .protip}
-***GitHub Pages работают на Jekyll, поэтому являются идеальным решением для удобного и [бесплатного хостинга](http://jekyllrb.com/docs/github-pages/).***
+GitHub Pages работают на Jekyll, поэтому являются идеальным решением для удобного и [бесплатного хостинга](http://jekyllrb.com/docs/github-pages/).
 {: .protip}

@@ -35,7 +35,7 @@ gem 'github-pages', versions['github-pages']
 
 ###### Кастомные домены не влияют на название репозитория
 {: .protip}
-***GitHub Pages изначально ориентированы на работу с субдоменом `username.github.io`, поэтому репозитории должны называться по имени учетной записи даже при использовании кастомного домена***
+GitHub Pages изначально ориентированы на работу с субдоменом `username.github.io`, поэтому репозитории должны называться по имени учетной записи даже при использовании кастомного домена
 {: .protip}
 
 ### Страницы проектов
@@ -46,7 +46,7 @@ gem 'github-pages', versions['github-pages']
 
 ###### Исходные файлы должны находиться в корневом каталоге
 {: .warning}
-***Github Pages [переписывает](https://help.github.com/articles/troubleshooting-github-pages-build-failures#source-setting) [конфигурацию исходников сайта](http://jekyllrb.com/docs/configuration/#global-configuration), поэтому если вы расположите исходники не в корневом каталоге, ваш сайт может быть собран некорректно***
+Github Pages [переписывает](https://help.github.com/articles/troubleshooting-github-pages-build-failures#source-setting) [конфигурацию исходников сайта](http://jekyllrb.com/docs/configuration/#global-configuration), поэтому если вы расположите исходники не в корневом каталоге, ваш сайт может быть собран некорректно
 {: .warning}
 
 ### Структура URL страницы проекта
@@ -63,5 +63,5 @@ gem 'github-pages', versions['github-pages']
 
 ###### Документация, помощь и поддержка с GitHub Pages
 {: .protip}
-***Для больше информации о работе с  GitHub Pages и решения проблем, смотрите [раздел помощи на GitHub Pages](https://help.github.com/categories/20/articles). При более серьезных проблемах обращайтесь в [поддержку GitHub](https://github.com/contact).***
+Для больше информации о работе с  GitHub Pages и решения проблем, смотрите [раздел помощи на GitHub Pages](https://help.github.com/categories/20/articles). При более серьезных проблемах обращайтесь в [поддержку GitHub](https://github.com/contact).
 {: .protip}
