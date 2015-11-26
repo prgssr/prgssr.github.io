@@ -178,5 +178,5 @@ Susy относится к сеточным системам CSS. Но  это �
 ###### Дополнительные материалы
 
 * [Susy Grid System](http://susy.oddbird.net/)
-* [A Complete Tutorial to Susy 2](http://www.zell-weekeat.com/susy2-tutorial/) ([русский перевод](http://zencoder.ru/susy/brief-tutorial-susy-2/))
-* [A Complete Tutorial to Susy 2 (Part 2)](http://www.zell-weekeat.com/susy2-tutorial-2/) ([русский перевод](http://zencoder.ru/susy/brief-tutorial-susy-part2/))
+* [A Complete Tutorial to Susy 2](http://www.zell-weekeat.com/susy2-tutorial) ([русский перевод](http://zencoder.ru/susy/brief-tutorial-susy-2/))
+* [A Complete Tutorial to Susy 2 (Part 2)](http://www.zell-weekeat.com/susy2-tutorial-2) ([русский перевод](http://zencoder.ru/susy/brief-tutorial-susy-part2/))
