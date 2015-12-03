@@ -9,7 +9,7 @@ original: "http://www.sitepoint.com/sass-features-may-never-tried/"
 original_author: "М.Дэвид Грин"
 original_title: "4 Sass Features You May Not Have Tried"
 prism: yes
-noimage: truth
+thumbnail: noimage
 ---
 После того, как вы начинаете менять рабочее окружение для работы с SASS, нелегко расстаться с привычными рабочими стереотипами. Вам могут нравится возможности SASS и вы активно используете некоторые из них, не пытаясь освоить более продвинутые. На самом деле возможности SASS намного больше и применение более продвинутых фич дает вам большие преимущества.
 

@@ -7,7 +7,7 @@
   <meta name="msvalidate.01" content="F34FD0093D04052D38754E18AC0F06D4" />
   <meta name="google-site-verification" content="1sv4ffgnLcR8LaWDKMiDEJ18oS1SYX0jdZmUabp3n3s" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }} {% else %}{{ site.description}}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% if paginator %} страница {{ paginator.page }}{% endif %}{% else %}{{ site.description}}{% endif %}">
   {% include twitter_card.html %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -15,9 +15,12 @@
       <link rel="dns-prefetch" href="//disqus.com">
       <link rel="dns-prefetch" href="//a.disquscdn.com/">
   {% endif %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   {% include google-analytics.html %}
-  {% if page.prism %}
+  {% if page.prism == "full" %}
+    <link rel="stylesheet" href="{{ "/css/full-prism.css" | prepend: site.baseurl }}">
+    <script src="{{ "/js/full-prism.js" | prepend: site.baseurl }}"></script>
+    {% elsif page.prism %}
   	<link rel="stylesheet" href="{{ "/css/prism.css" | prepend: site.baseurl }}">
     <script src="{{ "/js/prism.js" | prepend: site.baseurl }}"></script>
   {% endif %}

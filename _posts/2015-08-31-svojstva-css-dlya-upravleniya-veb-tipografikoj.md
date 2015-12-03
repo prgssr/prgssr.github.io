@@ -9,6 +9,7 @@ original: "http://www.sitepoint.com/css-properties-to-control-web-typography/"
 original_author: "Maria Antonietta Perna"
 original_title: "CSS Properties to Control Web Typography"
 prism: yes
+thumbnail: "/images/development/1440569470white-space-pre.jpg"
 ---
 Преимуществом веб-типографики является то, что она базируется на знаниях, накопленных за столетия развития традиционной печатной типографики. По той же причине веб-типографика должна следовать стандартам лучших практик и передового опыта.
 

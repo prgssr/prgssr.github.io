@@ -6,7 +6,7 @@ date: 2015-09-18 08:18:31
 categories: [articles]
 tags: [jekyll, markdown]
 prism: yes
-noimage: true
+thumbnail: noimage
 ---
 Это вторая статья о синтаксисе kramdown, в ней будут описаны разновидности ссылок, способы выделения блоков кода и возможности по улучшению типографики.
 

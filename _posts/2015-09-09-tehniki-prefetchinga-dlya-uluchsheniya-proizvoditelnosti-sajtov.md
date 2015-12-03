@@ -9,7 +9,7 @@ prism: yes
 original: "https://css-tricks.com/prefetching-preloading-prebrowsing/"
 original_author: "Робин Рендл"
 original_title: "Prefetching, preloading, prebrowsing"
-noimage: truth
+thumbnail: noimage
 ---
 
 Когда мы говорим о производительности на фронтенде, мы обычно думаем о таких вещах как конкатенация, минификация, кэширование и сжатие ресурсов на сервере, позволяющих загрузить страницу быстрее и помочь пользователям быстрее достигнуть своих целей.

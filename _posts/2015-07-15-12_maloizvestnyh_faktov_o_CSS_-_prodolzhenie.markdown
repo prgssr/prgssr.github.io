@@ -10,6 +10,7 @@ original_author: "Louis Lazaris"
 original_title: "12 Little-Known CSS Facts (The Sequel)"
 scripts: codepen
 prism: yes
+thumbnail: "/images/development/1436312214border-radius-slash.png"
 ---
 
 Год назад я опубликовал статью [12 малоизвестных фактов о CSS](http://www.sitepoint.com/12-little-known-css-facts/) и она стала одно из самых популярных на сайте. За прошедшее с тех пор время я собрал еще некоторое количество советов и интересностей о CSS для нового поста. Мы же все знаем, что у каждого успешного фильма должно быть продолжение, не так ли?

@@ -9,7 +9,7 @@ original: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-default
 original_author: "Джефф Грэхем"
 original_title: "Numeric Inputs – A Comparison of Browser Defaults"
 prism: yes
-noimage: truth
+thumbnail: noimage
 ---
 Спецификации целенаправленно умалчивают о том, как браузерам обращаться  с пользовательским интерфейсом. В этой статье мы отдельно  рассмотрим `<input type="number">`, вы будете удивлены, но спецификация [говорит](http://www.w3.org/html/wg/drafts/html/master/semantics.html#number-state-(type=number)):
 

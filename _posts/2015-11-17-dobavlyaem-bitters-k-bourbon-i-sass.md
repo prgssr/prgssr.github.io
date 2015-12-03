@@ -4,12 +4,11 @@ title: Добавляем Bitters к Bourbon и Sass
 categories: [development]
 tags: [sass, bourbon, translation, sitepoint]
 date: 2015-11-17 22:30:30
-description: "Bitters - каркас для разработки в библиотеки Bourbon. Базовые стили, структура проекта и переменные" 
+description: "Bitters - каркас для разработки в библиотеки Bourbon. Базовые стили, структура проекта и переменные"
 original: "http://www.sitepoint.com/adding-bitters-to-bourbon-and-sass/"
 original_title: "Adding Bitters to Bourbon and Sass"
 original_author: "М.Дэвид Грин"
 prism: yes
-noimage: true
 thumbnail: "/images/thoughtbot.png"
 ---
 

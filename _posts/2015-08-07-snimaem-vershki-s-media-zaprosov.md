@@ -9,7 +9,7 @@ original: "http://www.sitepoint.com/cutting-the-mustard-with-css-media-queries/"
 original_author: "Энди Кирк"
 original_title: "Cutting the Mustard with CSS Media Queries"
 prism: yes
-noimage: truth
+thumbnail: noimage
 ---
 [Снимать вершки (Cutting the Mustard)](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) это термин Тома Маслена с BBC. Суть его метода состоит в использовании JavaScript для проверки возможностей браузера перед дальнейшей загрузкой CSS и JavaScript, чтобы улучшить ощущения пользователей и загрузить лишь базовые файлы, если возможности браузера невелики.
 

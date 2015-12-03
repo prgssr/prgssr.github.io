@@ -10,7 +10,7 @@ original: "http://www.sitepoint.com/getting-started-with-scss-lint/"
 original_author: "Хьюго Жирадель"
 original_title: "Getting Started With SCSS-Lint"
 related: 6
-noimage: truth
+thumbnail: noimage
 ---
 Как ни странно это звучит, написание кода является  легкой частью  разработки сайта, приложения или любого другого вида программного обеспечения. Сложнее сделать этот код масштабируемым, тестируемым, правильно документированным и легко поддерживаемым.
 

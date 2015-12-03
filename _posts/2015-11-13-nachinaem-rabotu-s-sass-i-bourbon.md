@@ -9,7 +9,6 @@ original: "http://www.sitepoint.com/getting-started-sass-bourbon/"
 original_title: "Getting Started with Sass and Bourbon"
 original_author: "М.Дэвид Грин"
 prism: yes
-noimage: true
 thumbnail: "/images/thoughtbot.png"
 ---
 

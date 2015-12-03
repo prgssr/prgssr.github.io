@@ -9,7 +9,6 @@ original: "http://www.sitepoint.com/5-ways-improve-sass-bourbon/"
 original_title: "5 Ways to Improve Your Sass with Bourbon"
 original_author: "М.Дэвид Грин"
 prism: yes
-noimage: true
 thumbnail: "/images/thoughtbot.png"
 ---
 
@@ -241,7 +240,7 @@ p {
   -ms-justify-content: space-between;
   -o-justify-content: space-between;
   justify-content: space-between;
-  -ms-flex-pack: justify; 
+  -ms-flex-pack: justify;
 }
 
 .container > .box {
@@ -293,11 +292,11 @@ p {
 
     .hero {
       background-image: url(hero-background_2x.png);
-      background-size: 400px 300px; 
+      background-size: 400px 300px;
     }
 
 }
-``` 
+```
 
 Как видите, здесь много избыточности, особенно, если вы четко соблюдаете единообразие и системность при именовании файлов. Bourbon позволяет решать эту задачу одной строчкой кода:
 

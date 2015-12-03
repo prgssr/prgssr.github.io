@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+coffeescript+ruby+css-extras+git+http+less+markdown+php+php-extras+python+jsx+sass+scss+twig+yaml&plugins=show-language */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+apacheconf+bash+coffeescript+ruby+css-extras+git+go+haml+handlebars+http+jade+java+latex+less+makefile+markdown+nginx+php+php-extras+jsx+rest+sass+scss+smarty+sql+stylus+twig+wiki+yaml&plugins=show-language */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -63,6 +63,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	white-space: normal;
 }
 
 .token.comment,
@@ -151,7 +152,7 @@ div.prism-show-language > div.prism-show-language-label[data-language] {
 	right: 0;
 	width: auto;
 	height: auto;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	border-radius: 0 0 0 5px;
 	padding: 0 0.5em;
 	text-shadow: none;

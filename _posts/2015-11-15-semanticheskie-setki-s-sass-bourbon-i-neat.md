@@ -9,7 +9,6 @@ original: "http://www.sitepoint.com/sass-bourbon-neat-lightweight-semantic-grids
 original_title: "Sass and Bourbon Neat for Lightweight Semantic Grids"
 original_author: "М.Дэвид Грин"
 prism: yes
-noimage: true
 thumbnail: "/images/thoughtbot.png"
 ---
 

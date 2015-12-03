@@ -9,7 +9,7 @@ original: "http://www.sitepoint.com/emerging-patterns-javascript-event-handling/
 original_author: "Марселло Ла Рокка"
 original_title: "Emerging Patterns in JavaScript Event Handling"
 prism: yes
-noimage: truth
+thumbnail: noimage
 ---
 Последние несколько месяцев в сети шли бурные дебаты о наиболее удачных  способах обработки событий. Сначала Google выпустил библиотеку JsAction, а затем был анонсирован метод `Object.observe()`, который будет реализован в стандарте ECMAScript 7, но уже поддерживается в Chrome 36 и  Node.js [Harmony](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts).
 

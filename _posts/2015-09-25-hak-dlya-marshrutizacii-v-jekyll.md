@@ -9,7 +9,7 @@ original: "http://www.sitepoint.com/hacking-routing-component-jekyll/"
 original_author: "Хьюго Жирадель"
 original_title: "Hacking a Routing Component in Jekyll"
 prism: true
-noimage: true
+thumbnail: noimage
 related: 8
 ---
 Изначально я хотел написать о маршрутизации в Jekyll на хостинге  GitHub с использованием  Markdown, Liquid и YAML. Для названия это оказалось слишком затянуто, но тем не менее суть не поменялась --- в Jekyll нет роутера и я надеюсь, что нашел неплохую имитацию.

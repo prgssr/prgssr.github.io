@@ -9,7 +9,6 @@ original: "http://www.sitepoint.com/bourbon-refills-provide-drop-design-function
 original_title: "Bourbon Refills Provide Drop-In Design and Functionality"
 original_author: "М.Дэвид Грин"
 prism: yes
-noimage: true
 thumbnail: "/images/thoughtbot.png"
 ---
 
@@ -506,4 +505,3 @@ SCSS координирует жирность шрифта и высоту ст
 Больше всего меня привлекает в Refill его совместимость со всеми библиотеками Bourbon. Гибкость вашего сайта не пострадает от подключения  Refills и вы сразу сможете перейти от дизайна к работающим прототипам максимально быстро.
 
 Для разработчика, который знает, как работает эта экосистема и хочет быстро сделать работающий прототип, который будет хорошим стартом для дальнейшего дизайна, Bourbon Refills  будет самой удобной возможностью из существующих.
-

@@ -9,7 +9,7 @@ prism: yes
 original: "http://www.sitepoint.com/5-responsive-design-pitfalls-and-how-to-avoid-them/"
 original_author: "Yaphi Berhanu"
 original_title: "5 Responsive Design Pitfalls and How to Avoid Them"
-noimage: truth
+thumbnail: noimage
 related: 9
 ---
 Представьте, что вы долго работали над отзывчивым дизайном сайта и теперь проверяете его на мобильном. И ваш дизайн рассыпается, причем так, как вы этого совсем не ожидали. Текст идет наперекосяк, анимация воспроизводится рывками, а формы совсем не похожи на те, что вы делали. Вы тратите часы на поиск решения в интернете и ответы водят вас по кругу. Психанув, вы выкидываете свой компьютер из окна и случайно убиваете соседского кота.
