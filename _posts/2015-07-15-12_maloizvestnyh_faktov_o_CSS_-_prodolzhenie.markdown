@@ -6,7 +6,7 @@ categories: development
 description: "12 фактов о малоизвестных свойствах и особенностях свойств CSS - outline-offset, table-layout, border-radius, font-weight и т.д. Перевод статьи Sitepoint."
 tags: css translation sitepoint
 original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
-original_author: "Louis Lazaris"
+original_author: "Луис Лазарис"
 original_title: "12 Little-Known CSS Facts (The Sequel)"
 scripts: codepen
 prism: yes
@@ -327,7 +327,7 @@ thumbnail: "/images/development/1436312214border-radius-slash.png"
 
 Эта анимация не работает из-за того, что это одно из ключевых слов для свойства `animation-direction`. И то же самое будет при совпадении названия анимации с любым из ключевых слов, используемых в краткой записи. При отдельной записи свойств эта проблема не возникает.
 
-В список названий анимаций, ломающих краткую запись вхдят все [ключевые слова для функций тайминга](http://dev.w3.org/csswg/css-transitions-1/#single-transition-timing-function), такие как `infinite`, `alternate`, `running`, `paused` и т.д.
+В список названий анимаций, ломающих краткую запись входят все [ключевые слова для функций тайминга](http://dev.w3.org/csswg/css-transitions-1/#single-transition-timing-function), такие как `infinite`, `alternate`, `running`, `paused` и т.д.
 
 ## 10.Вы можете выбирать диапазон элементов
 
