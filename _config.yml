@@ -23,7 +23,7 @@ collections:
      output: true
      layout: doc
      date: "2015-07-28"
-     image: "/images/jekyll.png"
+     thumbnail: "/images/jekyll.png"
 
 #gems
 gems:

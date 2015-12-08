@@ -4,7 +4,7 @@ title: "Как организовать выполнение фоновых за
 categories: [development]
 tags: [javascript, translation, sitepoint]
 date: 2015-12-08 21:19:46
-description: "Новейшие веб-технологии в статье Крейга Баклера - браузерный эльф и экспериментальное API requestIdleCallback"
+description: "Новейшие веб-технологии в статье Крейга Баклера - браузерный эльф и экспериментальный API requestIdleCallback"
 prism: yes
 original: "http://www.sitepoint.com/how-to-schedule-background-tasks-in-javascript/"
 original_title: "How to Schedule Background Tasks in JavaScript"
