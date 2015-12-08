@@ -8,7 +8,7 @@ thumbnail: "/images/development/Y6fh1wD.png"
 tags: performance translation sitepoint
 original: "http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/"
 original_title: "10 Ways to Minimize Reflows and Improve Performance"
-original_author: "Крэйг Баклер"
+original_author: "Крейг Баклер"
 prism: yes
 ---
 Несмотря на прошедшее время, [дискуссия о двухмегабайтных страницах](http://www.sitepoint.com/2mb-web-pages-whos-blame/) остается актуальной. Чем быстрее ваше приложение, тем лучше впечатления пользователей и выше показатель конверсии.
