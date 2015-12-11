@@ -147,9 +147,9 @@ p {
     -moz-font-feature-settings: "smcp" 1;
     -ms-font-feature-settings: "smcp" 1;
     font-feature-settings: "smcp" 1;
-}</p>
+}
 
-<p>p {
+p {
     -webkit-font-feature-settings: "pcap" 1;
     -moz-font-feature-settings: "pcap" 1;
     -ms-font-feature-settings: "pcap" 1;
