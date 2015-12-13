@@ -29,6 +29,7 @@ collections:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 #comments
 disqus: prgssr
