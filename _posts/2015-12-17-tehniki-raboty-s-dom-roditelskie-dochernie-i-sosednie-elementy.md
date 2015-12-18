@@ -248,7 +248,7 @@ document.body.replaceChild(myPar1, myPar3);
 <p data-height="368" data-theme-id="0" data-slug-hash="RWvXVY" data-default-tab="result" data-user="SitePoint" class='codepen'>See the Pen <a href='http://codepen.io/SitePoint/pen/RWvXVY/'>Using replaceChild() to swap one element for another</a> by SitePoint (<a href='http://codepen.io/SitePoint'>@SitePoint</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 
-## Выбираем конкретный дочерний элемент
+## Выборка конкретных дочерних элементов
 
 Существует несколько разных способов выбора конкретного элемента. Как показано ранее, я могу начать с использования коллекции `children` или свойства `childNodes`. Но взглянем на другие варианты:
 
