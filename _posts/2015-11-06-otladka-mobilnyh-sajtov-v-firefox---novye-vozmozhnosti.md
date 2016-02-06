@@ -7,6 +7,9 @@ description: "Удаленная отладка c Web IDE в Firefox стала 
 tags: [mobile, devtools]
 prism: yes
 thumbnail: "/images/development/remote-debugging-android-attached.png"
+redirect_from: 
+  - "/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html"
+  - "/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti"
 ---
 
 Летом я размещал перевод статьи [про отладку мобильных сайтов в Firefox](http://prgssr.ru/development/Otladka-mobilnyh-sajtov-v-Firefox.html), с тех пор многое поменялось, а с выходом на этой неделе Firefox 42 стало очевидно, что тот материал по большей части устарел. Советы по использованию отзывчивого режима остаются в силе, также как и часть статьи про активацию режима USB-отладки в Android, а в остальном все стало намного лучше
