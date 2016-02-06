@@ -11,7 +11,8 @@ original_author: "David Khourshid"
 original_title: "Aesthetic Sass 1: Architecture and Style Organization"
 thumbnail: noimage
 redirect_from: 
-  - /development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya
+  - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya"
+  - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya.html"
 ---
 Sass  это очень мощное расширение языка CSS, дающее возможность улучшить как организацию стилей, так и сами стили.
 
