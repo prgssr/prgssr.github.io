@@ -10,7 +10,8 @@ original: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-o
 original_author: "David Khourshid"
 original_title: "Aesthetic Sass 1: Architecture and Style Organization"
 thumbnail: noimage
-redirect_from: /development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya
+redirect_from: 
+  - /development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya
 ---
 Sass  это очень мощное расширение языка CSS, дающее возможность улучшить как организацию стилей, так и сами стили.
 
