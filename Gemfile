@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-gem "jekyll"
-gem "html-proofer"
-gem "jemoji"
-gem "jekyll-mentions"
-gem "jekyll-redirect-from"
-gem "jekyll-sitemap"
+gem 'jekyll', '3.0.2'
+gem 'jekyll-watch'
+gem 'html-proofer'
+gem 'jemoji'
+gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'listen'
