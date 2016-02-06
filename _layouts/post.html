@@ -20,7 +20,7 @@ layout: default
   {% if category == "development"%}
     {% include translation.html %}
   {% endif %}
-  {% include TOC.html heading='h2' toc-title="Оглавление:" %}
+
   <article itemprop="articleBody" class="post-content">
     {% if page.thumbnail == "noimage" %}
         <meta itemprop="image" content="{{ site.data.thumb.[category] | prepend: site.url }}">
