@@ -13,7 +13,9 @@ kramdown:
   auto_id_prefix: "heading-"
   enable_coderay: false
   toc_levels: 1..3
-  syntax_highlighter: coderay
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
 
 permalink: :categories/:title.html
 exclude: [vendor]
