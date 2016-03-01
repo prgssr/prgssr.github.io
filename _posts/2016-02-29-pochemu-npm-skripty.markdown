@@ -1,5 +1,5 @@
 ---
-title: "Почему npm скрипты?"
+title: "Почему npm-скрипты?"
 layout: post
 categories: [development]
 tags: [devtools, translation, smashingmagazine]
