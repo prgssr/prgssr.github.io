@@ -122,7 +122,7 @@ npm install --save-dev postcss-cli autoprefixer
 Эта задача говорит: "Эй, postcss, используй (use, флаг `-u`) `autoprefixer` с заменой всех старых файлов в каталоге `dist/css` на новые, с вендорными префиксами". Все! Нужно поменять набор поддерживаемых браузеров для автопрефиксера? Измените  его конфигурацию:
 
 ```javascript
-"autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '&gt; 5%, ie 9' -r dist/css/*"
+"autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '>5%, ie 9' -r dist/css/*"
 ```
 
 Опять-таки, это далеко не все доступные опции, которые вы можете использовать в своей сборке, вот списки опций для [postcss-cli](https://github.com/code42day/postcss-cli) и для [autoprefixer](https://github.com/postcss/autoprefixer#options). 
@@ -190,7 +190,7 @@ npm i -D uglify-js
 ```javascript
 "scripts": {
   ...
-  "uglify": "mkdir -p dist/js &amp;&amp; uglifyjs src/js/*.js -m -o dist/js/app.js &amp;&amp; uglifyjs src/js/*.js -m -c -o dist/js/app.min.js"
+  "uglify": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js && uglifyjs src/js/*.js -m -c -o dist/js/app.min.js"
 }
 ```
 
@@ -230,7 +230,7 @@ npm i -D svgo svg-sprite-generator
 ```javascript
 "scripts": {
   ...
-  "icons": "svgo -f src/images/icons &amp;&amp; mkdir -p dist/images && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg"
+  "icons": "svgo -f src/images/icons && mkdir -p dist/images && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg"
 }
 ```
 
@@ -287,7 +287,7 @@ npm i -D browser-sync
 ```javascript
 "scripts": {
   ...
-  "build:js": "npm run lint &amp;&amp; npm run uglify"
+  "build:js": "npm run lint && npm run uglify"
 }
 ```
 
