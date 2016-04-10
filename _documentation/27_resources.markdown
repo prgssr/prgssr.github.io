@@ -28,5 +28,5 @@ Jekyll используется все шире и появляется боль
 * [Генерация облака тегов в Jekyll](http://www.justkez.com/generating-a-tag-cloud-in-jekyll/) Гид по созданию облака тегов и страниц для отдельных тегов в Jekyll.
 * Способ [расширить Jekyll](https://github.com/rfelix/jekyll_ext) без форков и модификации кодовой базы Jekyll и некоторые портируемые расширения Jekyll.
 * [Использование макетов Rails в Jekyll](http://numbers.brighterplanet.com/2010/08/09/sharing-rails-views-with-jekyll)
-* [Добавление разбивки на страницы с  Ajax в Jekyll](https://eduardoboucas.com/blog/2014/11/10/adding-ajax-pagination-to-jekyll.html)
+* [Добавление разбивки на страницы с  Ajax в Jekyll](https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html)
 * [Использование файлов с данными в Jekyll для создания динамической навигации](https://gist.github.com/jordanthornquest/90d375d413227cd475c6)

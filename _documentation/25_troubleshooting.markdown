@@ -43,7 +43,7 @@ export RB_USER_INSTALL='true'
 sudo gem update --system
 ```
 
-Если проблемы остались, [используйте Xcode для установки инструментов командной строки](http://www.zlu.me/ruby/os%20x/gem/mountain%20lion/2012/02/21/install-native-ruby-gem-in-mountain-lion-preview.html), это упростит установку gem'ов:
+Если проблемы остались, [используйте Xcode для установки инструментов командной строки](https://blog.zlu.me/ruby/os%20x/gem/mountain%20lion/2012/02/21/install-native-ruby-gem-in-mountain-lion-preview.html), это упростит установку gem'ов:
 
 ```bash
 sudo gem install jekyll

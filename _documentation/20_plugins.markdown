@@ -392,7 +392,6 @@ end
 * [Jekyll-citation](https://github.com/archome/jekyll-citation):Рендерит формат BibTeX с библиографиями/цитатниками, подключая их в посты и страницы, на чистом Ruby.
 * [Jekyll Dribbble Set Tag](https://github.com/ericdfields/Jekyll-Dribbble-Set-Tag): Строит галереи изображений любого пользователя Dribbble.
 * [Debbugs](https://gist.github.com/2218470): Позволяет постить ссылки на Debian BTS.
-* [Refheap_tag](https://github.com/aburdette/refheap_tag): Тег Liquid, позволяющий включать контент с [refheap](https://www.refheap.com/).
 * [Jekyll-devonly_tag](https://gist.github.com/2403522): Тег для подключения разметки, необходимой только на период разработки.
 * [JekyllGalleryTag ](https://github.com/redwallhp/JekyllGalleryTag)by [redwallhp](https://github.com/redwallhp): Генерирует миниатюры из каталога изображений и отображает их сеткой.
 * [Youku and Tudou Embed](https://gist.github.com/Yexiaoxing/5891929): Плагин Liquid для подключения видео с Youku и Tudou.
