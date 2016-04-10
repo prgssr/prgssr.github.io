@@ -1,5 +1,5 @@
 ---
-title: "Автоматизация регрессионного тестирования CSS 2016"
+title: "Автоматизация регрессионного тестирования CSS"
 layout: post
 categories: [development]
 tags: [css, devtools, translation, css-tricks]
