@@ -2,7 +2,7 @@
 layout: post
 title: "CSS аудит: инвентаризация вашего кода"
 categories: [development]
-tags: [css, translations, alistapart]
+tags: [css, translation, alistapart]
 description: "Аудит кода CSS - методы и инструменты: type-o-matic, Dust-Me Selectors и CSS Lint"
 original: "http://alistapart.com/article/css-audits-taking-stock-of-your-code"
 original_author: "Сюзан Робертсон"

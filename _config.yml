@@ -21,6 +21,7 @@ permalink: :categories/:title.html
 exclude: [vendor]
 keep_files: ["sonar-project.properties"]
 highlighter: rouge
+future: true
 
 #collections
 collections:
