@@ -1,3 +1,3 @@
 <span>
-  Теги: {% for tag in page.tags%}{% if tag != "translation" %}<a href="{{site.baseurl}}/tag/{{tag}}">#{{tag}}</a>{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}
+  Теги: {% for tag in page.tags%}{% if tag != "translation" %}<a href="{{site.baseurl}}/tag/{{tag}}" data-proofer-ignore>#{{tag}}</a>{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}
 </span>

@@ -1,4 +1,4 @@
-<ul class="tag-list">
+<ul class="tag-list" data-proofer-ignore>
 {%for item in site.tags[tag]%}
 <li class="tag-item"><a href="{{item.url}}">{{item.title}}</a><span>— {{item.date | date: "%Y-%m-%d"}}</span></li>
 {%endfor%}
