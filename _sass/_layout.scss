@@ -194,11 +194,17 @@ body {
   font-size: 24px;
 }
 
+// Comments
+
 .comments-link {
-  color: $grey-color;
-  float: right;
-  font-size: $small-font-size;
-  white-space: nowrap;
+  display: none;
+  @include media($on-palm) {
+      display: block;
+      color: $grey-color;
+      float: right;
+      font-size: $small-font-size;
+      white-space: nowrap;
+  }
 }
 
 .comments-link:visited {
