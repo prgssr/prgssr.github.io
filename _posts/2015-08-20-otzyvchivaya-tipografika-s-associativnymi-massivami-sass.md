@@ -3,7 +3,7 @@ layout: post
 title: "Отзывчивая типографика с ассоциативными массивами Sass"
 date: 2015-08-20 12:32:00
 categories: [development]
-tags: [sass, translation, smashingmagazine]
+tags: [sass, typography, translation, smashingmagazine]
 description: "Отзывчивая типографика с Sass. Автоматическая генерация медиа-запросов с размером шрифта и высотой строки."
 original: "http://www.smashingmagazine.com/2015/06/responsive-typography-with-sass-maps/"
 original_author: "Jonathan Suh"
@@ -330,8 +330,8 @@ p { font-size: 15px; line-height: 1.3; }
 
 [Viewport Units](https://css-tricks.com/viewport-sized-typography/)  (`vh`, `vw`, `vmin` и `vmax`) также можно использовать для создания отзывчивой типографики:
 
-![изменение размера окна с Viewport Units - большой экран](/images/development/vh-header-big.gif "Viewport Units - большой экран")
-![изменение размера окна с Viewport Units - маленький экран](/images/development/vh-header-small.gif "Viewport Units - маленький экран")
+![изменение размера окна с Viewport Units - большой экран](/images/development/typography/vh-header-big.gif "Viewport Units - большой экран")
+![изменение размера окна с Viewport Units - маленький экран](/images/development/typography/vh-header-small.gif "Viewport Units - маленький экран")
 
 *Образец действия Viewport Units. Один Viewport Unit = 1% от ширины области экрана (Viewport). Для 1000 пикселей, `1vw = 10px`; для 500 пикселей, `1vh = 5px`*
 

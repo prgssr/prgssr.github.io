@@ -10,7 +10,7 @@ original: "https://scotch.io/bar-talk/5-things-you-might-not-know-about-the-css-
 original_title: "5 Things You Might Not Know About the CSS Positioning Types"
 original_author: "George Martsoukos"
 scripts: codepen
-thumbnail: "/images/development/NewPosition.png"
+thumbnail: "/images/development/css/NewPosition.png"
 ---
 
 В наши дни  веб-разработчики могут строить сложные макеты веб-страниц, используя различные техники CSS. Некоторые из этих техник имеют длинную историю (флоаты), другие (флексбокс) достигли популярности в последние годы.
@@ -134,7 +134,7 @@ thumbnail: "/images/development/NewPosition.png"
 
 А если мы выберем проценты для смещения, результат будет зависить от размеров родительского элемента. Вот визуализация показывающая, как рассчитывается новая позиция:
 
-![расчет смещения в процентах](/images/development/NewPosition.png){: itemprop="image"}
+![расчет смещения в процентах](/images/development/css/NewPosition.png){: itemprop="image"}
 
 Примечание: как вы, наверное, знаете, свойство `transform` (вместе  с различными функциями `translate`) также позволяет изменить позицию элемента. Но в этом случае при использовании процентов расчет будет происходить на основе размер самого элемента, а не его родителя.
 

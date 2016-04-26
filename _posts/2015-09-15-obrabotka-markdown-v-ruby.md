@@ -3,13 +3,13 @@ layout: post
 title: Обработка Markdown в Ruby
 date: 2015-09-15 18:07:51
 categories: [development]
-tags: [markdown, translation,sitepoint]
+tags: [markdown, translation, sitepoint]
 description: "Краткое сравнение 4-х основных парсеров markdown в Ruby. Redcarpet быстрее всех."
 prism: yes
 original: "http://www.sitepoint.com/markdown-processing-ruby/"
 original_author: "Jesse Herrick"
 original_title: "Markdown Processing in Ruby"
-thumbnail: "/images/development/markdown-test.png"
+thumbnail: "/images/development/static/markdown-test.png"
 ---
 Markdown это фантастический язык разметки, компилируемый  в HTML. Хотя [изначально он написан](http://daringfireball.net/projects/markdown/) на Perl, Markdown портирован на многие языки с различными функциями. В этой статье мы рассмотрим 4 имплементации Markdown на Ruby: [kramdown](http://kramdown.gettalong.org/), [maruku](https://github.com/bhollis/maruku), [rdiscount](https://github.com/davidfstr/rdiscount) и [redcarpet](https://github.com/vmg/redcarpet).
 
@@ -178,7 +178,7 @@ RedCarpet |	.007233
 
 Цифры достаточно выразительные, но для большей наглядности  посмотрим на график (чем короче полоса, тем быстрее)
 
-![Сравнение производительности процессоров Markdown](/images/development/markdown-test.png){: itemprop="image"}
+![Сравнение производительности процессоров Markdown](/images/development/static/markdown-test.png){: itemprop="image"}
 
 
 Ну что? Очевидно преимущество Redcarpet, хотя rDiscount отстает совсем ненамного. С учетом возможностей Redcarpet, я рекомендую использовать имено его.

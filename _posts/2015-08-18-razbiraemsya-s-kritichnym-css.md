@@ -19,7 +19,7 @@ thumbnail: "/images/development/01-blocking-CSS-opt-small.jpg"
 
 Если вы когда-либо прогоняли один из своих сайтов через  PageSpeed Insights, то вы уже могли столкнуться с подобным отчетом:
 
-![PageSpeed Insights](/images/development/01-blocking-CSS-opt-small.jpg){: itemprop="image"}
+![PageSpeed Insights](/images/development/css/01-blocking-CSS-opt-small.jpg){: itemprop="image"}
 
 *CSS и JavaScript блокируют рендеринг страницы. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/01-blocking-CSS-opt.jpg))*
 
@@ -37,7 +37,7 @@ thumbnail: "/images/development/01-blocking-CSS-opt-small.jpg"
 
 Критический путь рендеринга это шаги, которые делает браузер делает для рендеринга страницы. Нам нужно свести к минимуму количество блокирующего CSS, или *критичного CSS*, чтобы наша страница быстрее показалась пользователю. Критический ресурс это любой ресурс, который может блокировать первоначальный рендеринг страницы. Идея состоит в том, чтобы веб-сайт мог вывести первые элементы контента пользователю в первых TCP-пакетах. Чтобы получить краткое представление о том, как это работает на странице, взгляните на рисунок ниже:
 
-![Критичный и некритичный контент](/images/development/02-browser-opt-small.jpg)
+![Критичный и некритичный контент](/images/development/css/02-browser-opt-small.jpg)
 
 *Критичный CSS это минимальный набор блокирующего CSS, требуемого для рендеринга первого экрана с контентом пользователю. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/02-browser-opt.jpg))*
 
@@ -124,7 +124,7 @@ grunt.initConfig({
 
 Запустите плагин, набрав `grunt` в консоли:
 
-![автоматизация с Grunt](/images/development/03-Critical-CSS-grunt-small.gif)
+![автоматизация с Grunt](/images/development/css/03-Critical-CSS-grunt-small.gif)
 
 *Автоматизация производительности с помощью Grunt. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/03-Critical-CSS-grunt.gif)*
 
@@ -213,7 +213,7 @@ critical: {
 
 Как всегда, важно тестирование всех изменений. Если вы хотите это сделать, к вашим услугам есть несколько волшебных инструментов, доступных бесплатно онлайн. Начните с [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), проверив свой URL. Вы заметите, что на странице нет больше блокирующих ресурсов и ваша производительность заметно улучшилась. Возможно, вы знакомы и с инструментом [ WebPagetest](http://www.webpagetest.org/).
 
-![WebPagetest](/images/development/04-webpagetest-filmstrip-opt-small.jpg)
+![WebPagetest](/images/development/css/04-webpagetest-filmstrip-opt-small.jpg)
 
 *Использование WebPagetest это отличный способ протестировать повременной рендеринг страницы. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/04-webpagetest-filmstrip-opt.jpg))*
 

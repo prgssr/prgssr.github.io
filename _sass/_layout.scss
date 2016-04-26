@@ -183,7 +183,8 @@ body {
   }
 }
 
-.post-meta {
+.post-meta,
+.post-tags {
   color: $grey-color;
   font-size: $small-font-size;
 }
@@ -261,6 +262,7 @@ body {
 
 .documentation-header {
   text-align: center;
+  margin: 0;
 }
 
 .documentation-subheader {
@@ -268,12 +270,21 @@ body {
   margin-top: $small-spacing;
 }
 
-.documentation-item {
+.documentation-item,
+.tag-item {
   font-family: $heading-font-family;
   list-style-type: none;
 }
 
-.documentation-list {
+.tag-link {
+  font-family: $heading-font-family;
+  list-style-type: none;
+  display: inline;
+
+}
+
+.documentation-list,
+.tag-list {
   margin-left: 0;
   padding-left: 0;
 }

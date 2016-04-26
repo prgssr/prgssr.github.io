@@ -30,13 +30,13 @@ thumbnail: noimage
 
 ## Как это делает Internet Explorer
 
-![numeric-input-ie](/images/development/numericInput-ie.gif)
+![numeric-input-ie](/images/development/css/numericInput-ie.gif)
 
 Internet Explorer дает самое простое отображение по умолчанию среди всех браузеров. Инпут для чисел выглядит также как и простой текстовый инпут. Фактически, Internet Explorer не предлагает нам какой-либо пользовательский интерфейс, за исключением возможности очистить поле ввода от данных. Это достаточно удобная вещь,  к сожалению, отсутствующая в других браузерах (иногда встречается в поле поиска `type="search"`).
 
 ## Как это делает Firefox
 
-![numeric-input-firefox](/images/development/numericInput-firefox.gif)
+![numeric-input-firefox](/images/development/css/numericInput-firefox.gif)
 
 В Firefox появляется элемент, отсутствующий в ИЕ: кнопка для пошагового изменения значений или спиннер. В спиннере есть стрелки вниз и вверх, позволяющие соответственно, уменьшать и увеличивать значение.
 
@@ -53,7 +53,7 @@ input[type=number] {
 
 ## Как это делает Safari
 
-![numeric-input-safari](/images/development/numericInput-safari.gif)
+![numeric-input-safari](/images/development/css/numericInput-safari.gif)
 
 Firefox и Safari похожи в обработке числового ввода. И там, и там есть спиннер и нет возможности быстрой очистки поля.
 
@@ -83,7 +83,7 @@ input[type=number]::-webkit-textfield-decoration-container {
 
 ## Как это делает Opera
 
-![numeric-input-opera](/images/development/numericInput-opera.gif)
+![numeric-input-opera](/images/development/css/numericInput-opera.gif)
 
 Также как Firefox и Safari, в Opera есть управляющие элементы для изменения числа. Но Opera отображает их по-другому.
 
@@ -104,7 +104,7 @@ input[type=number]::-webkit-textfield-decoration-container {
 
 ## Как это делает Chrome
 
-![numeric-input-chrome](/images/development/numericInput-chrome.gif)
+![numeric-input-chrome](/images/development/css/numericInput-chrome.gif)
 
 Chrome оказывается где-то посередине. На первый взгляд, он отображает простое поле ввода, но если перевести курсор в правую часть этого поля, в нем появится спиннер, также как в Firefox и Safari.
 
@@ -129,7 +129,7 @@ input[type="number"]:focus {
 
 ## Как это делают Mobile Safari и Android
 
-![numeric-input-ios](/images/development/numericInput-ios.gif)
+![numeric-input-ios](/images/development/css/numericInput-ios.gif)
 
 Mobile Safari и Android очень похожи при сравнении лоб в лоб. Оба похожи на ИЕ в том, что не предоставляют дополнительного интерфейса для ввода и отличны от него в том, что также не предоставляют интерфейса для быстрой очистки поля ввода. Из всех браузеров, мобильные демонстрируют самую скудную реализацию полей ввода чисел.
 

@@ -13,9 +13,10 @@ description: "Блог на движке Jekyll и бесплатном хост
     <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
   </h2>
     <span class="post-meta">
-      {% include date-localization-post.html %}
+      {% include utils/date-localization-post.html %}
     </span>
      <a class="comments-link" href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+      {% include utils/post-tags.html %}
      <hr>
 {% endfor %}
 
@@ -48,4 +49,4 @@ description: "Блог на движке Jekyll и бесплатном хост
 
 </div>
 </div>
-{% include disqus-count.html %}
+{% include vendors/disqus-count.html %}

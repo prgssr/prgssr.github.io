@@ -3,13 +3,13 @@ layout: post
 title: "Свойства CSS для управления веб-типографикой"
 categories: [development]
 date: 2015-08-31 18:00:00
-tags: [css, translation, sitepoint]
+tags: [css, typography, translation, sitepoint]
 description: "Управление веб-типографикой с text-transform, white-space, overflow-wrap, hyphens, word-spacing, text-indent и т.д."
 original: "http://www.sitepoint.com/css-properties-to-control-web-typography/"
 original_author: "Maria Antonietta Perna"
 original_title: "CSS Properties to Control Web Typography"
 prism: yes
-thumbnail: "/images/development/1440569470white-space-pre.jpg"
+thumbnail: "/images/development/typography/1440569470white-space-pre.jpg"
 ---
 Преимуществом веб-типографики является то, что она базируется на знаниях, накопленных за столетия развития традиционной печатной типографики. По той же причине веб-типографика должна следовать стандартам лучших практик и передового опыта.
 
@@ -66,7 +66,7 @@ h2 {
 }
 ```
 
->![капитализация](/images/development/capitalize.png)
+>![капитализация](/images/development/typography/capitalize.png)
 
 
 Отметьте, что `capitalize` не следует традиционным правилам --- оно делает заглавными первые буквы всех слов, включая предлоги. И если вы хотите следовать нормам английского языка, вам придется делать это вручную.
@@ -88,7 +88,7 @@ h2 {
 }
 ```
 
->![заглавный регистр текста](/images/development/uppercase.png)
+>![заглавный регистр текста](/images/development/typography/uppercase.png)
 
 
 ### Значение `lowercase`
@@ -108,7 +108,7 @@ h2 {
 }
 ```
 
->![строчный регистр текста](/images/development/lowercase.png)
+>![строчный регистр текста](/images/development/typography/lowercase.png)
 
 ### Значение `full-width`
 
@@ -130,7 +130,7 @@ h2 {
 ```
 Это свойство на данный момент поддерживается только в Firefox.
 
->![полная ширина текста](/images/development/full-width.png)
+>![полная ширина текста](/images/development/typography/full-width.png)
 
 ### Дополнительная информация
 
@@ -142,11 +142,11 @@ h2 {
 
 Вот, например, Firefox:
 
-![Капитализация текста в Firefox](/images/development/1440460727capitalize-hyphenated-firefox.jpg)
+![Капитализация текста в Firefox](/images/development/typography/1440460727capitalize-hyphenated-firefox.jpg)
 
 Заметьте, что первая буква после дефиса не капитализируется. А вот тот же самый пример в Chrome:
 
-![Капитализация текста в Chrome](/images/development/1440460783capitalize-hyphenated-chrome.jpg)
+![Капитализация текста в Chrome](/images/development/typography/1440460783capitalize-hyphenated-chrome.jpg)
 
 В Chrome не делается исключений для первых букв после дефисов --- они переводятся в заглавный регистр также как остальные. И это является дефолтным поведением для всех браузеров, кроме упомянутого выше Firefox.
 
@@ -176,9 +176,9 @@ element {
 }
 ```
 
-![white-space-pre](/images/development/1440569470white-space-pre.jpg){: itemprop="image"}
+![white-space-pre](/images/development/typography/1440569470white-space-pre.jpg){: itemprop="image"}
 
-![white-space-pre-code](/images/development/1440569514white-space-pre-code.jpg)
+![white-space-pre-code](/images/development/typography/1440569514white-space-pre-code.jpg)
 
 
 Если вы используете табы, то вы можете управлять их размером в пробелах с помощью свойства `tab-size`. Оно принимает значение в виде целого числа.
@@ -208,13 +208,13 @@ element {
 
 Отметьте, как каждая строка, выведенная в браузере, повторяет все переводы строки из исходника при наличии места в контейнере.
 
-![white-space-pre-wrap](/images/development/1440460892white-space-pre-wrap.jpg)
+![white-space-pre-wrap](/images/development/typography/1440460892white-space-pre-wrap.jpg)
 
-![white-space-pre-wrap-code](/images/development/1440460922white-space-prewrap-source.jpg)
+![white-space-pre-wrap-code](/images/development/typography/1440460922white-space-prewrap-source.jpg)
 
 Однако, если вы уменьшите ширину браузера, вы заметите, что все строки ограничены шириной контейнера.
 
-![white-space-pre-wrap-shrunk](/images/development/1440460949white-space-prewrap-shrunk.jpg)
+![white-space-pre-wrap-shrunk](/images/development/typography/1440460949white-space-prewrap-shrunk.jpg)
 
 ### Значение `pre-line`
 
@@ -226,9 +226,9 @@ element {
 }
 ```
 
-![white-space-pre-line](/images/development/1440460980white-space-pre-line.jpg)
+![white-space-pre-line](/images/development/typography/1440460980white-space-pre-line.jpg)
 
-![white-space-pre-code](/images/development/1440569588white-space-pre-line-code.jpg)
+![white-space-pre-code](/images/development/typography/1440569588white-space-pre-line-code.jpg)
 
 [Демо на Codepen со значениями `pre`, `pre-wrap` и `pre-line`](http://codepen.io/SitePoint/pen/vOoMLz).
 
@@ -238,11 +238,11 @@ element {
 
 [Луис Лазарис](http://www.impressivewebs.com/css-white-space/) указывает на следующий случай использования этого значения.
 
-![readmore-nowrap](/images/development/1440461034readmore.jpg)
+![readmore-nowrap](/images/development/typography/1440461034readmore.jpg)
 
 На примере выше ссылка обозначена символом `»` и переносить его на следующую линию не желательно.
 
-![readmore-dropped](/images/development/1440461060readmore-dropped.jpg)
+![readmore-dropped](/images/development/typography/1440461060readmore-dropped.jpg)
 
 В этом и подобных случаях поможет значение `nowrap`.
 
@@ -269,7 +269,7 @@ element {
 
 На картинке ниже изображен пример длинного слова, выходящего за пределы контейнера:
 
-![Слово, выходящее за пределы контейнера](/images/development/1440461096no-wordwrap.jpg)
+![Слово, выходящее за пределы контейнера](/images/development/typography/1440461096no-wordwrap.jpg)
 
 Теперь зададим этому элементу свойство `overflow-wrap` (и свойство `word-wrap` для совместимости) в значение `break-word`:
 
@@ -282,7 +282,7 @@ element {
 
 Теперь сверхдлинное слово разбито на несколько строк, заполняющих всю ширину контейнера.
 
-![Разбитие слова с word-wrap](/images/development/1440461127wordwrap.jpg)
+![Разбитие слова с word-wrap](/images/development/typography/1440461127wordwrap.jpg)
 
 ### Свойство `hyphens`
 
@@ -299,7 +299,7 @@ element {
 }
 ```
 
-![Авто переносы слов с hyphens](/images/development/1440461161hyphens-auto.jpg)
+![Авто переносы слов с hyphens](/images/development/typography/1440461161hyphens-auto.jpg)
 
 Вы также можете отключить вывод дефисов, задав `hyphens` значение `none`:
 
@@ -312,7 +312,7 @@ element {
 }
 ```
 
-![Отключение дефисов](/images/development/1440461192hyphens-none.jpg)
+![Отключение дефисов](/images/development/typography/1440461192hyphens-none.jpg)
 
 Также у вас есть возможность вывести дефисы на разрывах строки там, где вы поставили их в разметке. Это делается с помощью значения `manual`:
 
@@ -325,9 +325,9 @@ element {
 }
 ```
 
-![Переносы слов вручную](/images/development/1440461233hyphens-manual.jpg)
+![Переносы слов вручную](/images/development/typography/1440461233hyphens-manual.jpg)
 
-![Переносы слов вручную - исходник](/images/development/1440461261hyphens-manual-source.jpg)
+![Переносы слов вручную - исходник](/images/development/typography/1440461261hyphens-manual-source.jpg)
 
 Основные браузеры [поддерживают свойство `hyphens` с помощью вендорных префиксов](http://caniuse.com/#search=hyphens), но в реализации есть некоторые различия. Последние на момент написания статьи версии Chrome (44) и Opera (30) не поддерживали значение `auto`.
 
@@ -371,7 +371,7 @@ element {
 }
 ```
 
-![задание расстояния между словами с word-spacing](/images/development/1440461290word-spacing.jpg)
+![задание расстояния между словами с word-spacing](/images/development/typography/1440461290word-spacing.jpg)
 
 ### Свойство `letter-spacing`
 
@@ -385,7 +385,7 @@ element {
 }
 ```
 
-![letter-spacing в значении normal](/images/development/1440461323letter-spacing-normal.jpg)
+![letter-spacing в значении normal](/images/development/typography/1440461323letter-spacing-normal.jpg)
 
 Числовое значение задается в единицах исчисления, например в `em` или в пикселях, вы можете увеличить расстояние дефолтное расстояние или уменьшить задав отрицательное значение.
 
@@ -395,7 +395,7 @@ element {
 }
 ```
 
-![числовое значение letter-spacing](/images/development/1440461352letter-spacing-length.jpg)
+![числовое значение letter-spacing](/images/development/typography/1440461352letter-spacing-length.jpg)
 
 ### Дополнение
 
@@ -418,7 +418,7 @@ element {
   text-align: start;
 }
 ```
-![выравнивание текста start](/images/development/1440461375alignment-start.jpg)
+![выравнивание текста start](/images/development/typography/1440461375alignment-start.jpg)
 
 ```css
 element {
@@ -426,7 +426,7 @@ element {
 }
 ```
 
-![выравнивание текста end](/images/development/1440461400alignment-end.jpg)
+![выравнивание текста end](/images/development/typography/1440461400alignment-end.jpg)
 
 Применение `text-align: match-parent` к дочернему элементу вынудит его унаследовать тоже выравнивание, что и у родительского элемента. И значения `start` и `end` в таком случае будут расчитаны исходя из направления языка родительского элемента.
 
@@ -444,7 +444,7 @@ element {
 
 Тем не менее, иногда отступ в первой строке иногда используется, например, для имитации классических книжных дизайнов.
 
-![Отступ в тексте](/images/development/1440461429text-indent.jpg)
+![Отступ в тексте](/images/development/typography/1440461429text-indent.jpg)
 
 Если вы хотите использовать эту технику в своем дизайне, в CSS есть свойство `text-indent`. Рассмотрим его возможные значения.
 

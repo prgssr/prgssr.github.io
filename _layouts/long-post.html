@@ -3,14 +3,14 @@ layout: default
 ---
 <div class="wrapper">
 <div itemscope itemtype="http://schema.org/BlogPosting" class="post">
-  {% include tags-keywords-convert.html %}
+  {% include utils/tags-keywords-convert.html %}
   <meta itemprop="description" content="{{ page.description }}" />
   {% assign category = page.categories[0] %}
 
   <header class="post-header">
     <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
     <p class="post-meta">
-      {% include date-localization-page.html %}
+      {% include utils/date-localization-page.html %}
       {% if page.author %} • {{ page.author }}
       {% endif %}
       {% if page.meta %} • {{ page.meta }}
@@ -18,7 +18,7 @@ layout: default
     </p>
   </header>
   {% if category == "development"%}
-    {% include translation.html %}
+    {% include utils/translation.html %}
   {% endif %}
     <article itemprop="articleBody" class="post-content">
     {% if page.noimage %}
@@ -27,11 +27,11 @@ layout: default
     {{ content }}
   </article>
 	<div>
-		{% include  disqus.html %}
+		{% include  vendors/disqus.html %}
 	</div>
 </div>
 <aside class="sidebar-hide">
-    {% include TOC.html heading='h4' toc-title="Список линтеров:" %}
+    {% include utils/TOC.html heading='h4' toc-title="Список линтеров:" %}
 </aside>
 </div>
-{% include scripts.html %}
+{% include utils/scripts.html %}

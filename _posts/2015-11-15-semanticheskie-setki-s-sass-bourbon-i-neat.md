@@ -2,7 +2,7 @@
 layout: post
 title: "Семантические сетки с Sass, Bourbon и Neat"
 categories: [development]
-tags: [sass, bourbon, translation, sitepoint]
+tags: [sass, bourbon, grid, translation, sitepoint]
 date: 2015-11-15 17:09:24
 description: "Сеточная система Neat это часть экосистемы Bourbon,  упрощающая верстку."
 original: "http://www.sitepoint.com/sass-bourbon-neat-lightweight-semantic-grids/"

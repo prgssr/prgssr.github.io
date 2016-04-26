@@ -9,28 +9,28 @@ description: "Все ли вы знаете о пробелах? В Юникод
 original: "http://www.smashingmagazine.com/2015/10/space-yourself/"
 original_author: "Марсин Вичари"
 original_title: "Space Yourself"
-thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
+thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 ---
 
 Пробелы это не только та большая клавиша, с помощью которой вы разделяете слова в тексте. В этой статье мы рассмотрим дополнительные символы пробелов, их назначение и возможности современного использования.
 
 Ниже вы видите два твита. В одном из них Пол Айриш уведомляется о моем ответе, а о другом --- нет. В чем разница между твитами? Читайте!
 
-![твиты с разными пробелами](/images/development/01-tweet-taunt-opt-preview.png)
+![твиты с разными пробелами](/images/development/typography/01-tweet-taunt-opt-preview.png)
 
 ## Век обычной типографии
 
 В типографии и издательском деле всегда приходилось прикладывать на удивление много физических усилий. Отдельные буквы выбирались и составлялись вместе, одна за другой, в слова, затем фразы, а затем колонки. Цвета были чернилами --- их надо было смешать и подготовить. Отдельной индустрией была подготовка и нарезка бумаги.
 
-![типографская краска](/images/development/02-physical-color-opt-small.jpg)
+![типографская краска](/images/development/typography/02-physical-color-opt-small.jpg)
 
 *Черная типографская краска. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/02-physical-color-opt.jpg))*
 
-![Деревянные блоки для задания высоты строки](/images/development/03-physical-line-height-opt-small.jpg)
+![Деревянные блоки для задания высоты строки](/images/development/typography/03-physical-line-height-opt-small.jpg)
 
 *Деревянные блоки для задания высоты строки. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/03-physical-line-height-opt.jpg))*
 
-![Смешивание синей и белой краски](/images/development/04-physical-opacity-opt-small.jpg)
+![Смешивание синей и белой краски](/images/development/typography/04-physical-opacity-opt-small.jpg)
 
 *Смешивание синей и белой краски. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/04-physical-opacity-opt.jpg))*
 
@@ -38,7 +38,7 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 Выравнивание текста влево требовало не меньше усилий, чем выравнивание по ширине, так как пробелы все равно требовалось располагать. Необходимо было учитывать каждую долю дюйма.
 
-![Цитата в середине верстки. ](/images/development/05-quote-typesetting-opt-small.jpg){: itemprop="image"}
+![Цитата в середине верстки. ](/images/development/typography/05-quote-typesetting-opt-small.jpg){: itemprop="image"}
 
 *Цитата в середине верстки. Обратите внимание на все блоки пробелов вокруг цитаты, удерживающие ее на месте. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/05-quote-typesetting-opt.jpg))*
 
@@ -73,19 +73,19 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 Очевидно. Пробелы разных размеров можно использовать для тонкой настройки сочетания элементов. Например, medium использует `hair space` (самый тонкий пробел, равный по ширине самой узкой [шпации](https://ru.wikipedia.org/wiki/%D0%A8%D0%BF%D0%B0%D1%86%D0%B8%D1%8F)) для обертывания длинных тире, чтобы они не касались соседних букв:
 
-![Длинные тире в окружении узких пробелов на сайте Medium](/images/development/06-medium-hair-space-em-dash-small.gif)
+![Длинные тире в окружении узких пробелов на сайте Medium](/images/development/typography/06-medium-hair-space-em-dash-small.gif)
 
 *Длинные тире в окружении очень узких пробелов на сайте Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/06-medium-hair-space-em-dash.gif))*
 
 То же самое мы делаем в письмах, в которых используется среднее тире для указания диапазона. Без узких пробелов оно будет выглядеть зажатым (а с обычным пробелом слишком свободным).
 
-![Очень узкие пробелы используются при указании диапазона на Medium](/images/development/07-medium-date-range-opt-small.gif)
+![Очень узкие пробелы используются при указании диапазона на Medium](/images/development/typography/07-medium-date-range-opt-small.gif)
 
 *Очень узкие пробелы используются при указании диапазона на Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/07-medium-date-range-opt.gif))*
 
 Точно также, если элемент меню содержит слэш, мы обертываем его узкими пробелами для лучшего баланса:
 
-![Слэш  и узкие пробелы в меню](/images/development/08-medium-thin-space-menu-opt.gif)
+![Слэш  и узкие пробелы в меню](/images/development/typography/08-medium-thin-space-menu-opt.gif)
 
 *Слэш  и узкие пробелы в меню на Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/08-medium-thin-space-menu-opt.gif))*
 
@@ -110,13 +110,13 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 Вот еще один пример с Medium. Мы используем неразрывные пробелы внутри фразы `“and 3 others”`, в результате они всегда остаются рядом, а не разбиваются на половинки.
 
-![Текст с обычными и неразрывными пробелами](/images/development/09-medium-and-x-others-opt-small.gif)
+![Текст с обычными и неразрывными пробелами](/images/development/typography/09-medium-and-x-others-opt-small.gif)
 
 *Текст с обычными и неразрывными пробелами. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/09-medium-and-x-others-opt.gif))*
 
 Точно также в французском языке принято отделять завершающий знак пунктуации в предложении узким пробелом. Этот  пробел тоже должен быть неразрывным, чтобы знак вопроса или кавычка были привязаны к своим словам.
 
-![Текст с французской пунктуацией](/images/development/10-french-punctuation-opt-small.gif)
+![Текст с французской пунктуацией](/images/development/typography/10-french-punctuation-opt-small.gif)
 
 *Текст с французской пунктуацией. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/10-french-punctuation-opt-500x210.gif))*
 
@@ -143,13 +143,13 @@ thumbnail: "/images/development/05-quote-typesetting-opt-small.jpg"
 
 В первом случае пробел нулевой ширины работает как разбиватель слов (`<wbr>`) там, где HTML недоступен. В таком случае это абсолютный антагонист неразрывного пробела. Вот пример, где он позволяет разбивать слова, разделенные слэшем:
 
-![Пробел нулевой ширины помогает разбить слова, разделенные слэшем](/images/development/zero-width-space-small.gif)
+![Пробел нулевой ширины помогает разбить слова, разделенные слэшем](/images/development/typography/zero-width-space-small.gif)
 
 *Пробел нулевой ширины помогает разбить слова, разделенные слэшем. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/zero-width-space.gif))*
 
 Что касается другого применения... Помните пример в самом верху? Это был пробел нулевой ширины, который предотвратил создание ссылки в моем твите. Он расположен сразу после `@` и это он помешал парсеру, ищущему цифры и буквы и прекращающему поиск, при обнаружении других символов.
 
-![Два твита с нулевым пробелом](/images/development/11-tweet-taunt-animation-small.gif)
+![Два твита с нулевым пробелом](/images/development/typography/11-tweet-taunt-animation-small.gif)
 *Два твита с нулевым пробелом. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/11-tweet-taunt-animation-opt.gif))*
 
 Можно найти и другие применения:

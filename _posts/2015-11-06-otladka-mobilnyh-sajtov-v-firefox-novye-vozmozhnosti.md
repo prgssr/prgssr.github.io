@@ -6,8 +6,8 @@ categories: [articles]
 description: "Удаленная отладка c Web IDE в Firefox стала проще, чем когда-либо. А новым Firefox 42 можно подключать отлаживаемое устройство по WiFi!"
 tags: [mobile, devtools]
 prism: yes
-thumbnail: "/images/development/remote-debugging-android-attached.png"
-redirect_from: 
+thumbnail: "/images/development/browsertools/remote-debugging-android-attached.png"
+redirect_from:
   - "/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html"
   - "/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti"
 ---
@@ -22,13 +22,13 @@ redirect_from:
 
 Запускаем  Web IDE (клавиша Shift+F8 или меню "Tools->Web Developer->Web IDE"). Для удаленной отладки необходимо дополнение ADB Helper версии 0.7.1+, оно устанавливается автоматически после первого запуска WebIDE. Проверить, какая версия установлена у вас, можно набрав в адресной строке `about:addons`.
 
-![Экстра компоненты Web IDE](/images/development/extra-components.png)
+![Экстра компоненты Web IDE](/images/development/browsertools/extra-components.png)
 
 Если же ADB Helper отсутствует в списке дополнений, выберите в меню Web IDE пункт "Project->Manage Extra Components", найдите в списке ADB Helper и переустановите его (кликните "uninstall", а затем "install").
 
 [Активируйте режим разработки на Android и режим отладки в мобильном Firefox](http://prgssr.ru/development/Otladka-mobilnyh-sajtov-v-Firefox.html#heading-section-3), если вы не сделали это раньше.
 
-### Распознавание Android устройства 
+### Распознавание Android устройства
 
 Теперь надо настроить распознавание вашего Android устройства в системе.
 
@@ -42,7 +42,7 @@ redirect_from:
 SUBSYSTEM=="usb", ATTR{idVendor}=="0414", MODE="0666", GROUP="plugdev"
 ```
 
-`ATTR` это  вендорный идентификатор (в данном случае Giga-Byte), `MODE` это набор прав для чтения/записи, а `GROUP` это группа, у которой есть права на устройство. 
+`ATTR` это  вендорный идентификатор (в данном случае Giga-Byte), `MODE` это набор прав для чтения/записи, а `GROUP` это группа, у которой есть права на устройство.
 
 Синтаксис этого правила может отличаться в вашей версии Linux --- ориентируйтесь на документацию `udev` вашей системы. Прочитать подробнее о [написании правил udev можно на reactivated.net](http://www.reactivated.net/writing_udev_rules.html).
 {: .info}
@@ -61,19 +61,19 @@ chmod a+r /etc/udev/rules.d/51-android.rules
 
 Итак, устройство Android подключено и распознано, режим отладки активирован, а в браузере активирована удаленная отладка по USB --- запускаем Web IDE и [переходим в меню Runtimes](https://developer.mozilla.org/en-US/docs/Tools/WebIDE#Setting_up_runtimes) (расположено справа), вот как это будет выглядеть:
 
-![меню Runtimes в WebIDE](/images/development/remote-debugging-android-runtime.png)
+![меню Runtimes в WebIDE](/images/development/browsertools/remote-debugging-android-runtime.png)
 
 Выбираем устройство, на нем появится модальное окно с вопросом, разрешать ли  отладку:
 
-![Разрешение на отладку](/images/development/remote-debugging-permission.png)
+![Разрешение на отладку](/images/development/browsertools/remote-debugging-permission.png)
 
 В меню Open App (расположено слева) выбираем нужную вкладку --- страницу, которая в текущий момент просматривается на мобильном браузере:
 
-![меню Open App в WebIDE](/images/development/remote-debugging-android-open-tabs.png)
+![меню Open App в WebIDE](/images/development/browsertools/remote-debugging-android-open-tabs.png)
 
 И занимаемся непосредственно отладкой:
 
-![Отладка в WebIDE](/images/development/remote-debugging-android-attached.png){: itemprop="image"}
+![Отладка в WebIDE](/images/development/browsertools/remote-debugging-android-attached.png){: itemprop="image"}
 
 ## Отладка по WiFi
 
@@ -81,15 +81,15 @@ chmod a+r /etc/udev/rules.d/51-android.rules
 
 В качестве такого приложения Mozilla предлагает установить [Barcode Scanner Android app by ZXing Team](https://play.google.com/store/apps/details?id=com.google.zxing.client.android) --- приложение небольшое и бесплатное. Затем надо активировать отладку по WiFi --- в меню "Инструменты разработки":
 
-![Активация отладки по Wifi в телефоне](/images/development/remote-debugging-wifi.png)
+![Активация отладки по Wifi в телефоне](/images/development/browsertools/remote-debugging-wifi.png)
 
 Далее открываем Web IDE (Shift+F8) и выбрать соответствующее устройство с WiFi
 
-![выбор устройства в Web IDE](/images/development/webide-wifi-runtime.png)
+![выбор устройства в Web IDE](/images/development/browsertools/webide-wifi-runtime.png)
 
 Web IDE предложит вам считать QR код:
 
-![Сканирование QR кода](/images/development/webide-qr-code.png)
+![Сканирование QR кода](/images/development/browsertools/webide-qr-code.png)
 
 На устройстве Android появится сообщение с предложением о подключении --- выберите “Scan” или “Scan and Remember” и сканируйте код с помощью сканнера. После сканирования QR кода это окно исчезнет, а иконка устройства в  WebIDE станет синей (это значит, что устройство подключено). Сканировать QR код надо один раз при первоначальном подключении, в дальнейшем устройство подключается автоматически.
 
@@ -101,10 +101,10 @@ Web IDE предложит вам считать QR код:
 
 Отладки по WiFi в Chrome нет, но с [отладкой по USB все хорошо](https://developer.chrome.com/devtools/docs/remote-debugging). Итак, у вас активирована отладка по USB в Android устройстве, само устройство подключено к компьютеру. В адресной строке Chrome введите адрес `chrome://inspect`:
 
-![Удаленная отладка в Chrome](/images/development/chrome-inspect-devices.png)
+![Удаленная отладка в Chrome](/images/development/browsertools/chrome-inspect-devices.png)
 
-Вы увидите подключенное устройство или список устройств и отображаемые на них в данный момент вкладки. 
+Вы увидите подключенное устройство или список устройств и отображаемые на них в данный момент вкладки.
 
-![Выбор отлаживаемой вкладки](/images/development/chrome-inspect-tabs.png)
+![Выбор отлаживаемой вкладки](/images/development/browsertools/chrome-inspect-tabs.png)
 
 Нажимаете `inspect` под нужной вкладкой и все --- у вас открывается окно браузера с инструментами разработчика и экраном устройства (иконка  `toggle screencast` c изображением смартфона), вы можете прямо в этом окне нажимать на кнопки и скроллить страницу с помощью имитатора нажатий, ну и использовать любые другие доступные фичи devtools.

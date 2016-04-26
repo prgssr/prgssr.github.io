@@ -9,6 +9,7 @@
 {% for post in current %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <span class="post-meta">
-  {% include date-localization-post.html %}
+  {% include utils/date-localization-post.html %}
 </span>
+{% include utils/post-tags.html %}
 {% endfor %}

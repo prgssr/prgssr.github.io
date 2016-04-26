@@ -9,9 +9,10 @@ original: "http://www.sitepoint.com/debugging-mobile-websites-firefox/"
 original_author: "Jérémy Heleine"
 original_title: "Debugging Mobile Websites with Firefox"
 prism: yes
+thumbnail: "/images/development/browsertools/browsertools/1426786162responsive-mode-controls-1024x736.png"
 ---
 
-Информация в этой статье частично устарела --- в [последних версиях Firefox режим удаленной отладки намного удобнее](http://prgssr.ru/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html). Но первые пару разделов прочитать стоит, особенно если вы впервые подключаете телефон к компьютеру для отладки. 
+Информация в этой статье частично устарела --- в [последних версиях Firefox режим удаленной отладки намного удобнее](http://prgssr.ru/articles/otladka-mobilnyh-sajtov-v-firefox---novye-vozmozhnosti.html). Но первые пару разделов прочитать стоит, особенно если вы впервые подключаете телефон к компьютеру для отладки.
 {: .warning}
 
 Во всех основных браузерах есть инструментарий для отладки сайтов на мобильных устройствах. В этой статье я рассмотрю возможности Firefox и сравню их с аналогичными в Chrome и Internet Explorer.
@@ -25,12 +26,12 @@ prism: yes
 Доступный начиная с Firefox 15, этот режим (также называемый "просмотр отзывчивого дизайна") предназначен для тестирования мобильно версии сайта.
 
 Этот режим активируется через  установку Tools-> Web Developer-> Responsive Design View.  Или же нажатием кнопки на девелоперской панели или же нажатием "горячих клавиш" Ctrl + Shift + M (или Cmd + Opt + M в Mac OS). Деактивация производится через то же меню, клавиатурные сочетания или же простым закрытием интерфейса.
-![responsive-mode](/images/development/1426786117responsive-mode-1024x736.png)
+![responsive-mode](/images/development/browsertools/1426786117responsive-mode-1024x736.png)
 
 ### Изменяем размер области видимости
 
 Активировав отзывчивый режим, Firefox  изменяет размер области видимости, а не окна. Вы можете изменять ее размер, выбирая нужное разрешение из списка или просто изменяя размеры мышкой.
-![responsive-mode-controls](/images/development/1426786162responsive-mode-controls-1024x736.png){: itemprop="image"}
+![responsive-mode-controls](/images/development/browsertools/1426786162responsive-mode-controls-1024x736.png){: itemprop="image"}
 
 В списке есть самые распространенные разрешения типа 320×480 пикселей или  768×1024 пикселей. Если вы не нашли нужный вариант, вы можете добавить свой презет и сохранить его.
 
@@ -59,17 +60,17 @@ Firefox использует ADB для установки соединения 
 
 Теперь нам надо активировать удаленную отладку в Firefox. Это делается в настройках инструментов разработчика, просто активируйте “Enable remote debugging” (также может потребоваться перезапуск Firefox)
 
-![remote-debugging](/images/development/1426786246remote-debugging-computer-1024x543.png)
+![remote-debugging](/images/development/browsertools/1426786246remote-debugging-computer-1024x543.png)
 
 ### Готовим мобильное устройство
 
 На устройстве с Android  нам также нужно активировать USB отладку. Без этого компьютер и мобильное устройство не смогут сообщаться.
 
 Для активирования надо открыть настройки мобильного устройства, необходимый пункт есть в разделе Developer options. Если у вас нет доступа к этому разделу, несколько раз нажмите на “Build number”(номер сборки)  в разделе About (о телефоне).
-![usb-debugging](/images/development/screenshot_2015-07-13-18-29-20.png)
+![usb-debugging](/images/development/browsertools/screenshot_2015-07-13-18-29-20.png)
 
 Также как и на десктопе, вам надо активировать удаленную отладку в Firefox для Android. Если Firefox 25+, просто выберите  “Remote debugging" в разделе  “Developer tools” меню "Settings".
-![usb-debugging](/images/development/screenshot_2015-07-13-17-40-18.png)
+![usb-debugging](/images/development/browsertools/screenshot_2015-07-13-17-40-18.png)
 
 В Firefox 15--24 наберите в адресной строке “about:config”. Найдите пункт `devtools.debugger.remote-enabled` и задайте ему значение true, нажав кнопку “Toggle”.
 
@@ -127,10 +128,10 @@ adb forward tcp:6000 tcp:6000
 Вы уже подключили инструменты разработчика Firefox на десктопе  к Firefox для Android. Осталось только через меню Firefox выбрать  “Connect…” в подменю “Web Developer”.
 
 Это откроет новую вкладку с заполненной формой, вам остается просто нажать кнопку  “Connect”:
-![connection](/images/development/1426786382connection.png)
+![connection](/images/development/browsertools/1426786382connection.png)
 
 А теперь взгялните на мобильное устройство. На экране должно появиться сообщение с запросом разрешения на соединение. Нажмите кнопку “OK” и возвращайтесь к компьютеру.
-![incoming-connection](/images/development/1426786482incoming-connection-1024x827.png)
+![incoming-connection](/images/development/browsertools/1426786482incoming-connection-1024x827.png)
 
 Вы можете выбрать вкладку для отладки, выбирайте и вы готовы к отладке.
 

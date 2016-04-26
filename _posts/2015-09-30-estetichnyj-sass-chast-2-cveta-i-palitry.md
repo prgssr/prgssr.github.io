@@ -9,7 +9,7 @@ prism: yes
 original: "https://scotch.io/tutorials/aesthetic-sass-2-colors"
 original_author: "David Khourshid"
 original_title: "Aesthetic Sass 2: Colors and Palettes "
-thumbnail: "/images/development/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png"
+thumbnail: "/images/development/sass/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png"
 scripts: codepen
 ---
 Цвет очень важен в дизайне --- он играет визуальную и психологическую роль. Правильно подобранная палитра, соответствующая замыслу вашего дизайна значительно улучшает эстетическое впечатление от вашего сайта.
@@ -140,7 +140,7 @@ $button-transparent-color: scotch-color-alpha('primary', 'light');
 
 Иногда в проектах бывают собственные варианты цветов, предложенные дизайнером. Это упрощает определение теней и оттенков всех цветов, так как они уже будут в палитре. Это также значит, что мы не сможем использовать преимущества  функций по изменению цвета. За примером подобного дизайна далеко ходить не надо ---  в Google’s Material Design  все оттенки цветов заранее определены:
 
-![Палитра материального дизайна](/images/development/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png){: itemprop="image"}
+![Палитра материального дизайна](/images/development/sass/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png){: itemprop="image"}
 
 В этом случае помогут многомерные карты SASS, в которых будут записаны все вариации основных цветов. Вот образец хранения цветовых значений и функции для адаптации оригинальной палитры:
 

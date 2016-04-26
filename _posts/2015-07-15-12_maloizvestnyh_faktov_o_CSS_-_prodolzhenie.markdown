@@ -4,13 +4,13 @@ title:  "12 малоизвестных фактов о CSS - продолжен�
 date:   2015-07-15 17:20:00
 categories: development
 description: "12 фактов о малоизвестных свойствах и особенностях свойств CSS - outline-offset, table-layout, border-radius, font-weight и т.д. Перевод статьи Sitepoint."
-tags: css translation sitepoint
+tags: [css, translation, sitepoint]
 original: "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/"
 original_author: "Луис Лазарис"
 original_title: "12 Little-Known CSS Facts (The Sequel)"
 scripts: codepen
 prism: yes
-thumbnail: "/images/development/1436312214border-radius-slash.png"
+thumbnail: "/images/development/css/1436312214border-radius-slash.png"
 ---
 
 Год назад я опубликовал статью [12 малоизвестных фактов о CSS](http://www.sitepoint.com/12-little-known-css-facts/) и она стала одно из самых популярных на сайте. За прошедшее с тех пор время я собрал еще некоторое количество советов и интересностей о CSS для нового поста. Мы же все знаем, что у каждого успешного фильма должно быть продолжение, не так ли?
@@ -35,7 +35,7 @@ thumbnail: "/images/development/1436312214border-radius-slash.png"
 
 В спецификации это поясняется следующим изображением:
 
-![border-radius](/images/development/1436312214border-radius-slash.png){: itemprop="image"}
+![border-radius](/images/development/css/1436312214border-radius-slash.png){: itemprop="image"}
 
 Два значения `border-top-left-radius: 55pt 25pt` задают кривизну угла.
 

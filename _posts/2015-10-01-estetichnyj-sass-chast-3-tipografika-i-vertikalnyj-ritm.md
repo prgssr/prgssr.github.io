@@ -10,7 +10,7 @@ original: "https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-
 original_author: "David Khourshid"
 original_title: "Aesthetic Sass 3: Typography and Vertical Rhythm"
 scripts: codepen
-thumbnail: "/images/development/aesthetic-sass-typography-preview-667x500.png"
+thumbnail: "/images/development/sass/aesthetic-sass-typography-preview-667x500.png"
 ---
 Типографика играет важную роль как в печатном, так и в веб-дизайне. Ведь [главным всегда является содержание](http://www.craigbailey.net/content-is-king-by-bill-gates/), а текстовый контент превалирует в вебе. Поэтому важно строить дизайн [ориентируясь на контент](http://everydaydesigner.net/design/change-your-focus-and-design-content-first), а не наоборот. Когда контент хорошо продуман, все остальное (макет, структура, цвета, переходы и т.д.) будет в тему.
 
@@ -21,7 +21,7 @@ thumbnail: "/images/development/aesthetic-sass-typography-preview-667x500.png"
 
 Вы воссоздадим небольшой макет (автор ---[Томас Будимэн](https://dribbble.com/thebuddyman)), чтобы продемонстрировать, как модульное масштабирование шрифта и вертикальный ритм позволяют системно располагать контент в ваших проектах, избегая магических чисел.
 
-![макет](/images/development/aesthetic-sass-typography-preview-667x500.png){: itemprop="image"}
+![макет](/images/development/sass/aesthetic-sass-typography-preview-667x500.png){: itemprop="image"}
 
 ## Масштабирование шрифта
 

@@ -10,7 +10,7 @@ original: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-o
 original_author: "David Khourshid"
 original_title: "Aesthetic Sass 1: Architecture and Style Organization"
 thumbnail: noimage
-redirect_from: 
+redirect_from:
   - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya"
   - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya.html"
 ---
@@ -86,7 +86,7 @@ Sass  это очень мощное расширение языка CSS, даю
 
 ```
 
-![button](/images/development/Screen-Shot-2015-03-23-at-7.46.34-AM.png)
+![button](/images/development/sass/Screen-Shot-2015-03-23-at-7.46.34-AM.png)
 
 Кнопка должна выглядеть именно так, как мы хотим, но в представленном коде есть некоторые проблемы:
 

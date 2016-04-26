@@ -9,7 +9,7 @@ prism: yes
 original: "http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review"
 original_title: "Static Website Generators Reviewed: Jekyll, Middleman, Roots, Hugo"
 original_author: "Mathias Biilmann Christensen"
-thumbnail: "/images/development/jekyll-preview-opt.png"
+thumbnail: "/images/development/static/jekyll-preview-opt.png"
 ---
 
 Генераторы статических сайтов стремительно становятся важной частью инструментария при профессиональной разработке сайтов. Новые генераторы появляются практически каждую неделю. И выбрать для использования один из них становится все сложнее.
@@ -67,7 +67,7 @@ Liqud позволяет вам использовать переменные в
 ```
 {% endraw %}
 
-Блоки с тегами выглядят так: 
+Блоки с тегами выглядят так:
 {% raw %}
 
 ```liquid

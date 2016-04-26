@@ -3,7 +3,7 @@ layout: post
 title: Приступаем к работе с SCSS-Lint
 date: 2015-09-22 11:56:19
 categories: [development]
-tags: [sass, translation, sitepoint]
+tags: [sass, devtools, translation, sitepoint]
 description: "Введение в  scss-lint: установка, настройка и применение"
 prism: yes
 original: "http://www.sitepoint.com/getting-started-with-scss-lint/"

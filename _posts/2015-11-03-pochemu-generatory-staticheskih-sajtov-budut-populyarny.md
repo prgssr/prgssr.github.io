@@ -9,14 +9,14 @@ prism: yes
 original: "http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/"
 original_title: "Why Static Website Generators Are The Next Big Thing"
 original_author: "Mathias Biilmann Christensen"
-thumbnail: "/images/development/jekyll-preview-opt.png"
+thumbnail: "/images/development/static/jekyll-preview-opt.png"
 ---
 
 [ StaticGen](https://www.staticgen.com/), открытый каталог статических генераторов сайтов, насчитывает более сотни генераторов, появившихся в последнее время и мы видим, что их доля и популярность на Github растет. Сначала проект насчитывал полсотни генераторов, сейчас их в два с лишним раза больше и суммарно у них более 100 тысяч звезд на GitHub.
 
 Такие влиятельные в мире веб-дизайна компании как  Nest и MailChimp сейчас используют генераторы статики в качестве движков для своих сайтов. [Vox Media](http://www.voxmedia.com/) создали [целую систему публикации](http://product.voxmedia.com/2015/7/8/8907841/introducing-autotune) на основе Middleman. [ Carrot](http://carrot.is/), большое агентство из Нью-Йорка и часть империи Vice, создает сайты для нескольких крупных мировых брендов на основе собственного генератора с открытым кодом --- [Roots](http://roots.cx/). Некоторые ресурсы от Google, такие как [“A Year In Search”](https://www.google.com/trends/2014/) и [ Web Fundamentals](https://developers.google.com/web/fundamentals/) также статичны.
 
-![Рост популярности генераторов статики за последний год](/images/development/01-staticgen-stats-opt.png)
+![Рост популярности генераторов статики за последний год](/images/development/static/01-staticgen-stats-opt.png)
 *Рост популярности генераторов статики за последний год. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/01-staticgen-stats-opt.png))*
 
 Статические веб-сайты это не новость --- это то, с чего начинался веб. Так откуда этот взрыв интереса к ним? Почему он произошел именно сейчас?
@@ -60,7 +60,7 @@ thumbnail: "/images/development/jekyll-preview-opt.png"
 
 Smashing Magazine создан командой, ориентированной на производительность и, в общем, серьезно оптимизирован в этих целях. Я провел на нем небольшой эксперимент для этой статьи. Использовав [HTTrack](https://www.httrack.com/), я выкачал этот сайт и затем выложил статическую версию на [ Netlify](https://www.netlify.com/) --- платформу для хостинга статики, основанную на CDN. Я не делал ничего, чтобы улучшить производительность статической версии --- просто выложил ее на хостинг, глубоко интегрированный с CDN.
 
-[![Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра](/images/development/02-smashing-dynamic-load-times-opt.png)](https://performance.sucuri.net/domain/www.smashingmagazine.com)
+[![Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра](/images/development/static/02-smashing-dynamic-load-times-opt.png)](https://performance.sucuri.net/domain/www.smashingmagazine.com)
 
 *Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/02-smashing-dynamic-load-times-opt.png))*
 
@@ -68,7 +68,7 @@ Smashing Magazine создан командой, ориентированной 
 
 Даже высоко-оптимизированный  динамический сайт проигрывает в среднем в 6 раз своей статической версии. Учтем, конечно, что не каждый статический хостинг даст такую разницу, но динамический сайт даже с CDN просто не сможет дать сравнимой производительности без ручной настройки, обычно влекущей за собой различные странности с кэшированием.
 
-![Тот же самый HTML на высокопроизводительном статическом хостинге](/images/development/03-smashing-static-load-times-opt-preview.png)
+![Тот же самый HTML на высокопроизводительном статическом хостинге](/images/development/static/03-smashing-static-load-times-opt-preview.png)
 *Тот же самый HTML на высокопроизводительном статическом хостинге. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/03-smashing-static-load-times-opt.png))*
 
 **Кэширование и особенно инвалидацию кэша** очень сложно правильно настроить для динамического сайта, особенно в случае распределенного кэширования, необходимого для эффективного использования CDN. На сайтах с  WordPress нет гарантии, что одинаковый URL будет возвращать одинаковый HTML, так как это зависит от параметров запроса, настроек пользователя,  A/B тестирования и прочего. И отслеживание момента, когда кэш надо обновить является сложной задачей: каждое изменения комментария, настройки сайта, тега, категории или иного содержимого базы данных может повлечь изменения в списках и связанных постах, индексных и архивных страницах, счетчиках комментариев и&nbsp;т.д.
@@ -81,7 +81,7 @@ Smashing Magazine создан командой, ориентированной 
 
 В последнее время альтернатива традиционным динамическим сайтам обрела реальные очертания. В идее генератора статического сайта нет ничего нового. Даже у давнего конкурента WordPress, системы управления контентом Movable Type была опция создания статического сайта.
 
-![Google Trends по запросу “static website generator”](/images/development/04-static-site-generator-trends-opt.png)
+![Google Trends по запросу “static website generator”](/images/development/static/04-static-site-generator-trends-opt.png)
 
 *Google Trends по запросу “static website generator”. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/04-static-site-generator-trends-opt.png))*
 
@@ -105,7 +105,7 @@ Smashing Magazine создан командой, ориентированной 
 
 Контент редко бывает сам по себе. Читателям обычно интересно узнать, кто автор записи в блоге, дату этой записи, категорию и прочее.
 
-[![Jekyll заложил основы для генератора статического сайта: шаблоны и Markdown наше все](/images/development/jekyll-preview-opt.png){: itemprop="image"}](http://jekyllrb.com/)
+[![Jekyll заложил основы для генератора статического сайта: шаблоны и Markdown наше все](/images/development/static/jekyll-preview-opt.png){: itemprop="image"}](http://jekyllrb.com/)
 
 *[Jekyll](http://jekyllrb.com/) заложил основы для генератора статического сайта: шаблоны и Markdown наше все.*
 
@@ -230,7 +230,7 @@ css/
 
 Другим способом редактирования контента является работа непосредственно в основном репозитории.
 
-![Редактор Markdown из приложения  Prose.io интегрированного с GitHub API.](/images/development/geek-opt.png)
+![Редактор Markdown из приложения  Prose.io интегрированного с GitHub API.](/images/development/static/geek-opt.png)
 *Редактор Markdown из веб-приложения [Prose.io](http://prose.io/)интегрированного с GitHub API.*
 
 [Prose.io](http://prose.io/) дает пользователям возможность редактировать контент на Github  с помощью редактора markdown с удобным графическим интерфейсом.
@@ -242,4 +242,3 @@ css/
 Как было сказано, генераторы статических сайтов будут продолжать наращивать возможности и популярность. Их инфраструктура и экосистема будут развиваться. И с совершенствованием инструментов, мы увидим, что разработчики расширят пределы того, что можно реализовать с генераторами статических сайтов.
 
 В Netlify мы уже видим как большие сайты с контентом, поиском в реальном времени, многоязычностью и частными разделами собираются с помощью генераторов статики и API. С осознанием важности производительности и повышения безопасности, мы рассчитываем, что увидим намного больше.
-

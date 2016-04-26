@@ -23,11 +23,11 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 };
 </script>
  <div class="arrow-navigation">
-{% if prevurl %}<a href="{{prevurl}}" class="prev" data-proofer-ignore><svg class="arrow-svg" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+{% if prevurl %}<a href="{{prevurl}}" class="prev"><svg class="arrow-svg" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
     <polyline stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
   45.63,75.8 0.375,38.087 45.63,0.375 "/>
   </svg> </a>{% endif %}
-{% if nexturl %}<a href="{{nexturl}}" class="nxt" data-proofer-ignore> <svg class="arrow-svg" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+{% if nexturl %}<a href="{{nexturl}}" class="nxt"> <svg class="arrow-svg" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
     <polyline stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
   0.375,0.375 45.63,38.087 0.375,75.8 "/>
   </svg></a>{% endif %}

@@ -18,7 +18,7 @@ kramdown:
     disable: true
 
 permalink: :categories/:title.html
-exclude: [vendor]
+exclude: [vendor, create.js]
 keep_files: ["sonar-project.properties"]
 highlighter: rouge
 future: true

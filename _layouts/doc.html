@@ -14,12 +14,12 @@ layout: default
     {{ content }}
   </article>
 	<div>
-		{% include  jekyll-collections-prev-next.html %}
+		{% include  utils/jekyll-collections-prev-next.html %}
 	</div>
 </div>
 <aside class="sidebar">
   {% if page.layout == "doc" or page.documentation %}
-    {% include documentation-nav.html %}
+    {% include nav/documentation-nav.html %}
   {% endif %}
 </aside>
 </div>
