@@ -9,7 +9,7 @@ description: "Джей Томпкинс о создании плиточной �
 original: "https://medium.com/@_jh3y/how-to-pure-css-masonry-layouts-a8ede07ba31a#.6p2sw1teb"
 original_title: "HOW TO: Pure CSS masonry layouts"
 original_author: "Jhey Tompkins"
-thumbnail: "/images/development/flex/1*TfCvIdT79TwK8zcCeG-qSQ.png"
+thumbnail: "/images/development/flex/1_TfCvIdT79TwK8zcCeG-qSQ.png"
 ---
 
 Плиточная раскладка является одной из самых популярных. Не знаете, что это такое? Вспомните о Pinterest, Windows’ Metro и т.д. Если  объяснять это на словах, то представьте сумасшедший эффект соединения блоков разных размеров в эстетически упорядоченном, часто шахматном порядке.
