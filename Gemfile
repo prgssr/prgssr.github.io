@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.0.3'
-gem 'jekyll-watch'
+gem 'jekyll', '3.0.5'
 gem 'html-proofer'
 gem 'jemoji'
 gem 'jekyll-redirect-from'
