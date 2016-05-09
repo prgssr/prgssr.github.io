@@ -43,24 +43,26 @@
         <li class="toc-item">
           <a href="{{link | prepend: '#' }}">{{link-title }}</a>
 
-
+          
           {% assign second_split_content = split_content_item | split: second-level-heading %}
 
+              {% if include.toc-level >=2 %}
               <ul class="toc-list">
               {% for second_split_content_item in second_split_content offset:1 %}
 
                 {% assign second_section_of_content = second_split_content_item | split: second-close-tag %}
                 {% assign second_heading_content = second_section_of_content | first %}
 
+                  
                     {% for second_heading_item in second_heading_content %}
                     {% assign second-link-title = second_heading_item | split: '">' | last %}
                     {% assign second-link = second_heading_item | split: '"' | first %}
                     <li class="toc-item">
                       <a href="{{second-link | prepend: '#' }}">{{second-link-title }}</a>
 
-
+                      {% if include.toc-level == 3%}
                       {% assign third_split_content = second_split_content_item | split: third-level-heading %}
-
+                          
                           <ul class="toc-list">
                           {% for third_split_content_item in third_split_content offset:1 %}
                             {% assign third_section_of_content = third_split_content_item | split: third-close-tag %}
@@ -75,10 +77,13 @@
                                   {% endfor %}
                                 {% endfor %}
                             </ul>
+
+                      {% endif %}
                           </li>
                     {% endfor %}
               {% endfor %}
               </ul>
+              {% endif %}
         </li>
     {% endfor %}
 

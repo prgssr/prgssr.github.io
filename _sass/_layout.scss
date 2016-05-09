@@ -266,7 +266,11 @@ body {
   }
 }
 
-.documentation-header {
+
+// collections, tags, refs
+
+.documentation-header,
+.ref-header {
   text-align: center;
   margin: 0;
 }
@@ -277,20 +281,23 @@ body {
 }
 
 .documentation-item,
-.tag-item {
+.tag-item,
+.ref-item {
   font-family: $heading-font-family;
   list-style-type: none;
 }
+
 
 .tag-link {
   font-family: $heading-font-family;
   list-style-type: none;
   display: inline;
-
+  
 }
 
 .documentation-list,
-.tag-list {
+.tag-list,
+.ref-list {
   margin-left: 0;
   padding-left: 0;
 }
@@ -360,8 +367,19 @@ body {
   list-style-type: none;
 }
 
+h4:target {
+  color: $prgssr-color;
+}
+
+h2:target,
+h3:target {
+  color: $selection-color;
+}
+
 // selection
 
 .selection strong {
   background-color: $selection-color;
 }
+
+

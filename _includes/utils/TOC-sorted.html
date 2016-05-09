@@ -1,0 +1,51 @@
+{% if page.toc-title %}
+  <h5 class="ref-header" id="ref-header">{{ page.toc-title}}</h5>
+{% endif %}
+{% assign heading = 'h4'%}
+
+
+{% if include.heading %}
+  {% assign helper = include.heading | split: 'h' %}
+
+
+  {% assign first-level-heading =  include.heading | prepend: '<' | append: ' id="' %}
+  {% assign close-tag = include.heading | prepend: '</' | append: '>' %}
+
+  {% else %}
+  {% assign first-level-heading =  heading | prepend: '<' | append: ' id="' %}
+  {% assign close-tag = heading | prepend: '</' | append: '>' %}
+{% endif %}
+
+
+
+
+{% assign split_content= content | split: first-level-heading %}
+
+
+{% capture heading-string %}
+  {% for split_content_item in split_content offset:1 %}
+    {% assign section_of_content = split_content_item | split: close-tag %}
+    {% assign heading_content = section_of_content | first %}
+    {% for heading_item in heading_content %}
+      {% assign link-title = heading_item | split: '">' | last %}
+      {% assign link = heading_item | split: '"' | first %}
+      ,{{link | strip}}+{{link-title | strip}}   
+    {% endfor %}
+  {% endfor %}
+{% endcapture %}   
+
+{% assign heading-array = heading-string| split: ","%}
+
+{% assign sorted-array = heading-array | sort %}
+
+
+ <ul class="ref-list"> 
+  {% for link-item in sorted-array offset: 1 %}  
+       {% assign link = link-item | split: "+" %}
+        {% assign link-href = link[0]|lstrip  %}
+        {% assign link-title = link[1] %}
+        <li class="ref-item">
+          <a href="{{link-href|prepend:'#'}}">{{link-title}}</a>
+        </li>
+  {% endfor %}
+</ul>

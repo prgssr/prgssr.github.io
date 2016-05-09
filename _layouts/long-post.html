@@ -20,18 +20,31 @@ layout: default
   {% if category == "development"%}
     {% include utils/translation.html %}
   {% endif %}
+  {% include utils/TOC.html heading='h2' toc-title="Оглавление:" toc-level=2 %}
     <article itemprop="articleBody" class="post-content">
-    {% if page.noimage %}
-    <meta itemprop="image" content="{{ site.data.thumb.[category] | prepend: site.url }}">
+       {% if page.thumbnail == "noimage" %}
+        <meta itemprop="image" content="{{ site.data.thumb.[category] | prepend: site.url }}">
+       {% else %}
+        <meta itemprop="image" content="{{ page.thumbnail| prepend: site.url }}">
     {% endif %}
     {{ content }}
   </article>
+    <div>
+    {% include utils/series.html %}
+    <p class="post-meta"
+    {% include utils/date-localization-tags.html %}
+    </p>
+    <p class="post-tags"
+      {% include utils/page-tags.html %}
+    </p>
+    {% include  vendors/disqus.html %}
+  </div>
 	<div>
 		{% include  vendors/disqus.html %}
 	</div>
 </div>
-<aside class="sidebar-hide">
-    {% include utils/TOC.html heading='h4' toc-title="Список линтеров:" %}
+<aside class="sidebar">
+    {% include utils/TOC-sorted.html heading='h4' %}
 </aside>
 </div>
 {% include utils/scripts.html %}
