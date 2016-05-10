@@ -126,7 +126,7 @@ a:hover {
 
 ```
 
-<p data-height="466" data-theme-id="0" data-slug-hash="vGEzJK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/vGEzJK/">CSS :hover pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="vGEzJK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/vGEzJK/">CSS :hover pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 
 #### :active
@@ -221,7 +221,7 @@ a:active, a:focus {
 
 Демо:
 
-<p data-height="266" data-theme-id="0" data-slug-hash="wMyZQe" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/wMyZQe/">Sass Mixin for Links</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="wMyZQe" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/wMyZQe/">Sass Mixin for Links</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ### Структурные псевдоклассы
 
@@ -343,7 +343,7 @@ li:not(.first-item):not(:last-of-type) {
 
 **Демо**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="dGmqbg" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/dGmqbg/">CSS :not pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="dGmqbg" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true"  class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/dGmqbg/">CSS :not pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :nth-child 
 
@@ -410,7 +410,7 @@ ol :nth-child(2n+6) {
 
 **Демо**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="adYaER" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adYaER/">CSS :nth-child() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="adYaER" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adYaER/">CSS :nth-child() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :nth-last-child
 
@@ -581,7 +581,7 @@ li:only-of-type {
 
 **Демо**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="wMYExY" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/wMYExY/">CSS :checked pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="wMYExY" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true"  class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/wMYExY/">CSS :checked pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :default
 
@@ -596,7 +596,7 @@ li:only-of-type {
 
 **Демо**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="WrzJKO" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/WrzJKO/">CSS :default pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="WrzJKO" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/WrzJKO/">CSS :default pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :disabled
 
@@ -618,7 +618,7 @@ li:only-of-type {
 
 **Демо:**
 
-<p data-height="266" data-theme-id="0" data-slug-hash="NxOLZm" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/NxOLZm/">CSS :disabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="266" data-theme-id="0" data-slug-hash="NxOLZm" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true"class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/NxOLZm/">CSS :disabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :empty
 
@@ -663,7 +663,7 @@ div:empty {
 
 **Демо:**
 
-<p data-height="266" data-theme-id="0" data-slug-hash="rxqqaM" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/rxqqaM/">CSS :empty pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="266" data-theme-id="0" data-slug-hash="rxqqaM" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/rxqqaM/">CSS :empty pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :enabled
 
@@ -684,7 +684,7 @@ div:empty {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="zqYQxq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/zqYQxq/">CSS :enabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="zqYQxq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/zqYQxq/">CSS :enabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :in-range
 
@@ -708,7 +708,7 @@ input[type=number]:in-range {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="XXOKwq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/XXOKwq/">CSS :in-range and :out-of-range pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="XXOKwq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/XXOKwq/">CSS :in-range and :out-of-range pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :out-of-range 
 
@@ -729,7 +729,9 @@ input[type=number]:out-of-range {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="XXOKwq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/XXOKwq/">CSS :in-range and :out-of-range pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="XXOKwq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/XXOKwq/">CSS :in-range and :out-of-range pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
 
 #### :indeterminate
 
@@ -763,7 +765,7 @@ input[type=number]:out-of-range {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="adXpQK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adXpQK/">CSS :indeterminate pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="adXpQK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adXpQK/">CSS :indeterminate pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :valid
 
@@ -786,7 +788,7 @@ input[type=email]:valid {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="bEzqVg" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/bEzqVg/">CSS :valid and :invalid pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="bEzqVg" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/bEzqVg/">CSS :valid and :invalid pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :optional
 
@@ -824,7 +826,7 @@ input:read-only {
 
 **Демо:**
 
-<p data-height="466" data-theme-id="0" data-slug-hash="Nxopbj" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/Nxopbj/">CSS :read-only pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="466" data-theme-id="0" data-slug-hash="Nxopbj" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/Nxopbj/">CSS :read-only pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :read-write
 
@@ -850,7 +852,7 @@ input:read-only {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="LGqWxK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/LGqWxK/">CSS :read-write pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="LGqWxK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/LGqWxK/">CSS :read-write pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :required 
 
@@ -873,7 +875,7 @@ input:read-only {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="KVJWmZ" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/KVJWmZ/">CSS :required pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="KVJWmZ" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/KVJWmZ/">CSS :required pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :scope (эксп.)
 
@@ -903,7 +905,7 @@ input:read-only {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="ZQobzz" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/ZQobzz/">CSS :scope pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="ZQobzz" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/ZQobzz/">CSS :scope pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ### Псевдоклассы, связанные с языком страницы
 
@@ -962,7 +964,7 @@ article :dir(ltr) {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="adrxJy" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adrxJy/">CSS :dir() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="adrxJy" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/adrxJy/">CSS :dir() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :lang
 
@@ -1008,7 +1010,7 @@ article :dir(ltr) {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="gPJyvJ" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/gPJyvJ/">CSS :lang() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="gPJyvJ" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/gPJyvJ/">CSS :lang() pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ### Остальные псевдоклассы
 
@@ -1057,7 +1059,7 @@ h1:fullscreen {
 
 **Демо:**
 
-<p data-height="465" data-theme-id="0" data-slug-hash="ZQNZqy" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/ZQNZqy/">CSS :fullscreen pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="ZQNZqy" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/ZQNZqy/">CSS :fullscreen pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ## Псевдоэлементы
 
@@ -1126,7 +1128,7 @@ h1:fullscreen::backdrop {
 
 **Демо:**
 
-<p data-height="265" data-theme-id="0" data-slug-hash="bEPEPE" data-default-tab="result" data-user="ricardozea" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/bEPEPE/">CSS ::backdrop pseudo-element</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="465" data-theme-id="0" data-slug-hash="bEPEPE" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/bEPEPE/">CSS ::backdrop pseudo-element</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### ::first-letter/:first-letter 
 
