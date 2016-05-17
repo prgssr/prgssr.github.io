@@ -28,7 +28,7 @@ scripts: codepen
 
 Не перегружаясь техническим определением W3C, псевдокласс можно определить, как фантомное состояние или специфическую характеристику элемента, которая может быть выделена с помощью CSS. Наиболее распространенные псевдоклассы это `:link`, `:visited`, `:hover`, `:active`, `:first-child` и `:nth-child`. Существуют и другие псевдоклассы, им мы тоже уделим внимание.
 
-Псевдоклассы в стилях всегда выделяются предшествующим двоеточием  (`:`), затем идет название псевдокласса и иногда значение в скобках. 
+Псевдоклассы в стилях всегда выделяются предшествующим двоеточием  (`:`), затем идет название псевдокласса и иногда значение в скобках.
 
 Псевдоэлементы похожи на виртуальные элементы, которые мы можем обрабатывать как обычные HTML-элементы. Но они не существуют в дереве документа или в DOM, мы создаем их с помощью CSS.
 
@@ -115,7 +115,7 @@ a:visited {
 }
 ```
 
-#### :hover 
+#### :hover
 
 Псевдокласс `:hover` используется для стилизации элемента, на который в данный момент наведен курсор. Это может быть любой элемент, хотя применение этого псевдокласса для ссылок является самым распространенным случаем.
 
@@ -248,7 +248,7 @@ li:first-child {
 
 ```
 
-#### :first-of-type 
+#### :first-of-type
 
 Псевдокласс `:first-of-type` выделяет первый элемент своего типа в  указанном родительском контейнере.
 
@@ -310,7 +310,7 @@ ul :last-of-type {
 }
 ```
 
-#### :not 
+#### :not
 
 Псевдокласс `:not` также известен как псевдокласс-отрицание. Он принимает в скобках аргумент — другой селектор. Этим аргументом может быть и другой псевдокласс. Аргументы могут составлять цепочку, но сам `:not` не может в этой цепочке передаваться в качестве аргумента.
 
@@ -345,7 +345,7 @@ li:not(.first-item):not(:last-of-type) {
 
 <p data-height="466" data-theme-id="0" data-slug-hash="dGmqbg" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true"  class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/dGmqbg/">CSS :not pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-#### :nth-child 
+#### :nth-child
 
 Псевдокласс `:nth-child` выделяет один или более элементов в зависимости от их порядкового номера в разметке.
 
@@ -520,7 +520,7 @@ ul :only-child {
 ```
 
 
-#### :only-of-type 
+#### :only-of-type
 
 Псевдокласс `:only-of-type` выбирает элемент, у которого нет соседних элементов того же типа. Он похож на `:only-child`, но более осмыслен за счет указания конкретного элемента.
 
@@ -618,7 +618,7 @@ li:only-of-type {
 
 **Демо:**
 
-<p data-height="266" data-theme-id="0" data-slug-hash="NxOLZm" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true"class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/NxOLZm/">CSS :disabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="266" data-theme-id="0" data-slug-hash="NxOLZm" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/NxOLZm/">CSS :disabled pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 #### :empty
 
@@ -710,7 +710,7 @@ input[type=number]:in-range {
 
 <p data-height="466" data-theme-id="0" data-slug-hash="XXOKwq" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/XXOKwq/">CSS :in-range and :out-of-range pseudo-classes</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-#### :out-of-range 
+#### :out-of-range
 
 Псевдокласс `:out-of-range` выбирает элемент, у которого есть диапазон и значение которого не входит в этот диапазон
 
@@ -806,7 +806,7 @@ input[type=email]:valid {
 }
 ```
 
-#### :read-only 
+#### :read-only
 
 Псевдокласс `:read-only` выбирает элемент, которые не может быть отредактирован пользователем. Он похож на `:disabled` — и выбор между ними зависит от использованного атрибута в разметке.
 
@@ -830,7 +830,7 @@ input:read-only {
 
 #### :read-write
 
-Псевдокласс `:read-write` выбирает элементы, которые могут редактироваться пользователем. Он может  работать со всеми элементами  HTML с атрибутом `contenteditable`. 
+Псевдокласс `:read-write` выбирает элементы, которые могут редактироваться пользователем. Он может  работать со всеми элементами  HTML с атрибутом `contenteditable`.
 
 Этот псевдокласс можно сочетать с псевдоклассом `:focus` для улучшения пользовательского опыта в определенных ситуациях.
 
@@ -854,7 +854,7 @@ input:read-only {
 
 <p data-height="465" data-theme-id="0" data-slug-hash="LGqWxK" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/LGqWxK/">CSS :read-write pseudo-class</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-#### :required 
+#### :required
 
 Псевдокласс `:required` выбирает поля ввода, которым задан атрибут `required`.
 
@@ -974,7 +974,7 @@ article :dir(ltr) {
 
 Для чего этом можно использовать? Например, общей практикой является использование традиционных для каждого языка кавычек  с помощью свойства CSS `quotes`. Однако большинство браузеров (включая IE9 и выше) способны добавлять нужные кавычки автоматически, если они не объявлены в CSS.
 
-В зависимости от обстоятельств, это может быть помогать или мешать, так как есть разница между кавычками, автоматически добавляемыми браузером по умолчанию и обычно используемыми кавычками, добавленными в CSS.
+В зависимости от обстоятельств, это может помогать или мешать, так как есть разница между кавычками, автоматически добавляемыми браузером по умолчанию и обычно используемыми кавычками, добавленными в CSS.
 
 Вот, например, немецкие кавычки, добавленные браузером:
 
@@ -1033,7 +1033,7 @@ article :dir(ltr) {
 
 **Примечание:** мы можем добиться того же эффекта, использовав в качестве селектора `html`. Но так как `:root` псевдокласс у него большая специфичность, чем у селектора элемента.
 
-#### :fullscreen (эксп.) 
+#### :fullscreen (эксп.)
 
 Псевдоклассс `:fullscreen` выбирает элемент, выведенный на всю ширину экрана.
 
@@ -1089,7 +1089,7 @@ h1:before {
 
 **Примечание:** Обратили внимание на пробел после “Hello ”? Да, о пробелах надо позаботиться самостоятельно.
 
-#### ::after/:after 
+#### ::after/:after
 
 Псевдоэлемент `:after` также используется для добавления содержимого (текста или формы) к другому элементу HTML. Этот контент отсутствует в DOM, но им можно манипулировать, как будто он есть; свойство `content` надо добавлять в CSS. Текст, добавленный в псевдоэлемент, нельзя выделить.
 
@@ -1107,7 +1107,7 @@ h1:after {
 
 >Ricardo, Web Designer!
 
-#### ::backdrop (эксп.) 
+#### ::backdrop (эксп.)
 
 Псевдоэлемент `::backdrop` это бокс, генерируемый перед полноэкранным элементом, расположенным над всем остальным контентом. Он используется в сочетании с псевдоклассом `:fullscreen` для изменения цвета фона максимизированного окна — если вас не устраивает дефолтный черный.
 
@@ -1130,7 +1130,7 @@ h1:fullscreen::backdrop {
 
 <p data-height="465" data-theme-id="0" data-slug-hash="bEPEPE" data-default-tab="result" data-user="ricardozea" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/ricardozea/pen/bEPEPE/">CSS ::backdrop pseudo-element</a> by Ricardo Zea (<a href="http://codepen.io/ricardozea">@ricardozea</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-#### ::first-letter/:first-letter 
+#### ::first-letter/:first-letter
 
 Псевдоэлемент `:first-letter` выбирает первый символ на строке текста. Если перед текстом есть элемент типа изображения, видео или таблицы, он не влияет на текст и первая буква по-прежнему выбирается из текста.
 
@@ -1176,7 +1176,7 @@ p:first-line {
 }
 ```
 
-#### ::placeholder (эксп.) 
+#### ::placeholder (эксп.)
 
 Псевдоэлемент `::placeholder` выбирает текст, добавленный в качестве заглушки в элементы формы с помощью атрибута `placeholder`.
 
@@ -1218,5 +1218,3 @@ input:-moz-input-placeholder {
 Псевдоклассы и псевдоэлементы CSS однозначно удобны, не так ли? Они дают такое количество возможностей, что вы чувствуете себя перегруженными. Но в этом все жизнь веб-дизайнеров и разработчиков.
 
 Тщательно тестируйте код. Хорошо реализованные псевдоклассы и псевдоэлементы должны пройти долгий путь.
-
-
