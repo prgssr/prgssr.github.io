@@ -16,6 +16,7 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 `Date to String` Конвертирует дату в  короткий формат. | {% raw %}`{{ site.time | date_to_string }}`, 07 Nov 2008 {% endraw %}
 `Date to Long String` Конвертирует дату в длинный формат. | {% raw %}`{{ site.time | date_to_long_string }}` , 07 November 2008 {% endraw %}
 `Where` Выбирает все объекты в массиве по указанному значению ключа | {% raw %}`{{ site.members | where:"graduation_year","2014" }}` {% endraw %}
+`Where Expression` Выбирает все объекты в массиве, в которых выражение является истинным | {% raw %} `{{site.members|where_exp:"item", "item.graduation_year == 2014"}}`  `{{site.members|where_exp:"item", "item.graduation_year < 2014"}}` `{{site.members|where_exp:"item", "item.projects contains 'foo'"}}`{% endraw %}
 `Group By` Группирует элементы массива по заданному свойству. |{% raw %} `{{ site.members | group_by:"graduation_year" }}`,  [{"name"=>"2013", "items"=>[...]}, {"name"=>"2014", "items"=>[...]}]{% endraw %}
 `XML Escape` Удаляет часть текста для использования в XML. | {% raw %}`{{ page.content | xml_escape }}`{% endraw %}
 `CGI Escape` Очистка строки CGI для использования в URL. Заменяет все специальные символы на соответствующие коды %XX. | {% raw %}`{{ "foo,bar;baz?" | cgi_escape }}`, foo%2Cbar%3Bbaz%3F {% endraw %}
@@ -27,6 +28,9 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 `Slugify` Конвертирует строку в строчный URL "slug". Ниже показаны опции. | {% raw %}`{{ "The _config.yml file" | slugify }}` ,the-config-yml-file `{{ "The _config.yml file" | slugify: 'pretty' }}` , the-_config.yml-file {% endraw %}
 `Data To JSON` Конвертирует хэш или массив в JSON.| {% raw %}`{{ site.data.projects | jsonify }}` {% endraw %}
 `Sort` Сортирует массив. Опциональные элементы для хэшей: 1. Имя свойства 2. Место nil  (в начале или в конце). | {% raw %}`{{ page.tags | sort }}` , `{{ site.posts | sort: 'author' }}` , `{{ site.pages | sort: 'title', 'last' }} ` {% endraw %}
+`Sample` Выбирает случайный элемент массива, опционально можно задать выборку нескольких элементов | {% raw %} `{{ site.pages | sample }}` `{{site.pages | sample:2 }}`  {% endraw %}
+`Array Filters` Методы для работы с массивами (push, pop, shift и unshift), удаляют и добавляют элементы в конец или начало  массива соответственно. Методы являются неразрушающими, то есть они не не изменяют массив, а работают с его копией. | {% raw %} `{{ page.tags | push: 'Spokane' }}` `['Seattle', 'Tacoma', 'Spokane']`  `{{page.tags | pop }}`  `['Seattle']` `{{page.tags | shift }}`  `['Tacoma']`   `{{page.tags | unshift: "Olympia" }}`  `['Olympia', 'Seattle', 'Tacoma']` {% endraw %}
+
 
 #### Опции для фильтра `slugify`
 
@@ -87,9 +91,9 @@ Jekyll ищет все подключаемые файлы в подкатало
 
 ### Подсветка фрагментов кода
 
-В Jekyll благодаря [Pygments](http://pygments.org/)реализована подсветка синтаксиса для [более чем 100 языков](http://pygments.org/languages/). Для использования Pygments вам надо установить в вашей системе Python  и задать в конфигурации сайта для настройки `highlighter` значение `pygments`.
+В Jekyll благодаря [Rouge](http://rouge.jneen.net/) реализована подсветка синтаксиса для более чем 60 языков. Это система подстветки кода по умолчанию в Jekyll 3 и выше. В Jekyll 2 для ее использования надо прописать это в  конфигурации сайта, задав опции  `highlighter` значение `rouge`.
 
-В качестве альтернативы вы можете использовать для подсветки [ Rouge](https://github.com/jayferd/rouge). Он поддерживает не так много языков, как Pygments, но в большинстве случаев его возможностей хватает. А так как он написан на Ruby, вам не нужно устанавливать Python.
+В качестве альтернативы вы можете использовать для подсветки [Pygments](http://pygments.org/). Для этого вам надо установить Python, модуль `pygments.rb`  и задать в конфигурационном файле опции  `highlighter` значение `pygments`. Pygments  поддерживает [более чем 100 языков](http://pygments.org/languages/).
 
 Для рендеринга фрагмента кода с подсветкой синтаксиса оберните его тегами как на примере:
 {% raw %}
@@ -118,10 +122,11 @@ end
 {% endraw %}
 
 #### Стили для подсветки синтаксиса
+{: #code-snippet-highlighting}
 
 Для того, чтобы подсветка работала, вам надо подключить специальные стили для подсветки. Например, [ syntax.css](https://github.com/mojombo/tpw/blob/master/css/syntax.css) --- эти стили использует GitHub и они свободны для использования на любом другом сайте. Если вы нумеруете строки с `linenos`, вам надо задать специальный класс `.lineno`, чтобы отделить номера строк от подсвечиваемого кода.
 
-### Ссылка на пост
+### Тег `post_url`
 {: #post-url}
 
 Если вы хотите подключить ссылку на пост, тег `post_url` сгенерирует правильную постоянную ссылку на нужный вам пост:

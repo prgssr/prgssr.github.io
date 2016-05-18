@@ -10,15 +10,16 @@ prism: yes
 
 Установка Jekyll проста, но для начала в вашей системе должны быть установлены:
 
-* [Ruby ](http://www.ruby-lang.org/en/downloads/) (с пакетами для разработчиков)
+* [Ruby ](http://www.ruby-lang.org/en/downloads/) ( версия 1.9.3 и выше для Jekyll 2; версия 2 и выше для Jekyll 3; пакеты для разработчиков `ruby-dev`,)
 * [RubyGems](http://rubygems.org/pages/download)
 * Операционная система --- Linux, Unix или Mac OS X
 * [NodeJS](http://nodejs.org/) или иное  JavaScript окружение для запуска CoffeeScript
+* [Python 2.7 ](https://www.python.org/downloads/) (для Jekyll 2 и более ранних версий)
 
 
-###### Запуск  Jekyll на Windows
+###### Запуск  Jekyll в Windows
 {: .info}
-Несмотря на отсутствие официальной поддержки Windows, Jekyll можно запустить на этой операционной системе. Инструкции можно прочитать [здесь](http://jekyllrb.com/docs/windows/#installation).
+Несмотря на отсутствие официальной поддержки Windows, Jekyll можно запустить на этой операционной системе. Инструкции можно прочитать [здесь](/documentation/29_windows).
 {: .info}
 
 ### Установка с помощью RubyGems
@@ -29,7 +30,7 @@ prism: yes
 $ gem install jekyll
 ```
 
-Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения на странице [troubleshooting](http://jekyllrb.com/docs/troubleshooting/) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это поможет сообществу улучшить  Jekyll.
+Все зависимости Jekyll будут установлены автоматически и вам не надо будет беспокоиться об этом. Если вы столкнетесь с проблемами, ищите решения в разделе документации  [проблемы](/documentation/25_troubleshooting) или [сообщите о проблеме](https://github.com/jekyll/jekyll/issues/new), это поможет сообществу улучшить  Jekyll.
 
 ###### Установка инструментов командной строки  Xcode
 {: .info}
@@ -64,9 +65,9 @@ $ ls pkg/*.gem | head -n 1 | xargs gem install -l
 
 ### Опциональные дополнения
 
-Существует много дополнительных возможностей Jekyll, которые вы можете установить, в зависимости от ваших планов. В их число входит поддержка  LaTeX  и альтернативных движков рендеринга. Подробности можно узнать на странице [Extras](/documentation/21_extra.html).
+Существует много дополнительных возможностей Jekyll, которые вы можете установить, в зависимости от ваших планов. В их число входит поддержка  LaTeX  и альтернативных движков рендеринга. Подробности можно узнать в разделе документации [дополнения](/documentation/21_extra.html).
 
 ###### Совет: активация подсветки синтаксиса
 {: .protip}
-Если вы хотите подсвечивать синтаксис с помощью [Pygments](http://pygments.org/) или [Rouge](https://github.com/jayferd/rouge), ознакомьтесь с [документацией](http://jekyllrb.com/docs/templates/#code-snippet-highlighting) прежде чем приступать к работе.
+Если вы хотите подсвечивать синтаксис с помощью [Pygments](http://pygments.org/) или [Rouge](https://github.com/jayferd/rouge), ознакомьтесь с [документацией](/documentation/17_templates/#code-snippet-highlighting), прежде чем приступать к работе.
 {: .protip}

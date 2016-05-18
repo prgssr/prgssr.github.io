@@ -4,7 +4,7 @@ title: "Ресурсы"
 description: "Использование Sass и CoffeeScript в Jekyll."
 prism: yes
 ---
-В Jekyll  есть встроенная поддержка  Sass и CoffeeScript. Для их использования создайте файл с правильным расширением ( `.sass`, `.scss` или `.coffee` соответственно), начинающийся с двух рядов из трех тире, как на примере:
+В Jekyll  есть встроенная поддержка  Sass и CoffeeScript. Для их использования создайте файл с правильным расширением ( `.sass`, `.scss` или `.coffee` соответственно), начинающийся с **двух рядов из трех тире**, как на примере:
 
 ```scss
 ---
@@ -50,3 +50,12 @@ sass:
 ```
 
 Это передается в Sass, поэтому все поддерживаемые опции вывода в Sass будут валидны.
+
+### Coffeescript
+
+Для поддержки Coffeescript в Jekyll версии 3.0 и выше надо установить модуль `jekyll-coffeescript` (`sudo gem install jekyll-coffeescript`)  и добавить его в файл конфигурации `_config.yml`:
+
+```yaml
+gems:
+ - jekyll-coffeescript
+```

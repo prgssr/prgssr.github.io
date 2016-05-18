@@ -19,7 +19,7 @@ prism: yes
 
 Простейший тестовый скрипт запускает команду `jekyll build` и  показывает, что Jekyll может собрать сайт. Итоговый сайт не проверяется,  показывается лишь правильность сборки.
 
-При тестировании вывода Jekyll наиболее полезен [html-proofer](https://github.com/gjtorikian/html-proofer). Он проверяет ваш собранный сайт на  наличие всех ссылок и изображений. Используйте его с командой `htmlproof` или напишите скрипт на Ruby, использующий этот gem.
+При тестировании вывода Jekyll наиболее полезен [html-proofer](https://github.com/gjtorikian/html-proofer). Он проверяет ваш собранный сайт на  наличие всех ссылок и изображений. Используйте его с командой `htmlproofer` или напишите скрипт на Ruby, использующий этот gem.
 
 #### Скрипт для запуска HTML Proofer
 
@@ -28,10 +28,16 @@ prism: yes
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site
+bundle exec htmlproofer ./_site
 ```
 
-Некоторые опции могут быть определены прямо в командной строке. Информация об этом есть в README `html-proofer`, также можно выполнить локально `htmlproof --help`.
+Некоторые опции могут быть определены прямо в командной строке. Информация об этом есть в README `html-proofer`, также можно выполнить локально `htmlproofer --help`.
+
+Например, чтобы не тестировать ссылки на сторонние сайты, используйте следующую команду:
+
+```bash
+$ bundle exec htmlproofer ./_site --disable-external
+```
 
 #### Библиотека  HTML Proofer
 
@@ -50,7 +56,7 @@ HTML::Proofer.new("./_site").run
 
 Следующий файл используется для конфигурации ваших сборок в Travis. Так как Jekyll  создан на Ruby и требует установки RubyGems, мы выберем окружение Ruby. Ниже показан пример файла `.travis.yml` с объяснением каждой строки.
 
-Примечание: при установке gem'ов [Travis автоматически установит зависимости](http://docs.travis-ci.com/user/languages/ruby/#Dependency-Management):
+Примечание: вам нужен gemfile, а [Travis автоматически установит все зависимости](http://docs.travis-ci.com/user/languages/ruby/#Dependency-Management):
 
 ```yaml
 source "https://rubygems.org"
@@ -89,7 +95,15 @@ language: ruby
 rvm:
 - 2.1
 ```
+
 RVM это популярная система управления версиями Ruby (также как  rbenv, chruby и т.д.). Эта директива указывает Travis, какую версию Ruby использовать с вашими скриптами.
+
+```yaml
+before_script:
+ - chmod +x ./script/cibuild
+```
+
+Сборочный скрипт должен быть исполняемым, чтобы Travis не выдал ошибку из-за нехватки полномочий. Вы также можете сделать это локально, добавив полномочия напрямую, тем самым сделав этот шаг ненужным.
 
 ```yaml
 script: ./script/cibuild
@@ -114,7 +128,7 @@ branches:
 
 Вы можете обеспечить запуск сборок Travis только для определенных веток вашего сайта. Для этого надо указать ветви в конфигурационном файле Travis. Указав ветвь `gh-pages` вы гарантируете, что заданный скрипт (указанный выше) будет работать только с этими ветвями. Если вы обновляете сайт пулл-реквестами, вы можете задать сборку для ветвей, содержащих изменения с помощью регулярных выражений типа указанного `/pages-(.*)/`.
 
-Директива `branches ` полностью опциональна.
+Директива `branches ` полностью опциональна. Travis будет запускать сборку после каждой отправки любой из ветвей вашего репозитория.
 
 ```yaml
 env:
@@ -132,3 +146,16 @@ Travis переносит все гемы из каталога `vendor` на с
 ```yaml
 exclude: [vendor]
 ```
+
+По умолчанию сборка в Travis работает с командой `sudo: false`. Эта команда запускает сборку в [изолированном контейнере](https://docs.travis-ci.com/user/workers/container-based-infrastructure/#Routing-your-build-to-container-based-infrastructure), это обычно ускоряет скорость сборки. Если у вас возникли проблемы со сборкой или она требует `sudo`, задайте следующую опцию:
+
+```yaml
+sudo: required
+```
+
+### Проблемы
+
+**Ошибка Travis:** *"You are trying to install in deployment mode after changing your Gemfile. Run bundle install elsewhere and add the updated Gemfile.lock to version control."*
+
+**Решение:** Запустите `bundle install`  и добавьте изменения в `Gemfile.lock` или удалите `Gemfile.lock` из репозитория, добавив его в `.gitignore`.
+

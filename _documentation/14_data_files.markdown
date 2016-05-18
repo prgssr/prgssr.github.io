@@ -4,7 +4,7 @@ title: "Файлы с данными"
 description: "Файлы с данными в Jekyll. Каталог _data. Использование данных через переменные."
 prism: yes
 ---
-В дополнение к [встроенным переменным](/documentation/12_variables.html), вы можете задавать свои собственные данные, доступные с помощью [шаблонизатора Liquid](https://wiki.github.com/shopify/liquid/liquid-for-designers).
+В дополнение к [встроенным переменным](/documentation/12_variables.html), вы можете задавать свои собственные данные, доступные с помощью [шаблонизатора Liquid](https://github.com/shopify/liquid/wiki/liquid-for-designers).
 
 Jekyll поддерживает загрузку данных в форматах [ YAML](http://yaml.org/), [JSON](http://www.json.org/) и [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) из файлов, расположенных в каталоге `_data`. Отметьте, чтов файлах CSV должен быть заголовок.
 
@@ -104,3 +104,33 @@ members:
 </ul>
 {% endraw %}
 ```
+
+### Пример: доступ к данным конкретного автора
+
+Доступ к данным есть также у страниц и постов, в следующем примере показано, как можно извлечь какие-либо данные.
+
+`_data/people.yml`:
+
+```yaml
+dave:
+    name: David Smith
+    twitter: DavidSilvaSmith 
+```
+
+Автор может быть указан как переменная страницы в ее вводной:
+
+{% raw %}
+```liquid
+---
+title: sample post
+author: dave
+---
+
+{% assign author = site.data.people[page.author] %}
+<a rel="author"
+  href="{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>
+```
+{% endraw %}
