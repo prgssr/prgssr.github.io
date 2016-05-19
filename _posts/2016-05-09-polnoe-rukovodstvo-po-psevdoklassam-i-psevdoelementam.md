@@ -395,7 +395,7 @@ ol :nth-child(2n) {
 Те же самые четные элементы можно выделить и с помощью ключевого слова `even`:
 
 ```css
-ol :nth-child(2n+6) {
+ol :nth-child(even) {
     color: orange;
 }
 ```
