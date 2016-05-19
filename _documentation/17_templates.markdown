@@ -17,15 +17,15 @@ Jekyll использует шаблонизатор [Liquid](https://github.com
 `Date to Long String` Конвертирует дату в длинный формат. | {% raw %}`{{ site.time | date_to_long_string }}` , 07 November 2008 {% endraw %}
 `Where` Выбирает все объекты в массиве по указанному значению ключа | {% raw %}`{{ site.members | where:"graduation_year","2014" }}` {% endraw %}
 `Where Expression` Выбирает все объекты в массиве, в которых выражение является истинным | {% raw %} `{{site.members|where_exp:"item", "item.graduation_year == 2014"}}`  `{{site.members|where_exp:"item", "item.graduation_year < 2014"}}` `{{site.members|where_exp:"item", "item.projects contains 'foo'"}}`{% endraw %}
-`Group By` Группирует элементы массива по заданному свойству. |{% raw %} `{{ site.members | group_by:"graduation_year" }}`,  [{"name"=>"2013", "items"=>[...]}, {"name"=>"2014", "items"=>[...]}]{% endraw %}
+`Group By` Группирует элементы массива по заданному свойству. |{% raw %} `{{ site.members | group_by:"graduation_year" }}`, `[{"name"=>"2013", "items"=>[...]}`, `{"name"=>"2014", "items"=>[...]}]` {% endraw %}
 `XML Escape` Удаляет часть текста для использования в XML. | {% raw %}`{{ page.content | xml_escape }}`{% endraw %}
-`CGI Escape` Очистка строки CGI для использования в URL. Заменяет все специальные символы на соответствующие коды %XX. | {% raw %}`{{ "foo,bar;baz?" | cgi_escape }}`, foo%2Cbar%3Bbaz%3F {% endraw %}
-`URI Escape` Очистка строки URI. | {% raw %}`{{ "foo, bar \baz?" | uri_escape }}` , foo,%20bar%20%5Cbaz? {% endraw %}
-`Number of Words` Возвращает количество слов в тексте. | {% raw %}`{{ page.content | number_of_words }}` , 1337 {% endraw %}
-`Array to Sentence` Конвертирует массив в предложение. Полезно для тегов списков. | {% raw %}`{{ page.tags | array_to_sentence_string }}` ,foo, bar, and baz {% endraw %}
+`CGI Escape` Очистка строки CGI для использования в URL. Заменяет все специальные символы на соответствующие коды %XX. | {% raw %}`{{ "foo,bar;baz?" | cgi_escape }}`{% endraw %}, `foo%2Cbar%3Bbaz%3F` 
+`URI Escape` Очистка строки URI. | {% raw %}`{{ "foo, bar \baz?" | uri_escape }}`{% endraw %} , `foo,%20bar%20%5Cbaz?` 
+`Number of Words` Возвращает количество слов в тексте. | {% raw %}`{{ page.content | number_of_words }}`{% endraw %} , `1337` 
+`Array to Sentence` Конвертирует массив в предложение. Полезно для тегов списков. | {% raw %}`{{ page.tags | array_to_sentence_string }}`{% endraw %} , `foo, bar, and baz` 
 `Markdownify` Конвертирует строку Markdown в HTML. | {% raw %}`{{ page.excerpt | markdownify }}` {% endraw %}
 `Converting Sass/SCSS`  Конвертирует строку Sass или SCSS в CSS. | {% raw %}`{{ some_scss | scssify }}` `{{ some_sass | sassify }}` {% endraw %}
-`Slugify` Конвертирует строку в строчный URL "slug". Ниже показаны опции. | {% raw %}`{{ "The _config.yml file" | slugify }}` ,the-config-yml-file `{{ "The _config.yml file" | slugify: 'pretty' }}` , the-_config.yml-file {% endraw %}
+`Slugify` Конвертирует строку в строчный URL "slug". Ниже показаны опции. | {% raw %}`{{ "The _config.yml file" | slugify }}` , `the-config-yml-file` `{{ "The _config.yml file" | slugify: 'pretty' }}` , `the-_config.yml-file` {% endraw %}
 `Data To JSON` Конвертирует хэш или массив в JSON.| {% raw %}`{{ site.data.projects | jsonify }}` {% endraw %}
 `Sort` Сортирует массив. Опциональные элементы для хэшей: 1. Имя свойства 2. Место nil  (в начале или в конце). | {% raw %}`{{ page.tags | sort }}` , `{{ site.posts | sort: 'author' }}` , `{{ site.pages | sort: 'title', 'last' }} ` {% endraw %}
 `Sample` Выбирает случайный элемент массива, опционально можно задать выборку нескольких элементов | {% raw %} `{{ site.pages | sample }}` `{{site.pages | sample:2 }}`  {% endraw %}

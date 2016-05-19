@@ -13,14 +13,17 @@ prism: yes
 Вы по прежнему можете использовать GitHub Pages для публикации вашего сайта, но только путем локальной сборки и отправки в репозиторий готовых статических файлов
 {: .info}
 
-На данный момент GitHub Pages [работает с 5 плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
+На данный момент GitHub Pages [работает со следующими плагинами](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/):
 
 * [Jemoji](https://help.github.com/articles/emoji-on-github-pages) --- поддержка emoji в постах и страницах Jekyll.
 * [Jekyll-mentions](https://help.github.com/articles/mentions-on-github-pages) --- дает поддержку  @mentions в постах и страницах Jekyll.
 * [Jekyll-redirect-from](https://help.github.com/articles/redirects-on-github-pages) --- добавляет возможность редиректов при смене URL поста или страницы.
 * [Jekyll-sitemap](https://help.github.com/articles/sitemaps-for-github-pages) --- автоматически добавляет на сайт валидный файл sitemap.xml. Плагин необходим для нормальной работы поисковых систем.
 * [Jekyll-feed ](https://help.github.com/articles/atom-rss-feeds-for-github-pages) --- автоматически генерирует трансляцию в формате [atom](https://en.wikipedia.org/wiki/Atom_%28standard%29) для вашего блога.
-
+* [Jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) — упрощает вывод метаданных для SEO и добавляет структурированные данные на сайт ([Open graph](http://ogp.me/), [Twitter summary card](https://dev.twitter.com/cards/overview), [JSON-LD метаданные](https://developers.google.com/structured-data/)).
+* [Jekyll-github-metadata](https://help.github.com/articles/repository-metadata-on-github-pages/) — метаданные репозитория на GitHub.
+* [Jekyll-paginate](https://github.com/jekyll/jekyll-paginate) — стандартный плагин для разбивки на страницы.
+ 
 
 ### Установка плагина
 

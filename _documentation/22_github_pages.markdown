@@ -38,7 +38,7 @@ source 'https://rubygems.org'
 gem 'github-pages'
 ```
 
-После чего выполняйте `bundle update`.
+После чего выполняйте `bundle update`. Текущую версию Jekyll, используемую на GitHub, можно узнать с помощью команды `github-pages versions` (на данный момент это 3.1.5).
 {: .info}
 
 ### Страницы пользователей и организаций

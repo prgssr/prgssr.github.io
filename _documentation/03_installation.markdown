@@ -69,5 +69,5 @@ $ ls pkg/*.gem | head -n 1 | xargs gem install -l
 
 ###### Совет: активация подсветки синтаксиса
 {: .protip}
-Если вы хотите подсвечивать синтаксис с помощью [Pygments](http://pygments.org/) или [Rouge](https://github.com/jayferd/rouge), ознакомьтесь с [документацией](/documentation/17_templates/#code-snippet-highlighting), прежде чем приступать к работе.
+Если вы хотите подсвечивать синтаксис с помощью [Pygments](http://pygments.org/) или [Rouge](https://github.com/jayferd/rouge), ознакомьтесь с [документацией](/documentation/17_templates#code-snippet-highlighting), прежде чем приступать к работе.
 {: .protip}
