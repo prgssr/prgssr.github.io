@@ -9,7 +9,7 @@ description: "Статья прошлогодняя, впрочем,  Wintersmit
 original: "http://www.sitepoint.com/getting-started-wintersmith-nodejs-static-site-generator/"
 original_title: "Getting Started with Wintersmith: A Node.js-based Static Site Generator"
 original_author: "Брайан Риналди"
-thumbnail: "noimage"
+thumbnail: "/images/development/static/wintersmith.png"
 ---
 
 Я много говорил и писал на тему статических сайтов в последнее время. В общем, я рекомендую всем  Jekyll, как наиболее стабильный и функциональный генератор на даный момент. Но многих разработчиков останавливает то, что он написан на Ruby. И многие спрашивают: "Есть ли альтернатива, основанная на JavaScript и доступная через npm?".
