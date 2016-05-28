@@ -254,7 +254,7 @@ Object.unobserve(plainObject, observer);
 Дополнительные материалы:
 
 * [Crockford on JavaScript – Episode IV: The Metamorphosis of Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M&amp;list=PL7664379246A246CB&amp;index=4)
-* [Google JavaScript Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Closures#Closures)
+* [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml#Closures)
 * [Javascript Closures](http://jibbering.com/faq/notes/closures/)
 * [JsAction Repo on Github](https://github.com/google/jsaction)
 * [The difference between Ractive and Angular](http://blog.ractivejs.org/posts/whats-the-difference-between-angular-and-ractive/)
