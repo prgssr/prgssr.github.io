@@ -13,7 +13,7 @@ thumbnail: "/images/thoughtbot.png"
 ---
 
 Это прошлогодняя статья с Sitepoint из серии статей о библиотеке Bourbon
-и ее дополнениях (Bitters, Neat). Я  выкладываю перевод этой серии в первую очередь по причине того, что Яндекс и Google знают не так много о Bourbon на русском  (есть  [небольшая статья в блоге Zencoder](http://zencoder.ru/css/bourbon-brief-introduction/),  [перевод статьи Хьюго Жираделя](http://zencoder.ru/compass-or-bourbon/) оттуда же и [совсем краткое введение на webref](https://webref.ru/layout/sass/bourbon)). Ну и потому, что сейчас уже [Thoughtbot работают над версией Bourbon 5.0](https://github.com/thoughtbot/bourbon/releases) и скоро этот материал устареет значительно сильнее. Конкретно эта статья имеет смысл только в качестве введения в серию.
+и ее дополнениях (Bitters, Neat). Я  выкладываю перевод этой серии в первую очередь по причине того, что Яндекс и Google знают не так много о Bourbon на русском  (есть  [небольшая статья в блоге Zencoder](http://gearmobile.github.io/css/bourbon-brief-introduction/),  [перевод статьи Хьюго Жираделя](http://gearmobile.github.io/compass-or-bourbon/) оттуда же и [совсем краткое введение на webref](https://webref.ru/layout/sass/bourbon)). Ну и потому, что сейчас уже [Thoughtbot работают над версией Bourbon 5.0](https://github.com/thoughtbot/bourbon/releases) и скоро этот материал устареет значительно сильнее. Конкретно эта статья имеет смысл только в качестве введения в серию.
 {: .info}
 
 В этой статье, я надеюсь, смогу пробудить в вас интерес к компиляции и препроцессингу CSS, продемонстрировав установку [Sass](http://sass-lang.com/) и [Bourbon](http://bourbon.io/) и рассмотрев интеграцию этих инструментов в ваш рабочий процесс.
