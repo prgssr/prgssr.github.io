@@ -343,4 +343,4 @@ Viewport Units могут использоваться для [создания 
 
 ## Дополнительные ресурсы
 
-[Modular Scale](http://www.modularscale.com/) это отличный инструмент для создания отзывчивой типографики. Также нельзя не отметить отличную статью Сары Свайдан о [техниках отзывчивой типографики](http://tympanus.net/codrops/2013/11/19/techniques-for-responsive-typography/).
+[Modular Scale](http://www.modularscale.com/) это отличный инструмент для создания отзывчивой типографики. Также нельзя не отметить отличную статью Сары Суайдан о [техниках отзывчивой типографики](http://tympanus.net/codrops/2013/11/19/techniques-for-responsive-typography/).
