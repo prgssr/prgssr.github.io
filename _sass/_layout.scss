@@ -10,6 +10,14 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+@include media($on-laptop) {
+@each $heading, $scale in $headings {
+  #{$heading} {
+    font-size: modular-scale($scale);
+  }
+}
+}
+
 .page-wrap {
   margin-bottom: -$footer-height;
   min-height: 100%;
@@ -381,5 +389,4 @@ h3:target {
 .selection strong {
   background-color: $selection-color;
 }
-
 
