@@ -208,6 +208,6 @@ function stopNote (frequency) {
 ##### Дополнительные материалы
 
 * [Серия подробных статей о MIDI](http://www.muzoborudovanie.ru/articles/midi/midi1.php);
-* [Спецфикация Web MIDI API](https://www.w3.org/TR/webmidi/);
+* [Спецификация Web MIDI API](https://www.w3.org/TR/webmidi/);
 * [Making Music in the Browser – Web MIDI API](https://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/);
 * [Web MIDI: Music and Show Control in the Browser](http://tangiblejs.com/posts/web-midi-music-and-show-control-in-the-browser).
