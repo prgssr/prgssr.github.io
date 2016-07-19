@@ -1,0 +1,7 @@
+mark {
+	background-color: inherit;
+	border-bottom: 2px solid #FFD34C;
+}
+mark:target {
+	background-color: #FFD34C;
+}
