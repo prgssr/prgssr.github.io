@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="415px" height="584px" viewBox="0 0 415 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>visu_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="speaker_visuals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="visu_1">
+            <g id="short_waterfall">
+                <g id="Group-2" transform="translate(9.000000, 253.000000)">
+                    <path d="M143.058394,64.8421053 L143.058394,0 L70.9416058,0 L70.9416058,64.8421053 L52,64.8421053 L107,112 L162,64.8421053 L143.058394,64.8421053 Z" id="Combined-Shape" fill="#FFE4B8"></path>
+                    <text id="Miss" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#42314A">
+                        <tspan x="83.3623047" y="44">Miss</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(9.000000, 472.000000)">
+                    <path d="M143.058394,64.8421053 L143.058394,0 L70.9416058,0 L70.9416058,64.8421053 L52,64.8421053 L107,112 L162,64.8421053 L143.058394,64.8421053 Z" id="Combined-Shape" fill="#FFE4B8"></path>
+                    <text id="404" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#42314A">
+                        <tspan x="87.2099609" y="44">404</tspan>
+                    </text>
+                </g>
+                <text id="Node-App" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="56.53125" y="209">Node App</tspan>
+                </text>
+                <path d="M152.058394,98.8421053 L152.058394,34 L79.9416058,34 L79.9416058,98.8421053 L61,98.8421053 L116,146 L171,98.8421053 L152.058394,98.8421053 Z" id="Combined-Shape" fill="#FFE4B8"></path>
+                <g id="Group" transform="translate(244.000000, 162.000000)">
+                    <path d="M0,64 L3.061617e-15,14 L123,14 L123,64 L0,64 Z M123,78 L123,1.42108547e-14 L170.157895,39 L123,78 Z" id="Combined-Shape" fill="#9AD7E7"></path>
+                    <text id="Response" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="16.4931641" y="45">Response</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(244.000000, 381.000000)">
+                    <path d="M0,64 L3.061617e-15,14 L123,14 L123,64 L0,64 Z M123,78 L123,1.42108547e-14 L170.157895,39 L123,78 Z" id="Combined-Shape" fill="#9AD7E7"></path>
+                    <text id="Response" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="16.4931641" y="45">Response</tspan>
+                    </text>
+                </g>
+                <text id="Request" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#42314A">
+                    <tspan x="77" y="19">Request</tspan>
+                </text>
+                <g id="fr" transform="translate(9.000000, 167.000000)">
+                    <rect id="Rectangle-2" fill="#FFB095" x="0" y="0" width="214" height="65"></rect>
+                    <text id="Static-Content" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="34.8222656" y="40">Static Content</tspan>
+                    </text>
+                </g>
+                <g id="fr" transform="translate(9.000000, 386.000000)">
+                    <rect id="Rectangle-2" fill="#FFB095" x="0" y="0" width="214" height="65"></rect>
+                    <text id="Old-CMS-Server" font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="27.9277344" y="40">Old CMS Server</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
