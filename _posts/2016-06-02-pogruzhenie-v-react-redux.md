@@ -10,6 +10,7 @@ original: "https://css-tricks.com/learning-react-redux/"
 original_title: "Leveling Up with React: Redux"
 original_author: "Брэд Вестфолл"
 thumbnail: "/images/react.png"
+series: "Погружение в React"
 ---
 
 Redux это инструмент для управления состоянием данных и пользовательским интерфейсом в приложениях JavaScript. Он идеален для одностраничных приложений, в которых управление состоянием со временем может стать сложным. Redux не привязан к какому-либо фреймворку, хотя он написан с ориентацией на React, его можно [использовать с Angular](https://www.npmjs.com/package/ng-redux) и даже  jQuery.

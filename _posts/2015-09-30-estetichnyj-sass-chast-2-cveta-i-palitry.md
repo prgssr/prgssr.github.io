@@ -11,6 +11,7 @@ original_author: "David Khourshid"
 original_title: "Aesthetic Sass 2: Colors and Palettes "
 thumbnail: "/images/development/sass/Screen-Shot-2015-03-29-at-4.07.22-PM-522x250.png"
 scripts: codepen
+series: "Эстетичный Sass"
 ---
 Цвет очень важен в дизайне --- он играет визуальную и психологическую роль. Правильно подобранная палитра, соответствующая замыслу вашего дизайна значительно улучшает эстетическое впечатление от вашего сайта.
 

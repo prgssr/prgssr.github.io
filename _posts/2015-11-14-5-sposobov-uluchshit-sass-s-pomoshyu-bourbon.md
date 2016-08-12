@@ -10,6 +10,7 @@ original_title: "5 Ways to Improve Your Sass with Bourbon"
 original_author: "М.Дэвид Грин"
 prism: yes
 thumbnail: "/images/thoughtbot.png"
+series: "Библиотека Bourbon"
 ---
 
 Если вы часто пишите CSS, вполне возможно, что вы уже знакомы с [Sass](http://sass-lang.com/). Sass это один из лучших способов препроцессинга вашего CSS для получения чистого, [не повторяющегося](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself) и поддерживаемого кода. Возможности Sass очень значительны.

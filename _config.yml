@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://prgssr.ru" # the base hostname & protocol for your site
 twitter_username: "@prgssr"
 github_username:
+image: "/images/pr.png"
 
 # Build settings
 kramdown:

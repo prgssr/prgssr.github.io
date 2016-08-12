@@ -10,6 +10,7 @@ original_title: "Bourbon Refills Provide Drop-In Design and Functionality"
 original_author: "М.Дэвид Грин"
 prism: yes
 thumbnail: "/images/thoughtbot.png"
+series: "Библиотека Bourbon"
 redirect_from: 
   - "/development/bourbon-refills---gotovye-komponenty-dlya-uskoreniya-razrabotki"
   - "/development/bourbon-refills---gotovye-komponenty-dlya-uskoreniya-razrabotki.html"

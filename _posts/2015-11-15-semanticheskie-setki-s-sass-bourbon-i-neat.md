@@ -10,6 +10,7 @@ original_title: "Sass and Bourbon Neat for Lightweight Semantic Grids"
 original_author: "М.Дэвид Грин"
 prism: yes
 thumbnail: "/images/thoughtbot.png"
+series: "Библиотека Bourbon"
 ---
 
 Если вы уже являетесь поклонником [Sass](http://sass-lang.com/) и [Bourbon](http://bourbon.io/), то вам придется по душе и [Neat](http://neat.bourbon.io/). Это легковесная семантичная система сеток, прекрасно интегрированная в экосистему Sass и Bourbon, созданная авторами Bourbon --- компанией [Thoughtbot](http://thoughtbot.com/).  

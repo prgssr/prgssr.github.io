@@ -4,17 +4,15 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:description" content="{{ page.description }}">
-{% assign category = page.categories[0] %}
-{% if page.thumbnail == false %}
-  <meta name="twitter:image:src" content="{{ site.data.thumb.image  | prepend: site.url }}">
-  <meta name="og:image" content="{{ site.data.thumb.image | prepend: site.url }}" />
-{% elsif page.thumbnail =="noimage" %}
-  <meta name="twitter:image:src" content="{{ site.data.thumb.[category] | prepend: site.url }}">
-  <meta name="og:image" content="{{ site.data.thumb.[category] | prepend: site.url }}" />
+
+{% if page.thumbnail==false or page.thumbnail =="noimage"%}
+  <meta name="twitter:image:src" content="{{ site.image   | prepend: site.url }}">
+  <meta name="og:image" content="{{ site.image  | prepend: site.url }}" />
 {% else %}
 <meta name="twitter:image:src" content="{{ page.thumbnail | prepend: site.url }}">
 <meta name="og:image" content="{{ page.thumbnail | prepend: site.url }}" />
 {% endif %}
+
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:type" content="blog"/>
 <meta name="og:url" content="{{ page.url | prepend: site.url }}" />

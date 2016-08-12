@@ -10,6 +10,7 @@ original: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-o
 original_author: "David Khourshid"
 original_title: "Aesthetic Sass 1: Architecture and Style Organization"
 thumbnail: noimage
+series: "Эстетичный Sass"
 redirect_from:
   - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya"
   - "/development/estetichnyj-sass-chast-1---arhitektura-i-organizaciya.html"

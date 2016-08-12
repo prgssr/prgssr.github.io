@@ -11,6 +11,7 @@ original_author: "David Khourshid"
 original_title: "Aesthetic Sass 3: Typography and Vertical Rhythm"
 scripts: codepen
 thumbnail: "/images/development/sass/aesthetic-sass-typography-preview-667x500.png"
+series: "Эстетичный Sass"
 ---
 Типографика играет важную роль как в печатном, так и в веб-дизайне. Ведь [главным всегда является содержание](http://www.craigbailey.net/content-is-king-by-bill-gates/), а текстовый контент превалирует в вебе. Поэтому важно строить дизайн [ориентируясь на контент](http://everydaydesigner.net/design/change-your-focus-and-design-content-first), а не наоборот. Когда контент хорошо продуман, все остальное (макет, структура, цвета, переходы и т.д.) будет в тему.
 

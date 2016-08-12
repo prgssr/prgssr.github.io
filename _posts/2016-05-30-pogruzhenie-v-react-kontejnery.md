@@ -11,6 +11,7 @@ original_title: "Leveling Up With React: Container Components"
 original_author: "Брэд Вестфолл"
 thumbnail: "/images/react.png"
 scripts: codepen
+series: "Погружение в React"
 ---
 
 В первой статье мы рассмотрели маршруты и представления. В этой части мы собираемся познакомиться  с новой концепцией, в которой компоненты не создают представлений, а облегчают работу имеющимся. Как всегда, статью сопровождает код на [GitHub](https://github.com/bradwestfall/CSS-Tricks-React-Series), при желании вы можете сразу обратиться к нему.

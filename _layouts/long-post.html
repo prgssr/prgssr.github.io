@@ -23,14 +23,16 @@ layout: default
   {% include utils/TOC.html heading='h2' toc-title="Оглавление:" toc-level=2 %}
     <article itemprop="articleBody" class="post-content">
        {% if page.thumbnail == "noimage" %}
-        <meta itemprop="image" content="{{ site.data.thumb.[category] | prepend: site.url }}">
+        <meta itemprop="image" content="{{ site.image| prepend: site.url }}">
        {% else %}
         <meta itemprop="image" content="{{ page.thumbnail| prepend: site.url }}">
     {% endif %}
     {{ content }}
   </article>
     <div>
-    {% include utils/series.html %}
+      {% if page.series %}    
+        {% include utils/series.html %}
+      {% endif %}
     <p class="post-meta"
     {% include utils/date-localization-tags.html %}
     </p>

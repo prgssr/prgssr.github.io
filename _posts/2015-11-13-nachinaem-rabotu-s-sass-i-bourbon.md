@@ -10,6 +10,7 @@ original_title: "Getting Started with Sass and Bourbon"
 original_author: "М.Дэвид Грин"
 prism: yes
 thumbnail: "/images/thoughtbot.png"
+series: "Библиотека Bourbon"
 ---
 
 Это прошлогодняя статья с Sitepoint из серии статей о библиотеке Bourbon

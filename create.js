@@ -11,6 +11,6 @@ fs.readFile('_data/tags.yml', 'utf8', function (err,data) {
 function write_file (taglist){
   var tag = taglist.split(":");
   var filename = "tag/" + tag[0] +".html";
-  var content = "---\nlayout: tag\ntitle: " + tag[1]+ "\ndescription: " + tag[1]+ "\n---\n{% assign tag=\u0022" + tag[0] + "\u0022 %}\n{% include utils/tag-page.html %}\n";
+  var content = "---\nlayout: tag\nthumbnail: \u0022noimage\u0022\ntitle: " + tag[1]+ "\ndescription: " + tag[1]+ "\n---\n{% assign tag=\u0022" + tag[0] + "\u0022 %}\n{% include utils/tag-page.html %}\n";
   fs.writeFile(filename, content);
 }

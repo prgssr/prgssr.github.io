@@ -10,6 +10,7 @@ original: "http://www.sitepoint.com/creating-posts-custom-metadata-data-wintersm
 original_title: "Creating Posts, Custom Metadata, and Data in Wintersmith"
 original_author: "Брайан Риналди"
 thumbnail: "/images/development/static/wintersmith.png"
+series: "Генератор статических сайтов Wintersmith"
 ---
 
 

@@ -11,6 +11,7 @@ original_title: "Leveling Up With React: React Router"
 original_author: "Брэд Вестфолл"
 thumbnail: "/images/react.png"
 scripts: codepen
+series: "Погружение в React"
 ---
 
 Эта статья является первой в серии из трех статей о React от Брэда Вестфолла. Существует много руководств о том, как начать работать с React, но вопрос, что делать с этим дальше, освещен намного меньше. Если вы новичок в React, начните, например, с [этого видео](https://css-tricks.com/video-screencasts/147-starting-react-powered-comment-form/). Серия ориентирована на тех, кто уже знаком с основами.

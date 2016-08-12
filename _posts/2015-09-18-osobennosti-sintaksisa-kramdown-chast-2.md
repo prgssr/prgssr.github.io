@@ -7,6 +7,7 @@ categories: [articles]
 tags: [jekyll, markdown]
 prism: yes
 thumbnail: noimage
+series: "Особенности синтаксиса kramdown"
 ---
 Это вторая статья о синтаксисе kramdown, в ней будут описаны разновидности ссылок, способы выделения блоков кода и возможности по улучшению типографики.
 

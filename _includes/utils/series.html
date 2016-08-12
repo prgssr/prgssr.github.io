@@ -1,40 +1,20 @@
-{% for data_arr in site.data.series %}
-  {% for item in data_arr | offset: 1 %}
-    {% for element in item %}
-
-        {% assign post-url = element | remove: ".md" %}
-        {% assign str_title = post-url| split: "" %}
-        {% capture new_title%}{% for item in str_title | offset: 11%}{{item}}{% endfor %}{% endcapture %}
-        {% assign item_url= new_title |prepend: "/"| prepend: page.categories[0]|prepend: "/"| append: ".html" %}
-
-        {% if item_url == page.url %}
-          {% assign current = data_arr[0] %}
-          {% break %}
-        {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endfor %}
-{% if current %}
-<h6>Серия статей: "{{ current}}":</h6>
+<h6>Серия статей: "{{ page.series}}":</h6>
 <ol>
-{% for element in site.data.series[current] %}
+{% for post in site.posts reversed %}
 
-    {% assign post-url = element | remove: ".md" %}
-    {% assign str_title = post-url| split: "" %}
-    {% capture new_title%}{% for item in str_title | offset: 11%}{{item}}{% endfor %}{% endcapture %}
-    {% assign item_url= new_title |prepend: "/"| prepend: page.categories[0]|prepend: "/"| append: ".html" %}
+  {% if post.series %}
+    
+        {% if post.url == page.url %}
+             <li>
+                 <span>{{post.title}}</span>
+             </li>
+        {% elsif post.series == page.series%}
+             <li>
+                 <a href="{{post.url}}">{{post.title}}</a>
+             </li>
+        {% endif %}    
 
-    {% for post in site.posts %}
-      {% if post.url == item_url %}
-        <li>
-          {% if post.url == page.url  %}
-            <span>{{post.title}}</span>
-          {% else %}
-            <a href="{{post.url}}">{{post.title}}</a>
-          {% endif %}
-        </li>
-      {% endif %}
-    {% endfor%}
+  {% endif %}
+
 {% endfor %}
 </ol>
-{% endif %}
