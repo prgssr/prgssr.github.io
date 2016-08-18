@@ -1,5 +1,6 @@
 ---
 title: Опыт масштабирования генератора статических сайтов
+layout: post
 categories: [development]
 tags: [static, translation, smashingmagazine]
 date: 2016-08-10 23:05:28 +0300
