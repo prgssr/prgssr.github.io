@@ -137,7 +137,7 @@ git push prod master
 
 * [Heroku](https://devcenter.heroku.com/articles/github-integration#automatic-deploys)
 * [AWS](https://blogs.aws.amazon.com/application-management/post/Tx33XKAKURCCW83/Automatically-Deploy-from-GitHub-Using-AWS-CodeDeploy)
-* [Azure](https://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/)
+* [Azure](http://blog.davidebbo.com/2013/04/publishing-to-azure-web-sites-from-any.html)
 
 ## Сервисы непрерывной интеграции
 
