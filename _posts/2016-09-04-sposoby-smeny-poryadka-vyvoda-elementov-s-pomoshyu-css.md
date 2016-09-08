@@ -114,7 +114,7 @@ scripts: codepen
 
 Альтернативным вариантом будет задание позиции элементам, относительной или абсолютной.
 
-По первому варианту мы зададим кнопкам, плывущим влево свойство `position: relative` и затем расставим их с помощью свойство `left`.
+По первому варианту (с относительным позиционированием) мы зададим кнопкам, плывущим влево свойство `position: relative` и затем расставим их с помощью свойство `left`.
 
 Вот CSS:
 
@@ -148,7 +148,7 @@ scripts: codepen
 
 <p data-height="365" data-theme-id="0" data-slug-hash="mAbGOP" data-default-tab="result" data-user="tutsplus" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/tutsplus/pen/mAbGOP/">Using Positioning (relative) for Reverse Column Ordering</a> by Envato Tuts+ (<a href="http://codepen.io/tutsplus">@tutsplus</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-Вторым вариантом мы зададим нашим кнопкам `position: absolute`, а с помощью свойства `left` разместим их более точно.
+Вторым вариантом (с использованием абсолютного позиционирования) мы зададим нашим кнопкам `position: absolute`, а с помощью свойства `left` разместим их более точно.
 
 Соответствующий CSS:
 
