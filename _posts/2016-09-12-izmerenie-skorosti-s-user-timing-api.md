@@ -9,7 +9,7 @@ description: "Прошлогодняя статья Стива Судерса о
 original: "https://speedcurve.com/blog/user-timing-and-custom-metrics/"
 original_title: "User Timing and Custom Metrics"
 original_author: "Стив Судерс"
-thumbnail: "images/development/performance/custom-metric-waterfall.png"
+thumbnail: "/images/development/performance/custom-metric-waterfall.png"
 ---
 
 Если вы хотите улучшить производительность, для начала вам надо ее измерить.
