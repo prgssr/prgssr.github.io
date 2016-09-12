@@ -73,7 +73,7 @@ scripts: codepen
 **Пример модификатора HTML**
 
 ```html
-<div class="block block—modifier">
+<div class="block block-modifier">
   <div class="block__element">…</div>
   <div class="block__another-element">…</div>
 </div>
@@ -83,11 +83,11 @@ scripts: codepen
 **Пример модификатора CSS**
 
 ```css
-.block—modifier {
+.block-modifier {
   border-top: 3px solid red;
 }
 
-.block—modifier .block__element {
+.block-modifier .block__element {
   background: grey;
 }
 ```
