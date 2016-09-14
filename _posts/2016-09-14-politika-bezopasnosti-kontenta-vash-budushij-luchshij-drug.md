@@ -1,5 +1,5 @@
 ---
-title: Политика безопасности контента&#58; ваш будущий лучший друг
+title: Политика безопасности контента, ваш будущий лучший друг
 layout: post
 categories: [development]
 tags: [security, translation, smashingmagazine]
