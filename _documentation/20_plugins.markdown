@@ -384,7 +384,7 @@ end
 * [Markdown References от Olov Lassus](https://github.com/olov/jekyll-references): Позволяет хранить все ссылки markdown в одном файле  _references.md.
 * [Stylus Converter](https://gist.github.com/988201): Конвертер Stylus в css.
 * [ReStructuredText Converter](https://github.com/xdissent/jekyll-rst): Конвертирует документы ReST в HTML с подсветкой Pygments.
-* [Jekyll-pandoc-plugin](https://github.com/dsanson/jekyll-pandoc-plugin): Подключает pandoc для рендеринга markdown.
+* [Jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc): Подключает pandoc для рендеринга markdown.
 * [Jekyll-pandoc-multiple-formats от edsl](https://github.com/fauno/jekyll-pandoc-multiple-formats): Использует pandoc для генерации вашего сайта в различных форматах. Поддерживает pandoc-расширения markdown.
 * [Transform Layouts](https://gist.github.com/1472645): Поддержка макетов HAML  (для работы нужен установленный конвертер HAML).
 * [Org-mode Converter](https://gist.github.com/abhiyerra/7377603): Конвертер Org-mode для Jekyll.
