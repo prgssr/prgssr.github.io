@@ -208,7 +208,7 @@ Safari:
 
 Свойство `text-decoration-skip` включает пропуск выносных элементов в подчеркиваемом тексте.
 
-![](/images/development/typography/text-decoration-skip-768x217.png)
+![подчеркивание с text-decoration-skip в Safari](/images/development/typography/text-decoration-skip-768x217.png)
 
 Это свойство нестандартное и работает сейчас только в Safari, с префиксом `-webkit-`. Safari по умолчанию активирует это свойство, поэтому выносные элементы всегда не перечеркиваются.
 
