@@ -8,7 +8,7 @@ prism: yes
 description: "Подробный обзор способов подчеркивания текста, от традиционных до экзотичных"
 original: "https://css-tricks.com/styling-underlines-web/"
 original_title: "Styling Underlines on the Web"
-original_author: "Джон Джэймсон"
+original_author: "Джон Джеймсон"
 thumbnail: "/images/development/typography/familiar-768x724.png"
 scripts: "codepen"
 ---
