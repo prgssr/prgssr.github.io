@@ -14,7 +14,9 @@
       </a>
 
       <div class="trigger">
-        {% include nav/main-nav.html %}
+         {% for nav_item in site.data.main-nav %}
+                 <a class="page-link" href="{{ nav_item[0] | prepend: site.baseurl }}">{{ nav_item[1] }}</a>
+          {% endfor %}
       </div>
     </nav>
 
