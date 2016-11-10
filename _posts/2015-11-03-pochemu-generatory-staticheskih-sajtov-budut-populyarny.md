@@ -17,7 +17,7 @@ thumbnail: "/images/development/static/jekyll-preview-opt.png"
 Такие влиятельные в мире веб-дизайна компании как  Nest и MailChimp сейчас используют генераторы статики в качестве движков для своих сайтов. [Vox Media](http://www.voxmedia.com/) создали [целую систему публикации](http://product.voxmedia.com/2015/7/8/8907841/introducing-autotune) на основе Middleman. [ Carrot](http://carrot.is/), большое агентство из Нью-Йорка и часть империи Vice, создает сайты для нескольких крупных мировых брендов на основе собственного генератора с открытым кодом --- [Roots](http://roots.cx/). Некоторые ресурсы от Google, такие как [“A Year In Search”](https://www.google.com/trends/2014/) и [ Web Fundamentals](https://developers.google.com/web/fundamentals/) также статичны.
 
 ![Рост популярности генераторов статики за последний год](/images/development/static/01-staticgen-stats-opt.png)
-*Рост популярности генераторов статики за последний год. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/01-staticgen-stats-opt.png))*
+*Рост популярности генераторов статики за последний год. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/01-staticgen-stats-opt.png))*
 
 Статические веб-сайты это не новость --- это то, с чего начинался веб. Так откуда этот взрыв интереса к ним? Почему он произошел именно сейчас?
 
@@ -62,14 +62,14 @@ Smashing Magazine создан командой, ориентированной 
 
 [![Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра](/images/development/static/02-smashing-dynamic-load-times-opt.png)](https://performance.sucuri.net/domain/www.smashingmagazine.com)
 
-*Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/02-smashing-dynamic-load-times-opt.png))*
+*Smashing Magazine быстрее большинства сайтов, но он обрабатывает все запросы из одного дата-центра. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/02-smashing-dynamic-load-times-opt.png))*
 
 Затем я запустил несколько тестов, чтобы увидеть как это влияет на скорость поступления первого байта и на время полной загрузки страницы `index.html`. И вот что показал инструмент для проверки производительности от [ Sucuri](https://performance.sucuri.net/).
 
 Даже высоко-оптимизированный  динамический сайт проигрывает в среднем в 6 раз своей статической версии. Учтем, конечно, что не каждый статический хостинг даст такую разницу, но динамический сайт даже с CDN просто не сможет дать сравнимой производительности без ручной настройки, обычно влекущей за собой различные странности с кэшированием.
 
 ![Тот же самый HTML на высокопроизводительном статическом хостинге](/images/development/static/03-smashing-static-load-times-opt-preview.png)
-*Тот же самый HTML на высокопроизводительном статическом хостинге. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/03-smashing-static-load-times-opt.png))*
+*Тот же самый HTML на высокопроизводительном статическом хостинге. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/03-smashing-static-load-times-opt.png))*
 
 **Кэширование и особенно инвалидацию кэша** очень сложно правильно настроить для динамического сайта, особенно в случае распределенного кэширования, необходимого для эффективного использования CDN. На сайтах с  WordPress нет гарантии, что одинаковый URL будет возвращать одинаковый HTML, так как это зависит от параметров запроса, настроек пользователя,  A/B тестирования и прочего. И отслеживание момента, когда кэш надо обновить является сложной задачей: каждое изменения комментария, настройки сайта, тега, категории или иного содержимого базы данных может повлечь изменения в списках и связанных постах, индексных и архивных страницах, счетчиках комментариев и&nbsp;т.д.
 
@@ -83,7 +83,7 @@ Smashing Magazine создан командой, ориентированной 
 
 ![Google Trends по запросу “static website generator”](/images/development/static/04-static-site-generator-trends-opt.png)
 
-*Google Trends по запросу “static website generator”. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/04-static-site-generator-trends-opt.png))*
+*Google Trends по запросу “static website generator”. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/04-static-site-generator-trends-opt.png))*
 
 С тех пор многие ограничения, сдерживавшие статические сайты, стали неактуальны и современные генераторы это конкурентоспособные движки, ориентированные прежде всего на фронтенд разработчиков.
 

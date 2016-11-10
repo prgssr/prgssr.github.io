@@ -24,15 +24,15 @@ thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 
 ![типографская краска](/images/development/typography/02-physical-color-opt-small.jpg)
 
-*Черная типографская краска. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/02-physical-color-opt.jpg))*
+*Черная типографская краска. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/02-physical-color-opt.jpg))*
 
 ![Деревянные блоки для задания высоты строки](/images/development/typography/03-physical-line-height-opt-small.jpg)
 
-*Деревянные блоки для задания высоты строки. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/03-physical-line-height-opt.jpg))*
+*Деревянные блоки для задания высоты строки. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/03-physical-line-height-opt.jpg))*
 
 ![Смешивание синей и белой краски](/images/development/typography/04-physical-opacity-opt-small.jpg)
 
-*Смешивание синей и белой краски. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/04-physical-opacity-opt.jpg))*
+*Смешивание синей и белой краски. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/04-physical-opacity-opt.jpg))*
 
 Это касалось и пробелов. Пробелы не были отсутствием атомов, это были атомы другого вида. При создании композиции страницы для печатного пресса, надо было не только положить блоки пробелов между предложениями, но и добавить в оставшееся пространство блоки свинца или дерева. Все что сейчас называется промежутком между буквами, высотой строк, внешними и внутренними отступами --- все это было физическим.
 
@@ -40,7 +40,7 @@ thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 
 ![Цитата в середине верстки. ](/images/development/typography/05-quote-typesetting-opt-small.jpg){: itemprop="image"}
 
-*Цитата в середине верстки. Обратите внимание на все блоки пробелов вокруг цитаты, удерживающие ее на месте. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/05-quote-typesetting-opt.jpg))*
+*Цитата в середине верстки. Обратите внимание на все блоки пробелов вокруг цитаты, удерживающие ее на месте. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/05-quote-typesetting-opt.jpg))*
 
 Вы можете сказать: --- "это так мило, что сегодня у нас есть `position: absolute`, отрицательные отступы и CSS трансформации для размеров больше, чем у дисплея." И вы будете правы.  Неуклонный марш закона Мура дал нам дисплеи с крошечными пикселями и миллионами цветов. И вы можете делать все, что хотите.
 
@@ -75,19 +75,19 @@ thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 
 ![Длинные тире в окружении узких пробелов на сайте Medium](/images/development/typography/06-medium-hair-space-em-dash-small.gif)
 
-*Длинные тире в окружении очень узких пробелов на сайте Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/06-medium-hair-space-em-dash.gif))*
+*Длинные тире в окружении очень узких пробелов на сайте Medium. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/06-medium-hair-space-em-dash.gif))*
 
 То же самое мы делаем в письмах, в которых используется среднее тире для указания диапазона. Без узких пробелов оно будет выглядеть зажатым (а с обычным пробелом слишком свободным).
 
 ![Очень узкие пробелы используются при указании диапазона на Medium](/images/development/typography/07-medium-date-range-opt-small.gif)
 
-*Очень узкие пробелы используются при указании диапазона на Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/07-medium-date-range-opt.gif))*
+*Очень узкие пробелы используются при указании диапазона на Medium. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/07-medium-date-range-opt.gif))*
 
 Точно также, если элемент меню содержит слэш, мы обертываем его узкими пробелами для лучшего баланса:
 
 ![Слэш  и узкие пробелы в меню](/images/development/typography/08-medium-thin-space-menu-opt.gif)
 
-*Слэш  и узкие пробелы в меню на Medium. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/08-medium-thin-space-menu-opt.gif))*
+*Слэш  и узкие пробелы в меню на Medium. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/08-medium-thin-space-menu-opt.gif))*
 
 И так далее. Многие пробелы названы исходя из их ширины (шириной в волос, узкий, Н и М пробелы), но у некоторых название основано на их назначении. Пунктуационный пробел призван занимать столько же места, сколько и знаки пунктуации, точно также названы [идеографический](https://en.wikipedia.org/wiki/Ideogram) и математический пробелы.
 
@@ -112,13 +112,13 @@ thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 
 ![Текст с обычными и неразрывными пробелами](/images/development/typography/09-medium-and-x-others-opt-small.gif)
 
-*Текст с обычными и неразрывными пробелами. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/09-medium-and-x-others-opt.gif))*
+*Текст с обычными и неразрывными пробелами. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/09-medium-and-x-others-opt.gif))*
 
 Точно также в французском языке принято отделять завершающий знак пунктуации в предложении узким пробелом. Этот  пробел тоже должен быть неразрывным, чтобы знак вопроса или кавычка были привязаны к своим словам.
 
 ![Текст с французской пунктуацией](/images/development/typography/10-french-punctuation-opt-small.gif)
 
-*Текст с французской пунктуацией. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/10-french-punctuation-opt-500x210.gif))*
+*Текст с французской пунктуацией. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/10-french-punctuation-opt-500x210.gif))*
 
 Та же техника применима к длинным числам, разделенным на блоки по три цифры, телефонным номерам и прочим вещам, которые по смыслу должны находиться в одном месте.
 
@@ -145,12 +145,12 @@ thumbnail: "/images/development/typography/05-quote-typesetting-opt-small.jpg"
 
 ![Пробел нулевой ширины помогает разбить слова, разделенные слэшем](/images/development/typography/zero-width-space-small.gif)
 
-*Пробел нулевой ширины помогает разбить слова, разделенные слэшем. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/zero-width-space.gif))*
+*Пробел нулевой ширины помогает разбить слова, разделенные слэшем. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/zero-width-space.gif))*
 
 Что касается другого применения... Помните пример в самом верху? Это был пробел нулевой ширины, который предотвратил создание ссылки в моем твите. Он расположен сразу после `@` и это он помешал парсеру, ищущему цифры и буквы и прекращающему поиск, при обнаружении других символов.
 
 ![Два твита с нулевым пробелом](/images/development/typography/11-tweet-taunt-animation-small.gif)
-*Два твита с нулевым пробелом. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/11-tweet-taunt-animation-opt.gif))*
+*Два твита с нулевым пробелом. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/11-tweet-taunt-animation-opt.gif))*
 
 Можно найти и другие применения:
 
@@ -195,9 +195,9 @@ Zero-width​&#8203;space |	`&#8203;` |	\u200B
 * Поддержка в шрифтах. Пробелы это такие же глифы как и остальные и если их нет в выбранном шрифте, они не возникнут из воздуха. Поэтому не удивляйтесь, если вместо отсутствия пикселей вы увидите квадратик битого Юникода.
 * И запомните --- всегда убирайте блок с пробелами на место. Хотя нет, мы уже можем не парится над такими вещами.
 
-![Пробел как он есть](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/12-physical-space-box-opt-small.jpg)
+![Пробел как он есть](https://www.smashingmagazine.com/wp-content/uploads/2015/09/12-physical-space-box-opt-small.jpg)
 
-*Блок с 12-пунктным пробелом из Центра книги в Сан-франциско. Да, изменение размера шрифта, требует замены блока пробела. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/09/12-physical-space-box-opt.jpg))*
+*Блок с 12-пунктным пробелом из Центра книги в Сан-франциско. Да, изменение размера шрифта, требует замены блока пробела. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/09/12-physical-space-box-opt.jpg))*
 
 ## Тайны Юникода
 

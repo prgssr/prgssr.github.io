@@ -193,7 +193,7 @@ self.addEventListener('install', event => {
 
 ![логи сервис-воркера в chrome при последующих запросах страницы](/images/development/javascript/01-stale-logging-preview-opt.png)
 
-*В  Chrome 47 сообщение об установке будет появляться в логах на всех последующих запросах страницы. На самом деле событие `install` не выполняется при каждой загрузке страницы, это выводятся устаревшие логи. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/01-stale-logging-opt.png))*
+*В  Chrome 47 сообщение об установке будет появляться в логах на всех последующих запросах страницы. На самом деле событие `install` не выполняется при каждой загрузке страницы, это выводятся устаревшие логи. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/01-stale-logging-opt.png))*
 
 ### Мнимая ошибка
 
@@ -201,7 +201,7 @@ self.addEventListener('install', event => {
 
 ![В Chrome 47 доступ к странице с зарегистрированным сервис-воркером вызывает ошибку в консоли](/images/development/javascript/02-console-error-preview-opt.png)
 
-*В Chrome 47 доступ к странице с зарегистрированным сервис-воркером вызывает ошибку в консоли. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/02-console-error-opt.png))*
+*В Chrome 47 доступ к странице с зарегистрированным сервис-воркером вызывает ошибку в консоли. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/02-console-error-opt.png))*
 
 ## Чего мы добились
 
@@ -516,7 +516,7 @@ function offlineResponse (resourceType, opts) {
 
 ![Страница офлайн ](/images/development/javascript/03-offline-page-preview-opt.png)
 
-*Страница офлайн ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/03-offline-page-opt.png))*
+*Страница офлайн ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/03-offline-page-opt.png))*
 
 ## Остальные ресурсы: стратегия Cache-First 
 
@@ -571,7 +571,7 @@ var config = {
 
 ![Изображение-заглушка для офлайна](/images/development/javascript/04-offline-image-preview-opt.png)
 
-*Изображение-заглушка для офлайна, исходники SVG — Jeremy Keith. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/04-offline-image-opt.png))*
+*Изображение-заглушка для офлайна, исходники SVG — Jeremy Keith. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/04-offline-image-opt.png))*
 
 ### Остерегайтесь CDN
 
@@ -585,7 +585,7 @@ var config = {
 
 ![В Chrome вы можете тестировать поведение сервис-воркера в офлайн](/images/development/javascript/05-preview-offline-preview-opt.png)
 
-*В Chrome вы можете тестировать поведение сервис-воркера в офлайне, выбрав в меню `device mod` презет `Offline`. Это бесценный трюк. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/05-preview-offline-opt.png))*
+*В Chrome вы можете тестировать поведение сервис-воркера в офлайне, выбрав в меню `device mod` презет `Offline`. Это бесценный трюк. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/05-preview-offline-opt.png))*
 
 Полный код с обработкой загрузки (`serviceWorker.js`) [выложен на GitHub](https://github.com/lyzadanger/serviceworker-example/blob/master/02-fetch-handling/serviceWorker.js).
 
@@ -613,7 +613,7 @@ version: 'aether'
 
 ![содержимое кэша во вкладке  “Resources” в Chrome](/images/development/javascript/06-cache-contents-opt.png)
 
-*В Chrome вы можете видеть содержимое кэша во вкладке  “Resources”. Вы можете видеть, что у разных версий моего сервис-воркера разные названия кэша. (в примере версия "Ахилл"). ([увеличенное изображение](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/06-cache-contents-opt.png))*
+*В Chrome вы можете видеть содержимое кэша во вкладке  “Resources”. Вы можете видеть, что у разных версий моего сервис-воркера разные названия кэша. (в примере версия "Ахилл"). ([увеличенное изображение](https://www.smashingmagazine.com/wp-content/uploads/2016/01/06-cache-contents-opt.png))*
 
 ### Не переименовывайте сервис-воркер
 
@@ -683,11 +683,11 @@ self.addEventListener('activate', event => {
 
 ![список зарегистрированных сервис-воркеров в Chrome](/images/development/javascript/07-serviceworker-internals-preview-opt.png)
 
-*Вы можете использовать специальный URL `chrome://serviceworker-internals` в Chrome, чтобы видеть все зарегистрированные сервис-воркеры. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/07-serviceworker-internals-opt.png))*
+*Вы можете использовать специальный URL `chrome://serviceworker-internals` в Chrome, чтобы видеть все зарегистрированные сервис-воркеры. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/07-serviceworker-internals-opt.png))*
 
 ![сайт в режиме Offline Network в Chrome](/images/development/javascript/08-my-site-offline-preview-opt.png){: itemprop="image"}
 
-*Это мой сайт в режиме Offline Network в Chrome, эмулирующий то, что увидит пользователь находясь в офлайне. Работает! ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2016/01/08-my-site-offline-opt.png))*
+*Это мой сайт в режиме Offline Network в Chrome, эмулирующий то, что увидит пользователь находясь в офлайне. Работает! ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2016/01/08-my-site-offline-opt.png))*
 
 ## Заключение
 

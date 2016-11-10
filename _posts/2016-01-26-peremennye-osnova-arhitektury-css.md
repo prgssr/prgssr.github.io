@@ -563,7 +563,7 @@ $font-size-base: 100%; // or px / em / rem
 
 ![Шрифт Exo различной жирности](/images/development/sass/font-weight-naming-opt-preview.jpg)
 
-*Шрифт Exo различной жирности.* ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/font-weight-naming-opt.jpg))
+*Шрифт Exo различной жирности.* ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/font-weight-naming-opt.jpg))
 
 Вот пример неплохого подхода к именованию таких переменных, хотя вполне вероятно, что такое разнообразие вам никогда не понадобится.
 

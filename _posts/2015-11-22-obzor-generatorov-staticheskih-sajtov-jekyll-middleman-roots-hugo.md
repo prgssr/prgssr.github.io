@@ -124,7 +124,7 @@ alert "Hello from CoffeeScript"
 
 ![Внешний вид страницы документации Jekyll](/images/development/static/01-Jekyll-opt-preview.png){: itemprop="image"}
 
-*Внешний вид страницы документации Jekyll. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/10/01-Jekyll-opt.png))*
+*Внешний вид страницы документации Jekyll. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/10/01-Jekyll-opt.png))*
 
 Итак, как все это сделано.
 

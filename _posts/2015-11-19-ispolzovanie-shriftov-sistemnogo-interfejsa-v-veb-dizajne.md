@@ -18,7 +18,7 @@ thumbnail: "/images/development/typography/04-history-win.png"
 
 ![Последнее поколение шрифтов системного интерфейса на различных системах](/images/development/typography/01-modern-system-fonts-preview.png)
 
-*Последнее поколение шрифтов системного интерфейса на различных системах. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/01-modern-system-fonts.png))*
+*Последнее поколение шрифтов системного интерфейса на различных системах. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/01-modern-system-fonts.png))*
 
 Неудивительно, что идея использовать эти шрифты в вебе набирает популярность. Возможно, вы хотите сильнее акцентировать разницу между содержанием и пользовательским интерфейсом, может, хотите добиться, чтобы сайт выглядел как приложение или просто хотите использовать красивые шрифты без каких-либо задержек.
 
@@ -60,7 +60,7 @@ font: menu;
 * До декабря 2015 в Firefox на Mac не использовались "умные" свойства San Francisco (автоматически переключающие San Francisco Text на San Francisco Display при размере шрифта больше 20 пикселей).
 
 ![Эволюция шрифтов системного интерфейса Mac](/images/development/typography/02-history-mac-preview.png)
-*Эволюция шрифтов системного интерфейса Mac: от Chicago в 1984 году,  и далее через Charcoal и Lucida Grande к San Francisco. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/02-history-mac.png))*
+*Эволюция шрифтов системного интерфейса Mac: от Chicago в 1984 году,  и далее через Charcoal и Lucida Grande к San Francisco. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/02-history-mac.png))*
 
 ### Второй способ
 
@@ -86,7 +86,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
 
 ![Шрифт системного интерфейса, используемый только для интерфейса (слева) и для всего сайта (справа)](/images/development/typography/03-two-sites-preview.png)
 
-*Шрифт системного интерфейса, используемый только для интерфейса (слева) и для всего сайта (справа).([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/03-two-sites.png)) Автор интерфейса - [Коул Питерс](https://colepeters.com/).*
+*Шрифт системного интерфейса, используемый только для интерфейса (слева) и для всего сайта (справа).([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/03-two-sites.png)) Автор интерфейса - [Коул Питерс](https://colepeters.com/).*
 
 ## Что делать сейчас?
 
@@ -144,7 +144,7 @@ font-family:
 
 ![Эволюция шрифтов системного интерфейса в Windows](/images/development/typography/04-history-win-preview.png)
 
-*Эволюция шрифтов системного интерфейса в Windows более резкая, чем на Mac --- от моноширинного растрового  шрифта Windows 1.0 в 1985 до шрифта высокого разрешения Segoe UI in Windows 10. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/04-history-win.png))*
+*Эволюция шрифтов системного интерфейса в Windows более резкая, чем на Mac --- от моноширинного растрового  шрифта Windows 1.0 в 1985 до шрифта высокого разрешения Segoe UI in Windows 10. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/04-history-win.png))*
 
 ## Будущее
 
@@ -154,7 +154,7 @@ font-family:
 
 ![Последние три версии  Mac OS X используют три разных интерфейсных шрифта](/images/development/typography/05-recent-mac-os-preview.png)
 
-*Последние три версии  Mac OS X используют три разных интерфейсных шрифта: Lucida Grande на Mac OS 10.9 (Mavericks); специальная версия Neue Helvetica на Mac OS 10.10 (Yosemite); специальная версия San Francisco на Mac OS 10.11 (El Capitan). Логично предположить, что в будущих версиях будет использоваться San Francisco. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/11/05-recent-mac-os.png))*
+*Последние три версии  Mac OS X используют три разных интерфейсных шрифта: Lucida Grande на Mac OS 10.9 (Mavericks); специальная версия Neue Helvetica на Mac OS 10.10 (Yosemite); специальная версия San Francisco на Mac OS 10.11 (El Capitan). Логично предположить, что в будущих версиях будет использоваться San Francisco. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/11/05-recent-mac-os.png))*
 
 ## Дополнительные материалы
 

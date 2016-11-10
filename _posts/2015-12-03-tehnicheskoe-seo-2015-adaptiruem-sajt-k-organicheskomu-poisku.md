@@ -35,7 +35,7 @@ thumbnail: "/images/development/seo/01-site-architecture-opt-small.png"
 
 ![Диаграмма идеальной архитектуры сайта](/images/development/seo/01-site-architecture-opt-small.png){: itemprop="image"}
 
-*Диаграмма идеальной архитектуры сайта, верхняя точка — домашняя страница. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/01-site-architecture-opt.png))*
+*Диаграмма идеальной архитектуры сайта, верхняя точка — домашняя страница. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/01-site-architecture-opt.png))*
 
 Эта архитектура должна выражаться в статичной и человекочитаемой структуре URL, свободной по возможности от динамических параметров и использующей для разделения слов дефисы, а не подчеркивания (это описано в [рекомендациях Google по структуре URL](https://support.google.com/webmasters/answer/76329)). Поддерживайте последовательность при создании внутренних ссылок и избегайте создания не связанных с другими "брошенных" страниц. Помните, что поисковые роботы не могут использовать поисковые формы, все содержимое должно быть доступно по прямым ссылкам.
 
@@ -73,7 +73,7 @@ Sitemap: http://yourdomain.com/sitemap-index-file.xml
 
 ![блокированные в robots.txt страницы доступны в поисковой выдаче](/images/development/seo/02-blocked-by-robots-opt-small.png)
 
-*Как видите, блокированные в robots.txt страницы доступны в поисковой выдаче. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/02-blocked-by-robots-opt.png))*
+*Как видите, блокированные в robots.txt страницы доступны в поисковой выдаче. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/02-blocked-by-robots-opt.png))*
 
 Базовый файл `robots.txt` определяет пользовательских агентов (поисковых роботов) и задает для них одно или несколько правил `Disallow`, это относительные URL, которые вы хотите заблокировать для поисковых роботов. Исключения задаются в следующих за ними правилах `Allow`. Использование паттернов для задания URL позволяет создавать более сложные правила, благодаря поддержке в  Google и Bing двух регулярных выражений: окончания строки(`$`) и универсального селектора (`*`). Вот простой образец:
 
@@ -93,7 +93,7 @@ Allow: /blocked-directory/allowed-file.pdf$
 
 ![Меню 'Просмотреть как Googlebot' в поисковой консоли](/images/development/seo/03-fetch-render-opt-small.png){: itemprop="image"}
 
-*Меню 'Просмотреть как Googlebot' в поисковой консоли ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/03-fetch-render-opt.png))*
+*Меню 'Просмотреть как Googlebot' в поисковой консоли ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/03-fetch-render-opt.png))*
 
 Запомните, что в Chrome вы всегда можете сделать быстрый снимок того, как видит страницу Googlebot, введя в адресной строке `cache:example.com/page` и выбрав текстовую версию кэша.
 
@@ -161,13 +161,13 @@ Modified: yourdomain.com/content
 
 ![Пример 1. Argos.co.uk](/images/development/seo/04-argos-duplicate-opt-small.png)
 
-*Пример 1. Argos.co.uk. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/04-argos-duplicate-opt.png))*
+*Пример 1. Argos.co.uk. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/04-argos-duplicate-opt.png))*
 
 Здесь каждый продукт доступен через бесчисленное количество бессмысленных категорий. Это и есть пример дублирования контента: по всем этим URL проходит и индексирует поисковый робот, что означает пустую трату бюджета сканирования.
 
 ![Пример 2. Argos.co.uk](/images/development/seo/05-argos-search-opt-small.png)
 
-*Пример 2. Argos.co.uk. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/05-argos-search-opt.png))*
+*Пример 2. Argos.co.uk. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/05-argos-search-opt.png))*
 
 В данном случае, на страницах результатов поиска — даже тех, на которых не оказалось ни одного товара, отсутствуют какие-либо директивы запрета индексации и  они полностью открыты для поисковых роботов. Это хороший пример контента, не имеющего ценности для пользователей — эти, как правило, пустые страницы не несут полезной нагрузки при том, что к [моменту написания статьи их проиндексировано 22 тысячи](https://www.google.co.uk/search?q=site%3Ahttp%3A%2F%2Fwww.argos.co.uk%2Fstatic%2FSearch%2FsearchTerm%2F+%22Hmmm%2C+no+search+results+for%22).
 
@@ -183,7 +183,7 @@ Modified: yourdomain.com/content
 
 ![Всегда просматривайте скрытые результаты поиска для диагностики проблем](/images/development/seo/06-results-omitted-opt-small.png)
 
-*Всегда просматривайте скрытые результаты поиска для диагностики проблем. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/06-results-omitted-opt.png))*
+*Всегда просматривайте скрытые результаты поиска для диагностики проблем. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/06-results-omitted-opt.png))*
 
 Оператор `site:` становится еще мощнее в сочетании с операторами `inurl`, `intitle`, `exact ("...")` и негативным оператором (`-`). Используя эти и другие продвинутые операторы в своем исследовании, вы можете быстро диагностировать отдельные большие проблемы:
 
@@ -209,7 +209,7 @@ Modified: yourdomain.com/content
 
 ![График индексирования сайта в поисковой консоли с учетом URL, заблокированных в robots.txt](/images/development/seo/07-index-status-opt-small.png){: itemprop="image"}
 
-*График индексирования сайта в поисковой консоли с учетом URL, заблокированных в `robots.txt`. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/07-index-status-opt.png))*
+*График индексирования сайта в поисковой консоли с учетом URL, заблокированных в `robots.txt`. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/07-index-status-opt.png))*
 
 Обязательно проверьте сайт на наличие "[мягких 404 ошибок](https://support.google.com/webmasters/answer/181708)" в панели "Ошибки сканирования" раздела "Сканирование". Это ситуации, когда при попытке зайти на несуществующую страницу не возвращается соответствующий код `404`. Запомните, для поискового робота содержимое страницы не связано с HTTP-ответом сервера. Пользователи могут видеть сообщение "Страница не найдена", но для роботов эти страницы существуют (а, значит, должны быть проиндексированы) в результате неправильной обработки ошибок на сервере
 
@@ -217,7 +217,7 @@ Modified: yourdomain.com/content
 
 ![Соотношение добавленных и проиндексированных URL в поисковой консоли](/images/development/seo/08-sitemaps-opt-small.png)
 
-*Соотношение добавленных и проиндексированных URL в поисковой консоли. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/08-sitemaps-opt.png))*
+*Соотношение добавленных и проиндексированных URL в поисковой консоли. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/08-sitemaps-opt.png))*
 
 ### Настройка сервера и редиректов
 
@@ -324,7 +324,7 @@ RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 
 ![Screaming Frog SEO Spider проходит все URL домена](/images/development/seo/09-screaming-frog-opt-small.png)
 
-*Screaming Frog SEO Spider проходит все URL домена. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/09-screaming-frog-opt.png))*
+*Screaming Frog SEO Spider проходит все URL домена. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/09-screaming-frog-opt.png))*
 
 Вкладки Page Titles и Meta Descriptions позволяют вам отфильтровывать данные сканирования по возникающим проблемам — в случае с тегами `title` это отсутствующие, дублирующие, слишком короткие или слишком длинные теги. Нажмите Export, чтобы экспортировать данные в таблицу для последующего изучения.
 
@@ -347,7 +347,7 @@ RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 
 ![Визуализация алгоритма  PageRank ](/images/development/seo/10-pagerank-example-opt-small.png)
 
-*Визуализация алгоритма  PageRank (источник изображения — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PageRanks-Example.svg), ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/10-pagerank-example-opt.png)))*
+*Визуализация алгоритма  PageRank (источник изображения — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PageRanks-Example.svg), ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/10-pagerank-example-opt.png)))*
 
 Алгоритм Google значительно эволюционировал за годы с момента его появления  и сейчас учитывает десятки метрик, влияющих на рейтинга страницы. Тем не менее, *внешние ссылки остаются самым важным фактором для поискового ранжирования*.
 
@@ -379,7 +379,7 @@ RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 
 ![Экспорт отчета в Ahrefs.com](/images/development/seo//11-ahrefs-export-opt-small.png)
 
-*Экспорт отчета в Ahrefs.com. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/11-ahrefs-export-opt.png))*
+*Экспорт отчета в Ahrefs.com. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/11-ahrefs-export-opt.png))*
 
 Используйте индексатор типа [Screaming Frog](http://www.screamingfrog.co.uk/seo-spider/) или бесплатные [Seo инструменты для Excel](http://seotoolsforexcel.com/) для обхода URL ваших ссылок. Если вы используете Screaming Frog, настройте в нем следование редиректам (вне зависимости от длины цепи) и игнорирование правил `disallow` в `robots.txt`. [Отчет по цепям редиректа](http://www.screamingfrog.co.uk/seo-spider/user-guide/general/#9) экспортирует полный путь робота к каждому URL.
 
@@ -422,7 +422,7 @@ RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 
 ![Красивые сниппеты - отличная возможность выделиться в органическом поиске](/images/development/seo/12-rich-serp-opt-small.png)
 
-*Красивые сниппеты - отличная возможность выделиться в органическом поиске. ([увеличенная версия](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2015/08/12-rich-serp-opt.png))*
+*Красивые сниппеты - отличная возможность выделиться в органическом поиске. ([увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/12-rich-serp-opt.png))*
 
 Моей основной  целью при написании этой статьи было объяснить веб-разработчикам основные понятия современной поисковой оптимизации. И я буду рад, если мне удалось при этом развеять некоторые мифы.
 
