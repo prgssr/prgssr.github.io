@@ -120,7 +120,7 @@ alert "Hello from CoffeeScript"
 
 ### Образец сайта
 
-Взглянем на типичный сайт на Jekyll и рассмотрим взаимодействие его частей. В этом качестве отлично подойдет [официальный сайт Jekyll](http://jekyllrb.com/), раздел документации. Весь его код есть в [GitHub репозитории](https://github.com/jekyll/jekyll/tree/master/site).
+Взглянем на типичный сайт на Jekyll и рассмотрим взаимодействие его частей. В этом качестве отлично подойдет [официальный сайт Jekyll](http://jekyllrb.com/), раздел документации. Весь его код есть в [GitHub репозитории](https://github.com/jekyll/jekyll/tree/master/docs).
 
 ![Внешний вид страницы документации Jekyll](/images/development/static/01-Jekyll-opt-preview.png){: itemprop="image"}
 

@@ -21,7 +21,7 @@ thumbnail: "/images/development/01-blocking-CSS-opt-small.jpg"
 
 ![PageSpeed Insights](/images/development/css/01-blocking-CSS-opt-small.jpg){: itemprop="image"}
 
-*CSS и JavaScript блокируют рендеринг страницы. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/01-blocking-CSS-opt.jpg))*
+*CSS и JavaScript блокируют рендеринг страницы. ([Увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/01-blocking-CSS-opt.jpg))*
 
 Я должен признаться, что первый раз был смущен, когда увидел подобный итог, текст гласит:
 
@@ -39,7 +39,7 @@ thumbnail: "/images/development/01-blocking-CSS-opt-small.jpg"
 
 ![Критичный и некритичный контент](/images/development/css/02-browser-opt-small.jpg)
 
-*Критичный CSS это минимальный набор блокирующего CSS, требуемого для рендеринга первого экрана с контентом пользователю. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/02-browser-opt.jpg))*
+*Критичный CSS это минимальный набор блокирующего CSS, требуемого для рендеринга первого экрана с контентом пользователю. ([Увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/02-browser-opt.jpg))*
 
 В этом примере, критичной является только та часть страницы, которую видит пользователь при первоначальной загрузке. Это значит, что нам нужно загрузить минимальное количество CSS, необходимого для рендеринга верхней части страницы для всех контрольных точек. За оставшуюся часть CSS не стоит беспокоиться, мы загрузим ее асинхронно.
 
@@ -126,7 +126,7 @@ grunt.initConfig({
 
 ![автоматизация с Grunt](/images/development/css/03-Critical-CSS-grunt-small.gif)
 
-*Автоматизация производительности с помощью Grunt. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/03-Critical-CSS-grunt.gif)*
+*Автоматизация производительности с помощью Grunt. ([Увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/03-Critical-CSS-grunt.gif)*
 
 Если вы теперь посмотрите на содержимое каталога, то заметите файл `result.html `, содержащий весь критичный CSS и асинхронно подгружающий остальные стили. Ваша веб-страница готова к рок-н-роллу!
 
@@ -215,7 +215,7 @@ critical: {
 
 ![WebPagetest](/images/development/css/04-webpagetest-filmstrip-opt-small.jpg)
 
-*Использование WebPagetest это отличный способ протестировать повременной рендеринг страницы. ([Увеличенная версия](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2015/08/04-webpagetest-filmstrip-opt.jpg))*
+*Использование WebPagetest это отличный способ протестировать повременной рендеринг страницы. ([Увеличенная версия](https://www.smashingmagazine.com/wp-content/uploads/2015/08/04-webpagetest-filmstrip-opt.jpg))*
 
 Это бесплатный инструмент, позволяющий вам запустить тест скорости сайта из разных мест со всего мира. Кроме информативного аналитического обзора вашего сайта, там есть инструмент [визуальное сравнение](http://www.webpagetest.org/video/), позволяющий сравнивать две страницы друг с другом. Это отличный способ для сравнения результатов до и после обработки критичного CSS.
 

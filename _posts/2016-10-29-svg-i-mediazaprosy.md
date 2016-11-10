@@ -56,8 +56,8 @@ style: "/css/test-svg.css"
 
 <figure class="full-figure trans-tile">
 <div class="img-row">
-<img src="/images/development/svg/fixed100.svg" width="50" height="50">
-<img src="/images/development/svg/fixed100.svg" width="100" height="100">
+<img src="/images/development/svg/fixed100.svg" width="50" height="50" alt="">
+<img src="/images/development/svg/fixed100.svg" width="100" height="100" alt="">
 <iframe src="/images/development/svg/fixed100.svg" width="50" height="50"></iframe>
 <svg width="50" height="50">
   <style>
@@ -280,7 +280,7 @@ Firefox использует ширину/высоту, заданные в вы
 
 <figure class="full-figure">
 <div class="img-row">
-<img class="text-image" src="/images/development/svg/helloworld.svg" width="150" height="60">
+<img class="text-image" src="/images/development/svg/helloworld.svg" width="150" height="60" alt="">
 <canvas width="150" height="60" class="text-canvas"></canvas>
 <canvas width="150" height="60" class="text-canvas-sharp" style="width: 150px; height: 60px;"></canvas>
 </div>
