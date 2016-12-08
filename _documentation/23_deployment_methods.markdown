@@ -146,7 +146,7 @@ exclude: ["deploy"]
 
 [Rack-Jekyll](https://github.com/adaoraul/rack-jekyll/) это простой способ развертывания вашего сайта на любой Rack сервер типа EC2, Slicehost, Heroku и т.д. Также может работать с  [shotgun](https://github.com/rtomayko/shotgun/), [rackup](https://github.com/rack/rack), [mongrel](https://github.com/mongrel/mongrel), [unicorn](https://github.com/defunkt/unicorn/) и [прочими](https://github.com/adaoraul/rack-jekyll#readme).
 
-Развертывание на Heroku с использованием Rack-Jekyll описано в [этой статье](http://blog.crowdint.com/2010/08/02/instant-blog-using-jekyll-and-heroku.html).
+Развертывание на Heroku с использованием Rack-Jekyll описано в [этой статье](http://andycroll.com/ruby/serving-a-jekyll-blog-using-heroku).
 
 ### Jekyll-Admin для Rails
 
