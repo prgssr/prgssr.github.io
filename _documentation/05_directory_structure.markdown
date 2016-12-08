@@ -11,9 +11,11 @@ Jekyll по своей сути это движок трансформации �
 ```markup
 .
 ├── _config.yml
+├── _data
+|   └── members.yml
 ├── _drafts
-|   ├── begin-with-the-crazy-ideas.textile
-|   └── on-simplicity-in-technology.markdown
+|   ├── begin-with-the-crazy-ideas.md
+|   └── on-simplicity-in-technology.md
 ├── _includes
 |   ├── footer.html
 |   └── header.html
@@ -21,13 +23,22 @@ Jekyll по своей сути это движок трансформации �
 |   ├── default.html
 |   └── post.html
 ├── _posts
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   └── 2009-04-26-barcamp-boston-4-roundup.textile
-├── _data
-|   └── members.yml
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
+|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _sass
+|   ├── _base.scss
+|   └── _layout.scss
 ├── _site
-└── index.html
+├── .jekyll-metadata
+└── index.html # can also be an 'index.md' with valid YAML Frontmatter
 ```
+
+###### Структура каталогов сайтов на Jekyll  с использованием тем, поставляемых в гемах
+{: .info}
+Начиная с Jekyll 3.2, новые проекты, создаваемые с помощью команды `jekyll new` используют для задания внешнего вида сайта [темы, поставляемые в гемах](/documentation/themes/) . Это ведет к облегченной структуре каталогов по умолчанию: каталоги `_layouts`, `_includes` и`_sass` хранятся в геме темы. 
+Текущая тема по умолчанию [minima](https://github.com/jekyll/minima), команда `bundle show minima` покажет, в каком каталоге на вашем компьютере хранятся файлы этой темы.
+{: .info}
+
 
 А вот обзор основных файлов и каталогов:
 
