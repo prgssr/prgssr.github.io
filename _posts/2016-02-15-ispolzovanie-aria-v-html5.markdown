@@ -108,7 +108,7 @@ ARIA это аббревиатура от Accessible Rich Internet Applications 
 <footer role="button">
 ```
 
-Однако [второе правило ARIA](https://www.w3.org/TR/aria-in-html/#second-rule-of-aria-use)позволяет в случае необходимости использовать  вложение элементов.
+Однако [второе правило ARIA](https://www.w3.org/TR/aria-in-html/#second-rule-of-aria-use) позволяет в случае необходимости использовать  вложение элементов.
 
 ```markup
 <footer><button>Purchase this e-book</button></footer>
